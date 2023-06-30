@@ -16,7 +16,7 @@ Hey there! Welcome to my website 👋
 
 I am a postdoctoral fellow in the [Department of Economics and Management](https://www.economia.unitn.it/en) at the [University of Trento](https://www.unitn.it/en) and a member of the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it). I am also an adjunct professor at [LUISS Guido Carli](https://www.luiss.it/), where I teach graduate courses in behavioural economics.
 
-Before joining Trento I was part of the [Ecohesion](https://ecoesione.ec.unipi.it) research group at the [University of Pisa](https://www.unipi.it/index.php/english), which combines experimental and computational methods to investigate the social consequences of climate and resource conservation policies.
+Before joining Trento I was part of the [Ecohesion](https://ecoesione.ec.unipi.it) research group at the [University of Pisa](https://www.unipi.it/index.php/english), which combines computational and experimental methods to investigate the social consequences of climate and resource conservation policies.
 
 My research interests include social norms, cooperation, and the psychological underpinnings of decision-making.
 

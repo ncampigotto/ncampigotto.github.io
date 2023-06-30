@@ -12,9 +12,6 @@ title: Teaching
 <!-- [Home](./) -->
 
 <br>
-### <u> Academic year 2023/2024</u>
-
 Page under construction
 
-### <u> Previous years</u>
 

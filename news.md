@@ -3,21 +3,10 @@ layout: default
 title: News
 ---
 
-[Home](./)
+[Back to home](./)
 
-## News
+### <u>News archive</u>
 
-09/22/2022: *Towards a Machine Learning-Assisted Kernel with LAKE* is accepted to [ASPLOS'23](https://asplos-conference.org/asplos-2023-cfp/)!  
-05/23/2022: I will be joining Intel XFG this summer!  
-09/01/2021: Officially started my PhD.  
-05/22/2021: **I officially graduated from UT Austin!**  
-05/22/2021: Attending Commencement Ceremony. Webcast is available [here](https://video.ibm.com/recorded/126779814).  
-05/21/2021: Attending CNS Graduate Recognition Moments. More information can be found @ [here](https://utaustin.fullmeasure.io/#/landing/?organization_id=45a81510-031d-467d-b972-378ad8e8d20a&card_id=524594a3-c44a-8da5-6dc5-7ba8abeafef9). Live stream @ [here](https://www.youtube.com/watch?v=ZrM4h9AhfgQ).  
-05/14/2021: Finished everything for my last semester as a Masters student.  
-04/10/2021: **I've officially accepted the PhD offer at UT Austin and will be joining [WISR lab](https://wisr.cs.wisc.edu/) lead by Professor [Aditya Akella](https://www.cs.utexas.edu/~akella/) starting at Fall 2021.**  
-04/08/2021: Attending [MLSys '21](https://mlsys.org/virtual/2021/calendar?showDetail=true).  
-03/10/2021: Finished [NSDI '22](https://www.usenix.org/conference/nsdi22) submission!  
-03/01/2021: Admitted to several Ph.D. programs!  
-12/15/2020: Currently applying for PhD program in CS!  
-08/24/2020: I just finished my presentation for [Altis](https://github.com/utcs-scea/altis). The video can be found [here](https://www.youtube.com/watch?v=mRkcmjGzytY).  
-01/28/2020: My paper *Altis: Modernizing GPGPU Benchmarking* is accepted to [ISPASS](https://ieeexplore.ieee.org/document/9238617)!
+06/16/2023: 📣 *Applications for the 10th Workshop of the Behavioural and Experimental Economics Network (BEEN) are now open! The workshop will be held in the Department of Economics and Management at the University of Trento on September 12, 2023. To participate as a presenter or attendee, please register at [this link](https://webapps.unitn.it/form/en/Web/Application/convegni/BEEN23) by July 15.*  
+
+05/26/2023: 🎉 *I was selected to present at the University of Florence's 1st Workshop on Behavioural Ecological Economics, which will take place on July 10 and 11, 2023. The workshop's programme can be found [here](https://drive.google.com/file/d/1sO0WV_cWonlIvTuY44mWQXPW7uVCsByS/view).* 

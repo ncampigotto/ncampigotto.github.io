@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bodun Hu"
+title: "Nicola Campigotto"
 ---
 
 My <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/ncampigotto/ncampigotto.github.io/assets/img/logo.jpg"> name is Bodun (though I usually go by Edward). I'm a CS PhD student in the [UTNS](https://utns.cs.utexas.edu/) lab at [UT Austin](https://www.utexas.edu/) 🤘.  I am advised by [Aditya Akella](https://www.cs.utexas.edu/~akella/) and work closely with [Neeraja Yadwadkar](https://sites.utexas.edu/neeraja/). Before I started my PhD, I was fortunate enough to collaborate closely with professor [Christopher Rossbach](https://www.cs.utexas.edu/~rossbach/) on heterogeneous computing systems at [SCEA group](https://github.com/utcs-scea). I also worked with professor [Simon Peter](https://homes.cs.washington.edu/~simpeter/) on programmable switches.
@@ -11,7 +11,7 @@ I obtained both MS and BS in Computer Science at the [UT Austin](https://www.ute
 
 Visit my [blog](https://www.bodunhu.com/blog/) ✏️ to find out what I've been working on recently as well as other updates.
 
----
+<!-- ---
 
 ## News
 
@@ -72,4 +72,4 @@ Spring 2020: [Multicore Operating System Implementation (378)](https://www.cs.ut
 
 ---
 
-<img style="width:350px;" src="/assets/img/wordcloud.svg"/>
+<img style="width:350px;" src="/assets/img/wordcloud.svg"/> -->

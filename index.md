@@ -3,26 +3,35 @@ layout: default
 title: "Nicola Campigotto"
 ---
 
-My <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/ncampigotto/ncampigotto.github.io/assets/img/profile_small.png"> name is Bodun (though I usually go by Edward). I'm a CS PhD student in the [UTNS](https://utns.cs.utexas.edu/) lab at [UT Austin](https://www.utexas.edu/) 🤘.  I am advised by [Aditya Akella](https://www.cs.utexas.edu/~akella/) and work closely with [Neeraja Yadwadkar](https://sites.utexas.edu/neeraja/). Before I started my PhD, I was fortunate enough to collaborate closely with professor [Christopher Rossbach](https://www.cs.utexas.edu/~rossbach/) on heterogeneous computing systems at [SCEA group](https://github.com/utcs-scea). I also worked with professor [Simon Peter](https://homes.cs.washington.edu/~simpeter/) on programmable switches.
+ <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/ncampigotto/ncampigotto.github.io/assets/img/profile.png">
 
-My research focuses on the intersection of operating systems, network, and machine learning. I am particularly interested in developing systems for ML, and applying ML techniques to systems.
 
-I obtained both MS and BS in Computer Science at the [UT Austin](https://www.utexas.edu/), where I worked on modernizing GPU benchmarking and accelerating OS kernel access to accelerators.
+Hey there! Welcome to my website 👋
 
-Visit my [blog](https://www.bodunhu.com/blog/) ✏️ to find out what I've been working on recently as well as other updates.
+I am a postdoctoral fellow in the [Department of Economics and Management](https://www.economia.unitn.it/en) at the [University of Trento](https://www.unitn.it/en) and a member of the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it). I am also an adjunct professor at [LUISS Guido Carli](https://www.luiss.it/), where I teach graduate courses in behavioural economics.
 
-<!-- ---
+Before joining Trento I was part of the [Ecohesion](https://ecoesione.ec.unipi.it) research group at the [University of Pisa](https://www.unipi.it/index.php/english), which combines experimental and computational methods to investigate the social consequences of climate and resource conservation policies.
 
-## News
+My research interests include vulnerability, psychology of poverty, and behavioral public policy. Currently I am also working on the design of strategies that can encourage energy-saving behaviour.
 
-09/22/2022: *Towards a Machine Learning-Assisted Kernel with LAKE* is accepted to [ASPLOS'23](https://asplos-conference.org/asplos-2023-cfp/)!  
+
+
+<!-- I obtained both MS and BS in Computer Science at the [UT Austin](https://www.utexas.edu/), where I worked on modernizing GPU benchmarking and accelerating OS kernel access to accelerators.
+
+Visit my [blog](https://www.bodunhu.com/blog/) ✏️ to find out what I've been working on recently as well as other updates. -->
+
+<br>
+## News 📆
+
+06/30/2023: *Applications for the 10th Behavioural and Experimental Economics Network (BEEN) workshop are now open! The workshop will take place on September 12 in the Department of Economics and Manaement at the University of Trento. To participate as an auditor os as a presenter, register at [this link](https://asplos-conference.org/asplos-2023-cfp/) by July 15.*     
+
 05/23/2022: I will be joining Intel XFG this summer!  
 09/01/2021: Officially started my PhD.  
 05/22/2021: **I officially graduated from UT Austin!**  
 
-[...see all news](./news)
+[See older news](./news)
 
----
+<!-- ---
 
 ## Publications
 

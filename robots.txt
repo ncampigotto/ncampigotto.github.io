@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bodunhu.com/sitemap.xml
+Sitemap: https://ncampigotto.github.io/sitemap.xml

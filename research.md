@@ -33,7 +33,7 @@ With [Ennio Bilancini](https://sites.google.com/site/enniobilancini) and [Leonar
 
 **Pairwise imitation and evolution of the social contract**  
 **<span style="color:#D67D06"><i>Journal of Evolutionary Economics</i></span>**, vol. 31, no. 4, pp. 1333-1354, 2021  
-[[Link]](https://doi.org/10.1007/s00191-020-00714-3)
+[[Link]](https://doi.org/10.1007/s00191-020-00714-3) [[GitHub repo]](https://github.com/ncampigotto/pairwise_imitation)
 
 **Frames, reasoning, and the emergence of conventions**  
 **<span style="color:#D67D06"><i>Economics & Philosophy</i></span>**, vol. 36, no. 3, pp. 383–400, 2020  

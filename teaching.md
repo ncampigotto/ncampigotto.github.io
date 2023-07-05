@@ -12,6 +12,14 @@ title: Teaching
 <!-- [Home](./) -->
 
 <br>
-Page under construction
+### <u>Academic year 2023-24</u>
+
+**Behavioural Economics and Consumer Decision Making**  
+LUISS Guido Carli, Master's Degree in Marketing (fall and winter terms)  
+[[Course webpage]](https://learn.luiss.it/course/view.php?id=20421) [[GitHub repo]](https://github.com/ncampigotto/BECDM_LUISS_2023)  
 
 
+<br>
+### <u>Previous years</u>
+
+Syllabi and course materials available upon request

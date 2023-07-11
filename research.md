@@ -36,7 +36,7 @@ With [Ennio Bilancini](https://sites.google.com/site/enniobilancini) and [Leonar
 [[Link]](https://doi.org/10.1007/s00191-020-00714-3) [[GitHub repo]](https://github.com/ncampigotto/pairwise_imitation)
 
 **Frames, reasoning, and the emergence of conventions**  
-**<span style="color:#D67D06"><i>Economics & Philosophy</i></span>**, vol. 36, no. 3, pp. 383–400, 2020  
+**<span style="color:#D67D06"><i>Economics & Philosophy</i></span>**, vol. 36, no. 3, pp. 383-400, 2020  
 [[Link]](https://doi.org/10.1017/S0266267119000348)
 
 <br>

@@ -3,6 +3,10 @@ layout: default
 title: Research
 ---
 
+<head>
+<script src="https://kit.fontawesome.com/a929e86cfd.js" crossorigin="anonymous"></script>
+</head>
+
 <div class="topnav">
   <a href="./">Home</a>
   <a class="active" href="./research">Research</a>
@@ -17,27 +21,27 @@ title: Research
 **The slippery slope from pluralistic to plural societies**  
 With [Chiara Rapallini](https://www.unifi.it/p-doc2-2013-200011-R-3f2a3d32383031.html) and [Aldo Rustichini](https://sites.google.com/view/aldorustichini)  
 **<span style="color:#D67D06"><i>World Scientific Handbook of Global Migration</i></span>**, ed. by Robert Sauer, vol. 3, pp. 225-244, World Scientific, 2023  
-[[Link]](https://www.worldscientific.com/worldscibooks/10.1142/12577#t=aboutBook)
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://www.worldscientific.com/worldscibooks/10.1142/12577#t=aboutBook)
 
 **School friendship networks, homophily and multiculturalism: Evidence from European
 countries**  
 With [Chiara Rapallini](https://www.unifi.it/p-doc2-2013-200011-R-3f2a3d32383031.html) and [Aldo Rustichini](https://sites.google.com/view/aldorustichini)  
 **<span style="color:#D67D06"><i>Journal of Population Economics</i></span>**, vol. 35,
 no. 4, pp. 1687-1722, 2022  
-[[Link]](https://doi.org/10.1007/s00148-020-00819-w)
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1007/s00148-020-00819-w)
 
 **Pairwise interact-and-imitate dynamics**  
 With [Ennio Bilancini](https://sites.google.com/site/enniobilancini) and [Leonardo Boncinelli](https://www.leonardoboncinelli.com)   
 **<span style="color:#D67D06"><i>Scientific Reports</i></span>**, vol. 11, no. 13221, 2021  
-[[Link]](https://doi.org/10.1038/s41598-021-92512-5)
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1038/s41598-021-92512-5)
 
 **Pairwise imitation and evolution of the social contract**  
 **<span style="color:#D67D06"><i>Journal of Evolutionary Economics</i></span>**, vol. 31, no. 4, pp. 1333-1354, 2021  
-[[Link]](https://doi.org/10.1007/s00191-020-00714-3) [[GitHub repo]](https://github.com/ncampigotto/pairwise_imitation)
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1007/s00191-020-00714-3) - [<i class="fa fa-folder-o" aria-hidden="true"></i> GitHub repo](https://github.com/ncampigotto/pairwise_imitation)
 
 **Frames, reasoning, and the emergence of conventions**  
 **<span style="color:#D67D06"><i>Economics & Philosophy</i></span>**, vol. 36, no. 3, pp. 383-400, 2020  
-[[Link]](https://doi.org/10.1017/S0266267119000348)
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1017/S0266267119000348)
 
 <br>
 ### <u> Working papers </u>

@@ -7,6 +7,8 @@ title: Research
 <script src="https://kit.fontawesome.com/a929e86cfd.js" crossorigin="anonymous"></script>
 </head>
 
+<p><img align="right" src="/assets/img/Spr_GS_Bug_Catcher.png"></p>
+<br>
 <div class="topnav">
   <a href="./">Home</a>
   <a class="active" href="./research">Research</a>

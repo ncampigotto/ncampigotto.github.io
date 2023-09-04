@@ -26,7 +26,7 @@ My research interests include social norms, cooperation, and the psychological u
 <br>
 ### <u>News</u> 📆
 
-2023-08-28: 📋 *The 10th Workshop of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks. Download the final programme [HERE](https://drive.google.com/file/d/1mExK1aNbh9hnjuXZ0R7hlRLQrpqveihT/preview).*
+2023-08-28: 📋 *The 10th Workshop of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks. Download the final programme [HERE](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
 
 2023-07-12: 🚀 *This fall I will participate in the 44th Annual Meeting of the Association of Southern European Economic Theorists ([ASSET](https://www.assetassoc.com)), which will be held in Lisbon on October 19-21.*
 

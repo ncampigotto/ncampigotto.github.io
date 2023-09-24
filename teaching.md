@@ -28,13 +28,13 @@ LUISS Guido Carli, Master's Degree in Marketing (fall and winter terms)
 
 📝 <u><i>Teaching assistant</i></u>
 
-**Microeconomic Analysis**    
+**Individual Behaviour Modelling**    
 University of Bologna, Master's Degree in Applied Economics and Markets (fall term)   
-<!-- [<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://learn.luiss.it/course/view.php?id=20421) -->
+[<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://virtuale.unibo.it/course/view.php?id=48185)
 
 **Microeconomics**  
 LUISS Guido Carli, Bachelor's Degree in Business Administration (fall and winter terms)  
-<!-- [<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://learn.luiss.it/course/view.php?id=20421) -->
+[<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage (group A)](https://learn.luiss.it/course/view.php?id=21551) - [<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage (group B)](https://learn.luiss.it/course/view.php?id=21552)
 
 **Microeconomics**  
 University of Bologna, Bachelor's Degree in Political, Social, and International Sciences (spring and summer terms)    

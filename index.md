@@ -26,9 +26,9 @@ My research interests include social norms, cooperation, and the psychological u
 <br>
 ### <u>News</u> 📆
 
-2023-08-28: 📋 *The 10th Workshop of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks. Download the final programme [HERE](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
+2023-08-28: 📋 *The 10th Meeting of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks. Download the final programme [HERE](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
 
-2023-07-12: 🚀 *This fall I will participate in the 44th Annual Meeting of the Association of Southern European Economic Theorists ([ASSET](https://www.assetassoc.com)), which will be held in Lisbon on October 19-21.*
+2023-07-12: 🚀 *This fall I will participate in the 44th Meeting of the Association of Southern European Economic Theorists ([ASSET](https://www.assetassoc.com)), which will be held in Lisbon on October 19-21.*
 
 2023-07-05: 💡 *Happy to share a new working paper entitled "Curbing Energy Demand through Voluntary Quotas: Experimental Evidence", jointly written with Marco Catola, Simone D'Alessandro, Pietro Guarnieri, and Lorenzo Spadoni. Read it on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4500017).*
 

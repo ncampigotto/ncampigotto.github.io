@@ -16,7 +16,9 @@ title: News
 <br>
 ### <u>News archive</u>
 
-2023-08-28: 📋 *The 10th Meeting of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks! Download the final programme [HERE](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
+2023-09-25: 💬 *The University of Trento's Cognitive and Experimental Economics Laboratory is starting a new biweekly reading group! Click [here](https://github.com/CEEL-UNITN/BEEcon) for more details. Join the kickoff meeting on October 12 at 4PM.*
+
+2023-08-28: 📋 *The 10th Meeting of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks! Download the final programme [here](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
 
 2023-07-12: 🚀 *This fall I will participate in the 44th Meeting of the Association of Southern European Economic Theorists ([ASSET](https://www.assetassoc.com)), which will be held in Lisbon on October 19-21.*
 

@@ -26,7 +26,7 @@ My research interests include social norms, cooperation, and the psychological u
 <br>
 ### <u>News</u> 📆
 
-2023-11-19: ✨ *On December 14-16, I will participate in the 19th Annual Conference of the Italian Association for Cognitive Sciences in Genoa. The conference programme is available ([here](https://aisc2023.unige.it/speakers_programme)).*
+2023-11-19: ✨ *On December 14-16, I will participate in the 19th Annual Conference of the Italian Association for Cognitive Sciences in Genoa. The conference programme is available [here](https://aisc2023.unige.it/speakers_programme).*
 
 2023-09-25: 💬 *The University of Trento's Cognitive and Experimental Economics Laboratory is starting a new biweekly reading group! Click [here](https://github.com/CEEL-UNITN/BEEcon) for more details. Join the kickoff meeting on October 12 at 4PM.*
 

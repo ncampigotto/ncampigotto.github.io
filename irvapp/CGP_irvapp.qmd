@@ -1,0 +1,400 @@
+---
+title: "Mental Accounting, Strategic Ignorance <br> and Voluntary Carbon Offsets"
+#subtitle: ""
+title-slide-attributes:
+  data-background-image: /CGP_irvapp_files/forest.png
+  #data-background-size: contain
+  data-background-opacity: "0.35"
+author:
+  - name: Nicola Campigotto
+    email: nicola.campigotto@unitn.it
+    # affiliations:
+  - name: Chiara Gioia
+    email: chiara.gioia@unitn.it
+  - name: Matteo Ploner
+    email: matteo.ploner@unitn.it
+date: today
+date-format: "MMMM YYYY"
+bibliography: references_CGP.bib
+format:
+  revealjs: 
+    auto-stretch: false
+    html-math-method: mathjax
+    theme: style.scss
+    slide-number: true
+    chalkboard: 
+      buttons: false
+---
+
+## Carbon what?
+
+* Voluntary carbon offsets (COs) are certificates linked to climate projects.    
+    - Projects typically consist of reforestation, energy efficiency, and renewable energy interventions. 
+
+* By purchasing COs, individuals and firms can fund the projects associated with them.
+
+* [A huge market:]{.alert} In 2021, the voluntary carbon market reached $2 billion --- four times its value in 2020. The pace of purchases continued to accelerate in 2022.
+
+## Carbon what? (cont'd) 
+
+::::: {.center}
+
+:::: {.columns}
+
+::: {.column width="33%"} 
+![Ryanair](CGP_irvapp_files/flygreener.png){width=100% fig-align="center"}
+:::
+
+::: {.column width="33%"} 
+![Flixbus](CGP_irvapp_files/flixbus.png){width=100% fig-align="center"}
+:::
+
+::: {.column width="33%"} 
+![Shopify](CGP_irvapp_files/shopify2.gif){width=100% fig-align="center"}
+:::
+
+::::
+:::::
+
+## This paper
+
+* So far, the literature has mainly focused on estimating individuals' willingness to pay for COs [e.g. @berger2022willingness; @rodemeier2023].
+
+* The psychological factors influencing carbon offsetting behaviour are still poorly understood.
+
+* Our study focuses on two of these factors:    
+    - [Mental accounting]{.MA} ([MA]{.MA})
+    - [Strategic ignorance]{.SI} ([SI]{.SI})
+
+
+## Mental accounting
+
+* The cognitive bookkeeping process by which individuals evaluate their transactions.
+
+* [Example:]{.alert} @shafirthaler2006 surveyed the subscribers to
+a wine newsletter aimed at wine collectors. 
+
+
+:::: {.callout-note icon=false}
+# Shafir and Thaler's question
+
+Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for about $75 a bottle. You have decided to drink one bottle. Which of the following best captures your feeling of the cost to you of drinking this bottle?
+
+::: {.columns}
+
+::: {.column width="20%"} 
+- $0
+:::
+
+::: {.column width="20%"} 
+- $20
+:::
+
+::: {.column width="20%"} 
+- $20 plus interest
+:::
+
+::: {.column width="20%"} 
+- $75
+:::
+
+::: {.column width="20%"} 
+- --$55
+:::
+
+:::
+
+::::
+
+## Mental accounting (cont'd)
+
+* The economically correct answer is $75.
+
+* [Survey results:]{.alert}    
+    - [$0: 30% of respondents.]{.fragment}
+    - [$20: 18% of respondents.]{.fragment}
+    - [$20 plus interest: 7% of respondents.]{.fragment}
+    - [$75: 20% of respondents.]{.fragment}
+    - [--$55 ("I drink a $75 bottle for which I paid only $20"): 25% of respondents.]{.fragment}
+
+
+## Mental accounting (cont'd)
+
+* People tend to think that drinking the bottle is a deal because they paid $20 for it years ago.
+
+* In all likelihood, some individuals who opt to drink their wine would have a difficult time going out and paying $75 for that same bottle. 
+
+* The purchase and the act of consumption are separated over time. This reduces the perceived cost of drinking the bottle.
+
+* The (opportunity) cost of a bottle bought years ago and the cost of buying the same bottle today are assigned to different mental accounts.
+
+## Strategic ignorance
+
+* People's deliberate avoidance of information that might cause them distress.
+
+:::: {.fragment}
+::: {.center}
+![](CGP_irvapp_files/covid.png){width=90%}
+:::
+::::
+
+## Paper overview
+
+*  Two incentivized online experiments (named [MA]{.MA} and [SI]{.SI}) conducted on Prolific. 
+
+* Each experiment consisted of three phases:     
+    1. [Random assignment to treatment conditions and survey.]{.fragment}
+    2. [Choice whether to contribute (and, if so, how much) <br> to a carbon offset programme.]{.fragment}
+    3. [Elicitation of attitudes towards two excerpts from articles about the environmental impact of flying and e-commerce.]{.fragment}
+
+
+## Paper overview (cont'd)
+
+* Participants in each study were informed that two subjects would be randomly selected to win a bonus prize worth up to 100 GBP.    
+    - In [Study MA]{.MA}, the prize could consist of either an Amazon voucher or a Ryanair voucher.
+    - In [Study SI]{.SI}, it always consisted of a Ryanair voucher. 
+
+* Participation payment: 1.5 GBP (~13.8 GBP per hour).
+
+* Average completion time: 6.5 minutes. 
+
+* No deception.
+
+
+## Offsetting decisions
+
+* Carbon offset contributions were made on a [voluntary basis]{.alert}. 
+
+* Subjects were asked whether they would like to participate in a carbon offset programme. Those willing to participate had to specify their desired contribution [within a range of 0.1 to 10 GBP]{.alert}, with intervals of 0.1 GBP.
+
+* Participants were informed that contributions would be deducted from the bonus prize.    
+    - An individual who contributed $x$ and was then selected to win the prize would receive a voucher worth $100 - x$ GBP.
+
+## Offsetting decisions (cont'd)
+
+
+* Contributions from subjects selected to win the bonus prize were transferred to [Trees for All]{.alert}, a non-profit organization that offsets CO2 emissions by planting trees around the world.
+
+::: {.fragment}
+
+* Contributions from subjects not selected to win the bonus prize were not transferred.
+
+:::
+
+::: {.fragment}
+
+* Thus, actual [contributions were contingent on winning the prize]{.alert}.    
+    - This makes the experiments [incentive-compatible]{.alert}, since winning the prize and making the contribution had the same strictly positive probability.
+
+:::
+
+## Treatments: [Study MA]{.MA}
+
+* The reatments only differed in the bonus prize.
+
+* [Two treatment conditions]{.alert}    
+    1. [`Amazon_noinfo` (n = 200): the bonus prize consisted of an Amazon voucher.]{.fragment}
+    2. [`Ryanair_noinfo` (n = 200): the bonus prize consisted of a Ryanair voucher.]{.fragment}
+
+::: {.fragment}
+
+* Participants received no information about the emissions associated with the bonus prize. 
+
+:::
+
+## Treatments: [Study SI]{.SI}
+
+* The treatments differed in the information given to subjects when deciding whether to contribute to the carbon offset programme.   
+
+* [Three treatment conditions]{.alert}
+    1. [`Ryanair_noinfo` (n = 200): subjects were given an estimate of the per-flight and per-passenger emissions associated with a 100 GBP Ryanair ticket.]{.fragment}
+    2. [`Ryanair_noinfo` (n = 200): subjects were not given any such information. Shared with [Study MA]{.MA}.]{.fragment}
+    3. [`Ryanair_choose` (n = 400): subjects could choose whether or not to be informed.]{.fragment}
+
+## Treatments: [Study SI]{.SI} (cont'd)
+
+* Subjects in treatment `Ryanair_choose` sorted themselves themselves into two sub-conditions, `Ryanair_choose_info` and `Ryanair_choose_noinfo`.
+
+::: {.fragment}
+
+* Subjects who chose to receive information had to complete a real-effort task consisting of a decoding puzzle.    
+    - This design choice was intended to mimic the effort required to find information about the environmental impact of flights, e.g. by searching the Internet. 
+    - Subjects could quit the decoding puzzle at any time, in which case they received no information.
+
+:::
+
+
+## Treatments: overview
+
+<br>
+
+::: {.center}
+![](CGP_irvapp_files/design.png){width=70%}
+:::
+
+## Offsetting decisions: `Amazon_noinfo`
+
+::: {.center}
+<br>
+Add screen here 
+:::
+
+## Offsetting decisions: `Ryanair_noinfo`
+
+::: {.center}
+<br>
+Add screen here 
+:::
+
+## Offsetting decisions: `Ryanair_choose`
+
+::: {.center}
+<br>
+Add screen here 
+:::
+
+## Articles
+
+::: {.incremental} 
+
+* After deciding whether or not to contribute to the carbon offset programme, subjects read two article excerpts:    
+    - One concerned with the environmental [impact of frequent fliers and the aviation industry]{.alert} (source: The Guardian).
+    - The other with the [impact of fast shipping and free returns of online purchases]{.alert} (surce: Los Angeles Times).
+
+* The sources of the two articles were not revealed to avoid prejudice-related bias in information processing.
+
+* Subjects had to indicate the extent to which they agreed or disagreed with each article.
+
+:::
+
+## Articles (cont'd)
+
+<br>
+
+:::: {.callout-note icon=false}
+# Article 1
+
+As a global sector, transport lags behind global climate targets. Within transport, aviation is even further behind, sharing a subset (with shipping) of spectacular underachievers. The environmental crisis has made the principle of “polluter pays” a fact of life for many economic sectors. 
+
+Whether it is through carbon pricing for power plants, fines for farmers who pollute rivers or visitor taxes to mitigate the effects of overtourism, the idea that the cost of environmental degradation must be borne by those who create it has been widely, if grudgingly, accepted. Not, however, by the aviation industry. 
+
+[The customer whom aviation treats the best, whom the airlines garland with their most egregious toadying, the frequent flyer, is the worst polluter of all.]{.alert}
+
+::::
+
+
+## Articles (cont'd)
+
+<br>
+
+:::: {.callout-note icon=false}
+# Article 2
+
+People love buying clothes online. And returning clothes they buy online. They order the same item in several sizes, just in case. Last year, 10% of total retail sales was returned in the U.S. The returns process is so easy. It's almost like, why not? 
+
+However, reverse logistics – the transport from buyers to sellers – is not only costly in itself, but also creates new problems. Sometimes return stock ends up in landfills, another cost to the environment, along with the shrink-wrapping, padding and cardboard boxes, not to mention the carbon emissions from the trucks and planes that haul everything. 
+
+[Retailers gave you free returns, and you ruined it.]{.alert}
+::::
+
+
+
+## Hypotheses
+
+* [Question:]{.alert} are contributions to the carbon offset programme more likely to be allocated to the same mental account as the Ryanair voucher than the Amazon voucher?   
+    - [Conjecture:]{.alert} flying is perceived as more closely related to carbon offsetting than online shopping.
+
+:::: {.callout-note icon=false}
+# Hypothesis 1 ([Study MA]{.MA})
+
+Subjects in treatment `Ryanair_noinfo` contribute more to the carbon offset programme than subjects in treatment `Amazon_noinfo`.
+::::
+
+
+## Hypotheses (cont'd)
+
+* [Question:]{.alert} does increasing the salience of the environmental impact of people's actions have a positive effect on contributions?    
+    - [Conjecture:]{.alert} receiving information about the impact of flights raises sustainability concerns.
+
+
+:::: {.callout-note icon=false}
+# Hypothesis 2 ([Study SI]{.SI})
+
+Subjects in treatment `Ryanair_info` contribute more to the carbon offset programme than subjects in treatment `Ryanair_noinfo`.
+::::
+
+
+## Hypotheses (cont'd)
+
+* [Question:]{.alert} does the decision to receive information about the impact of flights affect offsetting behaviour?
+    - [Conjecture:]{.alert} individuals with a low or moderate propensity to contribute choose not to receive information and donate little.
+    - These individuals would feel compelled to donate more if they had the information. 
+    - Thus, they strategically choose to ignore the information in order to donate less and avoid cognitive dissonance [@benaboutirole:2016].
+
+## Hypotheses (cont'd)
+
+<br>
+
+:::: {.callout-note icon=false}
+# Hypothesis 3 ([Study SI]{.SI})
+
+Individual characteristics that predict lower contributions to the carbon offset programme are associated with a higher likelihood of self-selecting into `Ryanair_choose_noinfo`.
+::::
+
+:::: {.callout-note icon=false}
+# Hypothesis 4 ([Study SI]{.SI})
+
+Contributions in `Ryanair_choose_info` are higher than contributions in `Ryanair_info`, as only individuals with strong environmental concerns self-select into `choose_info`.
+
+Contributions in  `Ryanair_choose_noinfo` are lower than contributions in `Ryanair_noinfo`, as only individuals with little environmental concerns self-select into `choose_noinfo`.
+::::
+
+## Hypotheses (cont'd)
+
+* [Question:]{.alert} does the nature of the prize affect subjects' attitudes towards the two articles?    
+    - [Conjecture:]{.alert} subjects form motivated beliefs that depend on the prize for which they are eligible [@benabou:2015]. 
+    - They downplay the environmental impact of the prize they are eligible for in order to maximize the utility they derive from the prize, and this affects their evaluation of the article.
+
+:::: {.callout-note icon=false}
+# Hypothesis 5 ([Study MA]{.MA})
+
+Subjects in treatment `Ryanair_noinfo` (`Amazon_noinfo`) show less agreement with the article on the environmental impact of flights (e-commerc) than subjects in treatment `Amazon_noinfo` (`Ryanair_noinfo`).
+::::
+
+## Hypotheses (cont'd)
+
+<br>
+
+* [Question:]{.alert} what are the individual characteristics associated with carbon offsetting?
+
+:::: {.callout-note icon=false}
+# Hypothesis 6 (Studies [MA]{.MA} and [SI]{.SI})
+
+Subjects who are more patient, more risk averse, more concerned about climate change, and who have stronger pro-social and pro-environmental preferences contribute more to the carbon offset programme in all treatments.
+::::
+
+
+## Results {.scrollable}
+
+<br>
+
+![](CGP_irvapp_files/MA_donations.svg){width=100%}
+ 
+## Results {.scrollable}
+
+<br>
+
+![](CGP_irvapp_files/SI_donations.svg){width=100%}
+
+
+
+## References
+
+::: {#refs}
+:::
+
+
+
+<!-- Strategic ignorance intentionally avoids information that can unseat your plans, beliefs, and actions. These are the inconvenient truths that we continually ignore to keep our worlds and modus operandi intact. 
+Here’s an example from a non-business setting. For the last decade or so, I know I’ve had elevated blood pressure. I know the risks associated with it becoming high blood pressure. I know regular exercise and a clean diet will reduce my risk. The thing is, I don’t feel the effects of high blood pressure, and it doesn’t impact my day-to-day activities. I consciously choose to read, work and hang out with family over regular exercise and home-cooked meals.
+I have a blood pressure cuff that sits by the side of my bed. It takes 30 seconds to slap it on and snag a reading. Yet day after day, I strategically ignore the cuff. I present convenient lies to myself, telling me it’s ok to place masking tape over the yellow warning light on the dashboard. My strategic ignorance serves me in the short term; however, it will cost me dearly in the long term. In this case, it may cost me my life. -->

@@ -163,6 +163,6 @@
 <polyline points='23.38,232.89 26.12,232.89 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='23.38,386.32 26.12,386.32 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='23.38,539.75 26.12,539.75 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
-<text x='324.38' y='639.58' text-anchor='middle' style='font-size: 14.00px; font-weight: bold; font-family: "Arial";' textLength='81.61px' lengthAdjust='spacingAndGlyphs'>Donation (£)</text>
+<text x='324.38' y='639.58' text-anchor='middle' style='font-size: 14.00px; font-weight: bold; font-family: "Arial";' textLength='104.92px' lengthAdjust='spacingAndGlyphs'>Contribution (£)</text>
 </g>
 </svg>

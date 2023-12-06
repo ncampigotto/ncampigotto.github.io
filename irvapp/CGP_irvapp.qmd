@@ -2,9 +2,9 @@
 title: "Mental Accounting, Strategic Ignorance <br> and Voluntary Carbon Offsets"
 #subtitle: ""
 title-slide-attributes:
-  data-background-image: /CGP_irvapp_files/forest.png
+  data-background-image: /CGP_irvapp_files/forest2.png
   #data-background-size: contain
-  data-background-opacity: "0.35"
+  data-background-opacity: "0.40"
 author:
   - name: Nicola Campigotto
     email: nicola.campigotto@unitn.it
@@ -28,12 +28,12 @@ format:
 
 ## Carbon what?
 
-* Voluntary carbon offsets (COs) are certificates linked to climate projects.    
+* Voluntary carbon offsets (COs) are tradable certificates linked to climate projects.    
     - Projects typically consist of reforestation, energy efficiency, and renewable energy interventions. 
 
 * By purchasing COs, individuals and firms can fund the projects associated with them.
 
-* [A huge market:]{.alert} In 2021, the voluntary carbon market reached $2 billion --- four times its value in 2020. The pace of purchases continued to accelerate in 2022.
+* [Huge market:]{.alert} In 2021, the voluntary carbon market reached $2 billion --- four times its value in 2020. The pace of purchases continued to accelerate in 2022.
 
 ## Carbon what? (cont'd) 
 
@@ -124,9 +124,18 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 
 * In all likelihood, some individuals who opt to drink their wine would have a difficult time going out and paying $75 for that same bottle. 
 
+* The (opportunity) cost of a bottle bought years ago and the cost of buying the same bottle today are assigned to different mental accounts.
+
 * The purchase and the act of consumption are separated over time. This reduces the perceived cost of drinking the bottle.
 
-* The (opportunity) cost of a bottle bought years ago and the cost of buying the same bottle today are assigned to different mental accounts.
+## Motivated cognition
+
+> [...] the process of gathering and processing information can systematically depart from accepted rational standards because one goal --- desire to persuade, agreement with a peer group, self-image, self-preservation --- can commandeer attention and guide reasoning at the expense of accuracy [@epley2016mechanics].
+
+* Motivated cognition can take different forms [@benabou:2015]
+  * *Reality denial*: misinterpretation of information.
+  * *Self-signalling*: censoring of bad signals.
+  * *Strategic ignorance*: choice not to know the true state of the world.
 
 ## Strategic ignorance
 
@@ -140,12 +149,12 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 
 ## Paper overview
 
-*  Two incentivized online experiments (named [MA]{.MA} and [SI]{.SI}) conducted on Prolific. 
+*  Two pre-registered, incentivized online experiments (named [MA]{.MA} and [SI]{.SI}) conducted on Prolific. 
 
 * Each experiment consisted of three phases:     
-    1. [Random assignment to treatment conditions and survey.]{.fragment}
+    1. [Random assignment to treatment conditions + survey.]{.fragment}
     2. [Choice whether to contribute (and, if so, how much) <br> to a carbon offset programme.]{.fragment}
-    3. [Elicitation of attitudes towards two excerpts from articles about the environmental impact of flying and e-commerce.]{.fragment}
+    3. [Elicitation of attitudes towards two articles discussing the environmental impact of flying and e-commerce.]{.fragment}
 
 
 ## Paper overview (cont'd)
@@ -163,9 +172,11 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 
 ## Offsetting decisions
 
-* Carbon offset contributions were made on a [voluntary basis]{.alert}. 
+* CO contributions were made on a [voluntary basis]{.alert}. 
 
-* Subjects were asked whether they would like to participate in a carbon offset programme. Those willing to participate had to specify their desired contribution [within a range of 0.1 to 10 GBP]{.alert}, with intervals of 0.1 GBP.
+* Subjects were asked whether they would like to participate in a CO programme.
+
+* Those willing to participate had to specify their desired contribution [within a range of 0.1 to 10 GBP]{.alert}, with intervals of 0.1 GBP.
 
 * Participants were informed that contributions would be deducted from the bonus prize.    
     - An individual who contributed $x$ and was then selected to win the prize would receive a voucher worth $100 - x$ GBP.
@@ -184,7 +195,7 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 ::: {.fragment}
 
 * Thus, actual [contributions were contingent on winning the prize]{.alert}.    
-    - This makes the experiments [incentive-compatible]{.alert}, since winning the prize and making the contribution had the same strictly positive probability.
+    - This makes the experiments [incentive-compatible]{.alert}.
 
 :::
 
@@ -193,8 +204,8 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 * The reatments only differed in the bonus prize.
 
 * [Two treatment conditions]{.alert}    
-    1. [`Amazon_noinfo` (n = 200): the bonus prize consisted of an Amazon voucher.]{.fragment}
-    2. [`Ryanair_noinfo` (n = 200): the bonus prize consisted of a Ryanair voucher.]{.fragment}
+    1. [`Amazon_noinfo` (n = 200). Bonus prize: Amazon voucher.]{.fragment}
+    2. [`Ryanair_noinfo` (n = 200): Bonus prize: Ryanair voucher.]{.fragment}
 
 ::: {.fragment}
 
@@ -204,12 +215,12 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 
 ## Treatments: [Study SI]{.SI}
 
-* The treatments differed in the information given to subjects when deciding whether to contribute to the carbon offset programme.   
+* The treatments differed in the information given to subjects when deciding whether to contribute to the CO programme.   
 
 * [Three treatment conditions]{.alert}
-    1. [`Ryanair_noinfo` (n = 200): subjects were given an estimate of the per-flight and per-passenger emissions associated with a 100 GBP Ryanair ticket.]{.fragment}
-    2. [`Ryanair_noinfo` (n = 200): subjects were not given any such information. Shared with [Study MA]{.MA}.]{.fragment}
-    3. [`Ryanair_choose` (n = 400): subjects could choose whether or not to be informed.]{.fragment}
+    1. [`Ryanair_noinfo` (n = 200). Subjects were given an estimate of the per-flight and per-passenger emissions associated with a 100 GBP Ryanair ticket.]{.fragment}
+    2. [`Ryanair_noinfo` (n = 200). Subjects were not given any such information. Shared with [Study MA]{.MA}.]{.fragment}
+    3. [`Ryanair_choose` (n = 400). Subjects could choose whether or not to be informed.]{.fragment}
 
 ## Treatments: [Study SI]{.SI} (cont'd)
 
@@ -217,9 +228,9 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 
 ::: {.fragment}
 
-* Subjects who chose to receive information had to complete a real-effort task consisting of a decoding puzzle.    
-    - This design choice was intended to mimic the effort required to find information about the environmental impact of flights, e.g. by searching the Internet. 
-    - Subjects could quit the decoding puzzle at any time, in which case they received no information.
+* Those who chose to receive information had to complete a real-effort decoding task.    
+    - Goal: to mimic the effort required to find information on the environmental impact of flights, e.g. by searching the Internet.
+    - Subjects could quit the decoding task at any time, in which case they received no information.
 
 :::
 
@@ -232,38 +243,100 @@ Years ago you bought a case of Bordeaux for $20 a bottle. The wine now sells for
 ![](CGP_irvapp_files/design.png){width=70%}
 :::
 
-## Offsetting decisions: `Amazon_noinfo`
 
-::: {.center}
-<br>
-Add screen here 
+## Offsetting decisions: [Study MA]{.MA} 
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+`Amazon_noinfo`
+![](CGP_irvapp_files/screen_amazon_noinfo.png){width=100%}
+
+`Ryanair_noinfo`
+![](CGP_irvapp_files/screen_ryanair_noinfo.png){width=100%}
+
 :::
 
-## Offsetting decisions: `Ryanair_noinfo`
+::: {.column width="60%"}
 
-::: {.center}
-<br>
-Add screen here 
+::: {.r-stack}
+
+![](CGP_irvapp_files/offsetting_noinfo_0.png){.fragment width=100%}
+
+![](CGP_irvapp_files/offsetting_noinfo.png){.fragment width=100%}
+
 :::
 
-## Offsetting decisions: `Ryanair_choose`
+::: 
+
+::::
+
+## Offsetting decisions: [Study SI]{.SI}, `Ryanair info`
 
 ::: {.center}
-<br>
-Add screen here 
+
+::: {.r-stack}
+
+![](CGP_irvapp_files/info_choice.png){.fragment .fade-in-then-out width=52%}
+
+![](CGP_irvapp_files/offsetting_info.png){.fragment .fade-in-then-out width=52%}
+
 :::
+
+:::
+
+
+## Offsetting decisions: [Study SI]{.SI}, `Ryanair choose`
+
+::: {.center}
+![](CGP_irvapp_files/screen_info.png){width=80%}
+:::
+
+
+## Offsetting decisions: [Study SI]{.SI}, `Ryanair choose` (cont'd)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+`Ryanair_choose_noinfo`
+
+
+![](CGP_irvapp_files/offsetting_noinfo.png){.fragment width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+`Ryanair_choose_info`
+
+
+::: {.r-stack}
+
+![](CGP_irvapp_files/info_task.png){.fragment .fade-in-then-out width=80%}
+
+![](CGP_irvapp_files/info_choice.png){.fragment .fade-in-then-out width=80%}
+
+![](CGP_irvapp_files/offsetting_info.png){.fragment .fade-in-then-out width=80%}
+:::
+
+:::
+
+::::
+
 
 ## Articles
 
 ::: {.incremental} 
 
-* After deciding whether or not to contribute to the carbon offset programme, subjects read two article excerpts:    
+* After deciding whether or not to contribute to the CO programme, subjects read two article excerpts:    
     - One concerned with the environmental [impact of frequent fliers and the aviation industry]{.alert} (source: The Guardian).
-    - The other with the [impact of fast shipping and free returns of online purchases]{.alert} (surce: Los Angeles Times).
+    - The other with the [impact of fast shipping and free returns of online purchases]{.alert} (surce: LA Times).
 
-* The sources of the two articles were not revealed to avoid prejudice-related bias in information processing.
+* Sources not revealed to avoid prejudice-related bias in information processing.
 
-* Subjects had to indicate the extent to which they agreed or disagreed with each article.
+* Subjects had to indicate the extent to which they agreed or disagreed with each excerpt.
 
 :::
 
@@ -276,7 +349,7 @@ Add screen here
 
 As a global sector, transport lags behind global climate targets. Within transport, aviation is even further behind, sharing a subset (with shipping) of spectacular underachievers. The environmental crisis has made the principle of “polluter pays” a fact of life for many economic sectors. 
 
-Whether it is through carbon pricing for power plants, fines for farmers who pollute rivers or visitor taxes to mitigate the effects of overtourism, the idea that the cost of environmental degradation must be borne by those who create it has been widely, if grudgingly, accepted. Not, however, by the aviation industry. 
+Whether it is through carbon pricing for power plants, fines for farmers who pollute rivers or visitor taxes to mitigate the effects of overtourism, the idea that the cost of environmental degradation must be borne by those who create it has been widely, if grudgingly, accepted. Not, however, by the aviation industry.
 
 [The customer whom aviation treats the best, whom the airlines garland with their most egregious toadying, the frequent flyer, is the worst polluter of all.]{.alert}
 
@@ -301,26 +374,26 @@ However, reverse logistics – the transport from buyers to sellers – is not o
 
 ## Hypotheses
 
-* [Question:]{.alert} are contributions to the carbon offset programme more likely to be allocated to the same mental account as the Ryanair voucher than the Amazon voucher?   
+* [Question:]{.alert} are contributions to the CO programme more likely to be allocated to the [same mental account]{.alert} as the Ryanair voucher than the Amazon voucher?   
     - [Conjecture:]{.alert} flying is perceived as more closely related to carbon offsetting than online shopping.
 
 :::: {.callout-note icon=false}
 # Hypothesis 1 ([Study MA]{.MA})
 
-Subjects in treatment `Ryanair_noinfo` contribute more to the carbon offset programme than subjects in treatment `Amazon_noinfo`.
+Subjects in treatment `Ryanair_noinfo` contribute more to the CO programme than subjects in treatment `Amazon_noinfo`.
 ::::
 
 
 ## Hypotheses (cont'd)
 
-* [Question:]{.alert} does increasing the salience of the environmental impact of people's actions have a positive effect on contributions?    
+* [Question:]{.alert} does increasing the [salience]{.alert} of the environmental impact of people's actions have a positive effect on contributions?    
     - [Conjecture:]{.alert} receiving information about the impact of flights raises sustainability concerns.
 
 
 :::: {.callout-note icon=false}
 # Hypothesis 2 ([Study SI]{.SI})
 
-Subjects in treatment `Ryanair_info` contribute more to the carbon offset programme than subjects in treatment `Ryanair_noinfo`.
+Subjects in treatment `Ryanair_info` contribute more to the CO programme than subjects in treatment `Ryanair_noinfo`.
 ::::
 
 
@@ -329,7 +402,7 @@ Subjects in treatment `Ryanair_info` contribute more to the carbon offset progra
 * [Question:]{.alert} does the decision to receive information about the impact of flights affect offsetting behaviour?
     - [Conjecture:]{.alert} individuals with a low or moderate propensity to contribute choose not to receive information and donate little.
     - These individuals would feel compelled to donate more if they had the information. 
-    - Thus, they strategically choose to ignore the information in order to donate less and avoid cognitive dissonance [@benaboutirole:2016].
+    - Thus, they [strategically choose to ignore the information]{.alert} in order to donate less and avoid cognitive dissonance [@benaboutirole:2016].
 
 ## Hypotheses (cont'd)
 
@@ -338,7 +411,7 @@ Subjects in treatment `Ryanair_info` contribute more to the carbon offset progra
 :::: {.callout-note icon=false}
 # Hypothesis 3 ([Study SI]{.SI})
 
-Individual characteristics that predict lower contributions to the carbon offset programme are associated with a higher likelihood of self-selecting into `Ryanair_choose_noinfo`.
+Individual characteristics that predict lower contributions to the CO programme are associated with a higher likelihood of self-selecting into `Ryanair_choose_noinfo`.
 ::::
 
 :::: {.callout-note icon=false}
@@ -358,7 +431,7 @@ Contributions in  `Ryanair_choose_noinfo` are lower than contributions in `Ryana
 :::: {.callout-note icon=false}
 # Hypothesis 5 ([Study MA]{.MA})
 
-Subjects in treatment `Ryanair_noinfo` (`Amazon_noinfo`) show less agreement with the article on the environmental impact of flights (e-commerc) than subjects in treatment `Amazon_noinfo` (`Ryanair_noinfo`).
+Subjects in treatment `Ryanair_noinfo` (`Amazon_noinfo`) show less agreement with the article on the environmental impact of flights (e-commerce) than subjects in treatment `Amazon_noinfo` (`Ryanair_noinfo`).
 ::::
 
 ## Hypotheses (cont'd)
@@ -370,21 +443,192 @@ Subjects in treatment `Ryanair_noinfo` (`Amazon_noinfo`) show less agreement wit
 :::: {.callout-note icon=false}
 # Hypothesis 6 (Studies [MA]{.MA} and [SI]{.SI})
 
-Subjects who are more patient, more risk averse, more concerned about climate change, and who have stronger pro-social and pro-environmental preferences contribute more to the carbon offset programme in all treatments.
+Subjects who are more patient, more risk averse, more concerned about climate change, and who have stronger pro-social and pro-environmental preferences contribute more to the CO programme in all treatments.
 ::::
 
 
-## Results {.scrollable}
+## Results
+
+::: {.callout-tip icon=false}
+# Result 1
+
+Subjects in `Ryanair_noinfo` contribute significantly more to the CO programme than subjects in `Amazon_noinfo` (two-sided Wilcoxon test p-value < 0.001).
+:::
+
+![](CGP_irvapp_files/MA_donations.svg){width=80% fig-align="center"}
+
+
+
+
+## Results (cont'd) {.scrollable}
+
+|  | (1) <br> OLS | (2) <br> Tobit |
+|---------|:-----:|:------:|
+| Constant | 3.813 <br> (3.397) | -2.831 <br> (14.547) |
+| Treatment: `Ryanair_noinfo` | <b> 1.545*** </b> <br> (0.401)  | <b> 6.619*** </b> <br> (1.752) |
+| Risk tolerance | −0.094 <br> (0.103) | −0.521 <br> (0.103) |
+| Patience | −0.033 <br> (0.122) | 0.021 <br> (0.517) |
+| Social concerns | <b>0.421*** </b> <br> (0.107) | <b> 1.813*** </b> <br> (0.470) |
+| Environmental attitudes | <b> 0.435*** </b> <br> (0.116) | <b> 1.845*** </b> <br> (0.504) |
+| Environmental concerns | <b> 1.418** </b> <br> (0.473) | <b> 5.486** </b> <br> (1.995) |
+| Male | 0.841 <br> (0.438) | 3.496 <br> (1.837) |
+| Age | −0.020 <br> (0.020) | −0.055 <br> (0.083) |
+| *Additional controls* | yes | yes |
+| *Adj. R2* | 0.198 | |
+| *Observations* | 399 | 399^§^ |
+| | | |
+
+: Determinants of contributions, [Study MA]{.MA}
+
+<br>
+[$^{***}$p < 0.001; $^{**}$p < 0.01; $^{*}$p < 0.05]{.comment}
+
+[ ^§^: 105 left-censored observations, 203 right-censored observations.]{.comment}
+
+[Dependent variable: contribution to the CO programme.]{.comment}
+
+[Additional controls: Ethnicity, Education, Subjective socioeconomic status, Employment or student status, Number of approvals on Prolific.]{.comment}
+
+
+
+
+## Results
+
+::: {.callout-important icon=false}
+# Result 2
+
+Subjects in `Ryanair_info` do **not** contribute significantly more to the CO programme than subjects in `Ryanair_noinfo` (two-sided Wilcoxon test p-value = 0.089).
+:::
+
+![](CGP_irvapp_files/SI_donations2.svg){width=80% fig-align="center"}
+
+
+## Results (cont'd) {.scrollable}
+
+::: {.callout-caution icon=false}
+
+# Result 3
+
+Subjects with greater pro-environmental attitudes are more likely to self-select into `Ryanair_choose_info`.
+
+Patience positively predicts the likelihood of self-selecting into `Ryanair_choose_info`, but does not play a role in determining contributions (see next results).
+:::
+
+|  | Logit |
+|---------|:-----:|
+| Constant | -1.593 <br> (1.797) |
+| Risk tolerance | -0.031 <br> (0.054) |
+| Patience | <b> 0.181* </b> <br> (0.071) |
+| Social concerns | 0.016 <br> (0.071) |
+| Environmental attitudes | <b> 0.211** </b> <br> (0.072) |
+| Environmental concerns | 0.349 <br> (0.263) |
+| Male | 0.067 <br> (0.240) |
+| Age | <b> -0.017 </b> <br> (0.011) |
+| *Additional controls* | yes |
+| *Observations* | 400 |
+| | | |
+
+: Determinants of self-selection into `Ryanair_choose_noinfo`, [Study SI]{.SI}
+
+<br>
+[$^{***}$p < 0.001; $^{**}$p < 0.01; $^{*}$p < 0.05]{.comment}
+
+[Additional controls: Ethnicity, Education, Subjective socioeconomic status, Employment or student status, Number of approvals on Prolific.]{.comment}
+
+## Results (cont'd) {.scrollable}
+
+::: {.callout-tip icon=false}
+# Result 4
+
+Contributions in `Ryanair_choose_info`  are significantly higher than in `Ryanair_info` (two-sided Wilcoxon test p-value < 0.001).
+
+Contributions in `Ryanair_choose_noinfo`  are significantly lower than in `Ryanair_noinfo` (two-sided Wilcoxon test p-value < 0.001).
+
+:::
+
+![](CGP_irvapp_files/SI_donations.svg){width=80% fig-align="center"}
+
+
+## Results (cont'd) {.scrollable}
+
+|  | (1) <br> OLS | (2) <br> Tobit |
+|---------|:-----:|:------:|
+| Constant | -1.046 <br> (1.993) | <b> -28.940* </b> <br> (11.890) |
+| Treatment: `Ryanair_noinfo` | 0.499 <br> (0.401)  | 3.587 <br> (2.333) |
+| Treatment: `Ryanair_choose_info` | <b> 0.840* </b> <br> (0.426)  | <b> 5.708* </b>  <br> (2.538) |
+| Treatment: `Ryanair_choose_noinfo` | -0.752 <br> (0.392)  |  -3.934  <br> (2.249) |
+| Risk tolerance | <b> -0.158* </b> <br> (0.069) | <b> -0.994* </b> <br> (0.407) |
+| Patience | 0.128 <br> (0.085) | 0.829 <br> (0.498) |
+| Social concerns | <b>0.489*** </b> <br> (0.079) | <b> 2.892*** </b> <br> (0.508) |
+| Environmental attitudes | <b> 0.498*** </b> <br> (0.078) | <b> 2.953*** </b> <br> (0.519) |
+| Environmental concerns | <b> 0.751* </b> <br> (0.325) |  3.620 <br> (1.887) |
+| Male | 0.159 <br> (0.304) | 1.305 <br> (1.777) |
+| Age | <b> 0.033* </b> <br> (0.014) | <b> 0.184* </b> <br> (0.082) |
+| *Additional controls* | yes | yes |
+| *Adj. R2* | 0.197 | |
+| *Observations* | 799 | 799^§^ |
+| Test: `Ryanair_noinfo` -- `Ryanair_choose_noinfo` = 0 (p-value) | <0.001 | <0.001 |
+
+: Determinants of contributions, [Study SI]{.SI}
+
+<br>
+[$^{***}$p < 0.001; $^{**}$p < 0.01; $^{*}$p < 0.05]{.comment}
+
+[ ^§^: 212 left-censored observations, 455 right-censored observations.]{.comment}
+
+[Dependent variable: contribution to the CO programme.]{.comment}
+
+[Additional controls: Ethnicity, Education, Subjective socioeconomic status, Employment or student status, Number of approvals on Prolific.]{.comment}
+
+## Results (cont'd) {.scrollable}
+
+::: {.callout-important icon=false}
+# Result 5
+
+There are no differences between the two treatments in terms of agreement with the article excerpts.
+:::
+
+| Treatment  | Article | Mean±SD | Obs. |
+|:--------|:-----:|:-----:|:-----:|
+| `Amazon_noinfo` | Flights | 6.89±2.22 | 200 |
+| `Amazon_noinfo` | E-commerce | 7.20±2.32 | 200 |
+| `Ryanair_noinfo` | Flights | 6.97±2.00 | 200 |
+| `Ryanair_noinfo` | E-commerce | 7.14±2.04 | 200 |
+| | | | |
+
+: Subjects’ agreement with the two articles, [Study MA]{.MA}
 
 <br>
 
-![](CGP_irvapp_files/MA_donations.svg){width=100%}
- 
-## Results {.scrollable}
+| Diff: `Amazon_noinfo` vs. `Ryanair_noinfo` | Article | p-value^§^  |
+|:--------|:-----:|:-----:|
+| | Flights | 0.994 |
+| | E-commerce | 0.556|
+| | | |
+
+[ ^§^: Based on a two-sided Wilcoxon rank sum test with continuity correction.]{.comment}
+
+## Results (cont'd)
 
 <br>
 
-![](CGP_irvapp_files/SI_donations.svg){width=100%}
+::: {.callout-tip icon=false}
+# Result 6
+
+In both studies ([MA]{.MA} and [SI]{.SI}), subjects who are more socially concerned, more concerned about climate change, and who have higher pro-environmental attitudes tend to contribute more to the CO programme in all treatments.
+
+In [Study MA]{.MA}, there is no correlation between offsetting and risk and time preferences. In [Study SI]{.SI}, subjects who are more open to risk tend to contribute less, while time preferences do not play a role.
+
+:::
+
+
+## Take home
+
+* It is impart that people put carbon-emitting activities and offsetting costs in the same mental account.    
+    - [Policy hint:]{.alert} frame pro-environmental actions (e.g. donating money to plant a tree) in such a way that they alleviate guilt for emissions.
+
+* Varying the salience of information about carbon emissions has an effect on people who are willing to pay attention to it.
+    - [Policy hint:]{.alert} target information about carbon emissions to people who are likely to be more sensitive to it.
 
 
 

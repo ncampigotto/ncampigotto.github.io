@@ -95,6 +95,6 @@
 <text x='593.76' y='300.96' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>10.0</text>
 <polyline points='23.38,75.17 26.12,75.17 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='23.38,220.04 26.12,220.04 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
-<text x='323.45' y='315.58' text-anchor='middle' style='font-size: 14.00px; font-weight: bold; font-family: "Arial";' textLength='87.06px' lengthAdjust='spacingAndGlyphs'>Offsetting (£)</text>
+<text x='323.45' y='315.58' text-anchor='middle' style='font-size: 14.00px; font-weight: bold; font-family: "Arial";' textLength='127.47px' lengthAdjust='spacingAndGlyphs'>Contribution (GBP)</text>
 </g>
 </svg>

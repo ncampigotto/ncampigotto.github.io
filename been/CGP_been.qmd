@@ -76,7 +76,7 @@ format:
 
 * No deception.
 
-* 1.5 GBP participation payment (~13.8 GBP/hour) + bonus payment (Ryanair/Amazon voucher).
+* 1.5 GBP participation payment (~13.8 GBP/hour) + bonus payment (Ryanair/Amazon voucher worth up to 100 GBP).
 
 ## Overview (cont'd)
 
@@ -155,7 +155,7 @@ format:
 ![](CGP_been_files/design.png){width=70%}
 :::
 
-<!-- ## Main hypotheses
+## Main hypotheses
 
 * [Question:]{.alert} are contributions to the CO programme more likely to be allocated to the [same mental account]{.alert} as the Ryanair voucher than the Amazon voucher?   
     - [Conjecture:]{.alert} flying is perceived as more closely related to carbon offsetting than online shopping.
@@ -163,7 +163,7 @@ format:
 :::: {.callout-note icon=false}
 # Hypothesis 1 ([Study MA]{.MA})
 
-Subjects in treatment `Ryanair_noinfo` contribute more to the CO programme than subjects in treatment `Amazon_noinfo`.
+Subjects in `Ryanair_noinfo` contribute more to the CO programme than subjects in `Amazon_noinfo`.
 ::::
 
 
@@ -176,7 +176,7 @@ Subjects in treatment `Ryanair_noinfo` contribute more to the CO programme than 
 :::: {.callout-note icon=false}
 # Hypothesis 2 ([Study SI]{.SI})
 
-Subjects in treatment `Ryanair_info` contribute more to the CO programme than subjects in treatment `Ryanair_noinfo`.
+Subjects in `Ryanair_info` contribute more to the CO programme than subjects in `Ryanair_noinfo`.
 ::::
 
 
@@ -185,24 +185,7 @@ Subjects in treatment `Ryanair_info` contribute more to the CO programme than su
 * [Question:]{.alert} does the decision to receive information about the impact of flights affect offsetting behaviour?
     - [Conjecture:]{.alert} individuals with a low or moderate propensity to contribute choose not to receive information and donate little.
     - These individuals would feel compelled to donate more if they had the information. 
-    - Thus, they [strategically choose to ignore the information]{.alert} in order to donate less and avoid cognitive dissonance [@benaboutirole:2016]. -->
-
-## Main hypotheses
-
-<br>
-
-:::: {.callout-note icon=false}
-# Hypothesis 1 ([Study MA]{.MA})
-
-Subjects in `Ryanair_noinfo` contribute more to the CO programme than subjects in `Amazon_noinfo`.
-::::
-
-:::: {.callout-note icon=false}
-# Hypothesis 2 ([Study SI]{.SI})
-
-Subjects in `Ryanair_info` contribute more to the CO programme than subjects in `Ryanair_noinfo`.
-::::
-
+    - Thus, they [strategically choose to ignore the information]{.alert} in order to donate less and avoid cognitive dissonance [@benaboutirole:2016].
 
 
 ## Main hypotheses (cont'd)
@@ -300,12 +283,12 @@ Subjects with greater pro-environmental attitudes are more likely to self-select
 | Social concerns | 0.016 <br> (0.071) |
 | Environmental concerns | 0.349 <br> (0.263) |
 | Male | 0.067 <br> (0.240) |
-| Age | <b> -0.017 </b> <br> (0.011) |
+| Age | -0.017 <br> (0.011) |
 | *Additional controls* | yes |
 | *Observations* | 400 |
 | | | |
 
-: Determinants of self-selection into `Ryanair_choose_noinfo`, [Study SI]{.SI}
+: Determinants of self-selection into `Ryanair_choose_info`, [Study SI]{.SI}
 
 <br>
 [$^{***}$p < 0.001; $^{**}$p < 0.01; $^{*}$p < 0.05]{.comment}
@@ -366,7 +349,7 @@ Contributions in `Ryanair_choose_noinfo`  are significantly lower than in `Ryana
 
 ## Wrap-up 
 
-* Monetary transactions related to activities that are clearly perceived as polluting are more likely to be allocated to the same mental account as carbon offsets, resulting in higher offset contributions
+* Monetary transactions related to activities that are clearly perceived as polluting are more likely to be allocated to the same mental account as carbon offsets, resulting in higher offset contributions.
 
 ::: {.incremental}
 

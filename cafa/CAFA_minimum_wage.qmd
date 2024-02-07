@@ -10,7 +10,7 @@ author:
   - name: Nicola Campigotto
     email: nicola.campigotto@unitn.it
     affiliations: U Trento
-  - name: Andrea Fazio 🎂
+  - name: Andrea Fazio 
     email: andrea.fazio@uniroma2.it
     affiliations: U Tor Vergata
 date: today
@@ -51,7 +51,7 @@ format:
 :::
 
 * [Key result:]{.alert} the introduction of a minimum wage (MW) has a lasting effect on people's reservation wage.
-    - The idea: MWs affects workers' perception of what is a [fair]{.alert} transaction. 
+    - The idea: MWs affect workers' perception of what is a [fair]{.alert} transaction. 
 
 
 ## Falk et al. (2006) in a single slide
@@ -62,7 +62,7 @@ format:
 
 * If the MW is removed, workers' reservation wages decrease somewhat, but they are still higher than before the MW.
     - According to Falk et al., this is due to a change in fairness perception.
-    - Firms are forced to pay higher wages after the removal of the MW than before its introduction
+    - Firms are forced to pay higher wages after the removal of the MW than before its introduction.
 
 
 ## Our idea ✨
@@ -81,7 +81,7 @@ format:
 
 ::: {.callout-tip}
 #
-To what extent are the employment effects of a minimum wage due to changes in the ability to coordinate rather than changes in agents' perception of what is fair?
+To what extent are the employment effects of a minimum wage due to changes in agents' ability to coordinate rather than changes in their perception of what is fair?
 :::
 
 * [How:]{.alert}
@@ -214,7 +214,7 @@ $$
     (a) Higher in [High]{.trhigh} than in the baseline    
     (b) Higher in the baseline than in [Low]{.trlow}.
 
-* [Question for you:]{.alert} is this a convincing argument? Any reference on this?
+* [Questions for you:]{.alert} convincing argument? Any reference on this?
 
 
 ## Enter minimum wages

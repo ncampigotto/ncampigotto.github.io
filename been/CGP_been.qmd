@@ -1,5 +1,5 @@
 ---
-title: "Mental Accounting, Strategic Ignorance <br> and Voluntary Carbon Offsets"
+title: "Mental Accounting, Information Avoidance <br> and Voluntary Carbon Offsets"
 #subtitle: ""
 #title-slide-attributes:
   #data-background-image: /CGP_been_files/forest2.png
@@ -50,21 +50,20 @@ format:
 ## Carbon what? (cont'd) 
 
 * Voluntary carbon offsets (COs) are [tradable certificates linked to climate projects]{.alert}.    
-    - Projects typically consist of reforestation, energy efficiency, and renewable energy interventions. 
 
-* By purchasing COs, individuals and firms can fund the projects associated with them.
+* By purchasing COs, individuals and firms can fund the projects (reforestation, energy efficiency, renewable energy, ...) associated with them.
 
-* [A huge market:]{.alert} in 2021, the voluntary carbon market reached $2 billion --- four times its value in 2020. The pace of purchases continued to accelerate in 2022.
+* [Huge market:]{.alert} in 2021, the voluntary carbon market reached $2 billion --- four times its value in 2020. The pace of purchases continued to accelerate in 2022.
 
 
 ## This paper
 
-* So far, the literature has mainly focused on estimating individuals' willingness to pay for COs [e.g. @berger2022willingness; @rodemeier2023].
+* The literature has mainly focused on estimating individuals' willingness to pay for COs [e.g. @berger2022willingness; @rodemeier2023].
 
-* The psychological factors influencing carbon offsetting behaviour are still poorly understood.
+* The psychological factors influencing carbon offsetting behaviour are still understudied.
 
 * We focus on two of these factors    
-    - [Mental accounting]{.MA} ([MA]{.MA}): the cognitive bookkeeping process by which individuals evaluate their transactions.
+    - [Mental accounting]{.MA} ([MA]{.MA}): the cognitive bookkeeping process by which individuals evaluate money transactions.
     - [Strategic ignorance]{.SI} ([SI]{.SI}): people's deliberate avoidance of information that might cause them distress.
 
 ## Overview
@@ -76,7 +75,7 @@ format:
 
 * No deception.
 
-* 1.5 GBP participation payment (~13.8 GBP/hour) + bonus payment (Ryanair/Amazon voucher worth up to 100 GBP).
+* 1.5 GBP participation payment (~13.8 GBP/hour) + bonus payment ([Ryanair/Amazon voucher]{.alert} worth [up to 100 GBP]{.alert}).
 
 ## Overview (cont'd)
 
@@ -99,7 +98,7 @@ format:
 
 ## Offsetting decisions (cont'd)
 
-* Contributions from subjects selected to win the bonus prize were transferred to [Trees for All]{.alert}, a non-profit organization that offsets CO2 emissions by planting trees around the world.
+* Contributions from subjects selected to win the bonus prize were transferred to [Trees for All]{.alert}, a non-profit organization that restores forests around the world.
 
 * Contributions from subjects not selected to win the bonus prize were not transferred.
 
@@ -110,7 +109,7 @@ format:
 
 * The reatments only differed in the bonus prize.
 
-* [Two treatment conditions]{.alert}    
+* [Treatment conditions]{.alert}    
     1. [`Amazon_noinfo` (n = 200). Bonus prize: Amazon voucher.]{.fragment}
     2. [`Ryanair_noinfo` (n = 200): Bonus prize: Ryanair voucher.]{.fragment}
 
@@ -124,10 +123,10 @@ format:
 
 * The treatments differed in the information given to subjects when deciding whether to contribute to the CO programme.   
 
-* [Three treatment conditions]{.alert}
+* [Treatment conditions]{.alert}
     1. [`Ryanair_info` (n = 200). Subjects were given an estimate of the per-flight and per-passenger emissions associated with a 100 GBP Ryanair ticket.]{.fragment}
 
-    ![](CGP_been_files/info_choice.png){.absolute bottom=0 left=250 .fragment .fade-in-then-out width=60%}
+    <!-- ![](CGP_been_files/info_choice.png){.absolute bottom=0 left=250 .fragment .fade-in-then-out width=60%} -->
 
     2. [`Ryanair_noinfo` (n = 200). Subjects were not given any such information. Shared with [Study MA]{.MA}.]{.fragment}
 
@@ -158,7 +157,8 @@ format:
 ## Main hypotheses
 
 * [Question:]{.alert} are contributions to the CO programme more likely to be allocated to the [same mental account]{.alert} as the Ryanair voucher than the Amazon voucher?   
-    - [Conjecture:]{.alert} flying is perceived as more closely related to carbon offsetting than online shopping.
+    - [Conjecture:]{.alert} flying is more readily associated to carbon offsetting than online shopping.
+    - Due to this cognitive proximity, the gain from the voucher and the offsetting cost are more likely to be allocated to the same mental account in the `Ryanair_noinfo` condition.
 
 :::: {.callout-note icon=false}
 # Hypothesis 1 ([Study MA]{.MA})
@@ -271,7 +271,8 @@ Subjects in `Ryanair_info` do **not** contribute significantly more to the CO pr
 
 # Result 3 ✅
 
-Subjects with greater pro-environmental attitudes are more likely to self-select into `Ryanair_choose_info`.
+Subjects who are more future-oriented and
+concerned about climate change are more likely to sort themselves into `Ryanair_choose_info`.
 :::
 
 |  | Logit |

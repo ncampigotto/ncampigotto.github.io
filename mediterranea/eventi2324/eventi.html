@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- ######################################################################################################## -->
+
+<style>
+
+body {
+      font-family: 'Roboto', sans-serif;
+}
+
+br {   
+    content: "";
+    margin: 2em;
+    display: block;
+    margin-bottom: -25px; 
+ }
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 120px;
+  height: 180px;
+  /* line-height: 40px; */
+  text-align: center;
+  margin: 2px;
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  margin: 2px;
+  background-color: #f1f1f1; 
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.data {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.luogo {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #4A4E55;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#info {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 5px;
+}
+
+</style>
+
+<!-- ######################################################################################################## -->
+
+<body>
+
+<h1><span style="color: #DF4C18;">Mediterranea</span><span style="color: #4C90CE;"> Bologna </span></h1>
+<h3>Eventi settembre 2023 - agosto 2024</h3>
+
+<hr>
+
+<div id="myBtnContainer">
+<b>Reset filtri:</b> <button class="btn active" onclick="filterSelection('all')"> Mostra tutti gli eventi</button>
+  
+  <br><br>
+  <b>Filtra per mese:</b> <button class="btn" onclick="filterSelection('settembre')"> Settembre</button>
+  <button class="btn" onclick="filterSelection('ottobre')"> Ottobre</button>
+  <button class="btn" onclick="filterSelection('novembre')"> Novembre</button>
+  <button class="btn" onclick="filterSelection('dicembre')"> Dicembre</button>
+  <button class="btn" onclick="filterSelection('gennaio')"> Gennaio</button>
+  <button class="btn" onclick="filterSelection('febbraio')"> Febbraio</button>
+  <button class="btn" onclick="filterSelection('marzo')"> Marzo</button>
+  <button class="btn" onclick="filterSelection('aprile')"> Aprile</button>
+  <button class="btn" onclick="filterSelection('aprile')"> Maggio</button>
+  <button class="btn" onclick="filterSelection('maggio')"> Giugno</button>
+  <button class="btn" onclick="filterSelection('giugno')"> Luglio</button>
+  <button class="btn" onclick="filterSelection('luglio')"> Agosto</button>
+
+  <br><br>
+  <b>Filtra per tema:</b> <button class="btn" onclick="filterSelection('mare')" style="color: #174567;"> Mare/migrazione <span data-event="mare" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('nocpr')" style="color: #152227;"> No CPR <span data-event="nocpr" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('ucraina')" style="color: #3E3B9F;"> Ucraina <span data-event="ucraina" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('ambiente')" style="color: #257E4D;"> Ambiente <span data-event="ambiente" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('salute')" style="color: #A52A09;"> Salute <span data-event="salute" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('intersezione')" style="color: #C17300;"> Intersezione lotte <span data-event="intersezione" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('palestina')" style="color: #1E6427;"> Palestina <span data-event="palestina" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('aril')" style="color: #4F0002;"> ARIL <span data-event="aril" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('minori')" style="color: #76287D;"> Minori <span data-event="minori" class="dot"></span></button>
+  <button class="btn" onclick="filterSelection('altro')" style="color: #4A4E55;"> Altro <span data-event="altro" class="dot"></span></button>
+  
+  <br><br>
+  <b>Filtra per tipo di attività:</b> <button class="btn" onclick="filterSelection('presentazione')"> Presentazione libri 📖</button>
+  <button class="btn" onclick="filterSelection('assemblea')"> Assemblea pubblica 💬</button>
+  <button class="btn" onclick="filterSelection('proiezione')"> Proiezione 🎥</button>
+  <button class="btn" onclick="filterSelection('evento')"> Evento 🎆</button>
+  <button class="btn" onclick="filterSelection('piazza')"> Piazza/manifestazione/presidio ✊</button>
+  <button class="btn" onclick="filterSelection('scuole')"> Scuole 🎓</button>
+  <button class="btn" onclick="filterSelection('sport')"> Sport 🏈</button>
+  <button class="btn" onclick="filterSelection('banchetto')"> Banchetto 👕</button>
+  <br><br>
+  <b>Filtra per organizzatore:</b>
+  <button class="btn" onclick="filterSelection('mediterranea')"> EdT Bologna</button>
+  <button class="btn" onclick="filterSelection('conaltri')"> Organizzato con altrə</button>
+  <button class="btn" onclick="filterSelection('daaltri')"> Organizzato da altrə</button>
+</div>
+
+<!-- ######################################################################################################## -->
+
+<hr>
+<div class="container">
+
+<!-- #1 -->
+  <div data-event="ucraina" class="filterDiv settembre ucraina presentazione daaltri">
+    <div class="data">20 settembre 2023</div>
+    <br>
+    <div style="font-size: 18px;">📖</div>
+    <br>
+    <div>Presentazione “Api grigie” di Andrei Kurkov</div>
+    <br>
+    <div class="luogo">Serre dei Giardini Margherita</div>
+    <br>
+    <div id="info"><button type="button" onclick="alert('Organizzato dalla libreria “La confraterninta dell’uva”')">Info</button></div>
+  </div>
+
+<!-- #2 -->
+  <div data-event="nocpr" class="filterDiv settembre nocpr piazza conaltri">
+    <div class="data">29 settembre 2023</div>
+    <br>
+    <div style="font-size: 18px;">✊</div>
+    <br>
+    <div>Presidio BASTA LAGER DI STATO</div>
+    <br>
+    <div class="luogo">Questura di Bologna</div>
+    <br>
+    <div id="info"><button type="button" onclick="alert('Organizzato con Rete no CPR')">Info</button></div>
+  </div>
+
+<!-- #3 -->
+  <div data-event="ambiente" class="filterDiv ottobre ambiente piazza conaltri">
+    <div class="data">29 ottobre 2023</div>
+    <br>
+    <div style="font-size: 18px;">✊</div>
+    <br>
+    <div>Intervento in supporto dello sciopero della fame di XR</div>
+    <br>
+    <div class="luogo">Piazza Maggiore</div>
+    <br>
+    <!-- <div id="info"><button type="button" onclick="alert('Nessuna informazione aggiuntiva.')">Info</button></div> -->
+  </div>
+
+<!-- #4 -->
+<div data-event="nocpr" class="filterDiv ottobre nocpr evento conaltri">
+  <div class="data">10 ottobre 2023</div>
+  <br>
+  <div style="font-size: 18px;">🎆</div>
+  <br>
+  <div>Tagliamo tutti i fili spinati</div>
+  <br>
+  <div class="luogo">Vag61</div>
+  <br>
+  <div id="info"><button type="button" onclick="alert('Mostra “Tagliamo tutti i fili spinati” e confronto pubblico contro l’apertura di nuovi CPR e la disaccoglienza. \nIniziativa condivisa con Vag61 in vista della manifestazione del 14/10/23.')">Info</button></div>
+</div>
+
+<!-- #5 -->
+<div data-event="mare" class="filterDiv ottobre mare proiezione daaltri">
+  <div class="data">10 ottobre 2023</div>
+  <br>
+  <div style="font-size: 18px;">🎥</div>
+  <br>
+  <div>Intervento a presidio CUA</div>
+  <br>
+  <div class="luogo">Luogo misterioso</div>
+  <br>
+  <div id="info"><button type="button" onclick="alert('')">Info</button></div>
+</div>
+
+<!-- # -->
+<!-- <div data-event="" class="filterDiv ">
+  <div class="data"></div>
+  <br>
+  <div style="font-size: 18px;"></div>
+  <br>
+  <div></div>
+  <br>
+  <div class="luogo"></div>
+  <br>
+  <div id="info"><button type="button" onclick="alert('')">Info</button></div>
+</div> -->
+
+
+
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+// Seleziona tutti gli elementi con la classe .filterDiv
+const elements = document.querySelectorAll('.filterDiv');
+
+// Itera su ciascun elemento e applica la logica
+elements.forEach((element) => {
+    // Ottieni il valore dell'attributo data-event
+    const eventType = element.getAttribute('data-event');
+
+    // Cambia il colore di sfondo in base al tipo di evento
+    if (eventType === 'altro') {
+        element.style.backgroundColor = '#4A4E55'; // Colore originale
+    } else if (eventType === 'mare') {
+        element.style.backgroundColor = '#174567';  
+    } else if (eventType === 'nocpr') {
+        element.style.backgroundColor = '#152227'; 
+    } else if (eventType === 'ucraina') {
+        element.style.backgroundColor = '#3E3B9F';  
+    } else if (eventType === 'ambiente') {
+        element.style.backgroundColor = '#257E4D';  
+    } else if (eventType === 'salute') {
+        element.style.backgroundColor = '#A52A09'; 
+    } else if (eventType === 'intersezione') {
+        element.style.backgroundColor = '#C17300'; 
+    } else if (eventType === 'palestina') {
+        element.style.backgroundColor = '#1E6427'; 
+    } else if (eventType === 'aril') {
+        element.style.backgroundColor = '#4F0002'; 
+    } else if (eventType === 'minori') {
+        element.style.backgroundColor = '#76287D';
+    }
+});
+
+// Seleziona tutti gli elementi con la classe .dot
+const elementsdot = document.querySelectorAll('.dot');
+
+// Itera su ciascun elemento e applica la logica
+elementsdot.forEach((elementdot) => {
+    // Ottieni il valore dell'attributo data-event
+    const eventType = elementdot.getAttribute('data-event');
+
+    // Cambia il colore di sfondo in base al tipo di evento
+    if (eventType === 'altro') {
+      elementdot.style.backgroundColor = '#4A4E55'; // Colore originale
+    } else if (eventType === 'mare') {
+      elementdot.style.backgroundColor = '#174567';  
+    } else if (eventType === 'nocpr') {
+      elementdot.style.backgroundColor = '#152227'; 
+    } else if (eventType === 'ucraina') {
+      elementdot.style.backgroundColor = '#3E3B9F';  
+    } else if (eventType === 'ambiente') {
+      elementdot.style.backgroundColor = '#257E4D';  
+    } else if (eventType === 'salute') {
+      elementdot.style.backgroundColor = '#A52A09'; 
+    } else if (eventType === 'intersezione') {
+      elementdot.style.backgroundColor = '#C17300'; 
+    } else if (eventType === 'palestina') {
+      elementdot.style.backgroundColor = '#1E6427'; 
+    } else if (eventType === 'aril') {
+      elementdot.style.backgroundColor = '#4F0002'; 
+    } else if (eventType === 'minori') {
+      elementdot.style.backgroundColor = '#76287D';
+    }
+});
+
+</script>
+
+</body>
+</html>

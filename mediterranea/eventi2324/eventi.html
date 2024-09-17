@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="it">
 
 <!-- ######################################################################################################## -->
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added viewport meta tag -->
+
 <style>
+
+h1, h3 {
+  text-align: center; /* Center align headers */
+}
 
 body {
       font-family: 'Roboto', sans-serif;
+      margin: 0; /* Reset default margins */
+      padding: 10px; /* Add padding for better touch targets */
 }
 
 br {   
@@ -21,16 +30,20 @@ br {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 120px;
-  height: 200px;
+  width: calc(100% / 3 - 10px);
+  max-width: 120px;
+  /* width: 120px; */
+  height: 210px;
   /* line-height: 40px; */
   text-align: center;
-  margin: 2px;
+  margin: 5px;
+  /* margin: 2px; */
   display: none;
-  padding-top: 5px;
+  padding: 10px;
+  /* padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 5px; */
   position: relative;
 }
 

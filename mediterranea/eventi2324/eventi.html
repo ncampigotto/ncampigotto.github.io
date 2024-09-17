@@ -21,19 +21,19 @@ body {
       padding: 10px; /* Add padding for better touch targets */
 }
 
-br {   
+/* br {   
     content: "";
     margin: 2em;
     display: block;
     margin-bottom: -25px; 
- }
+ } */
 
 .filterDiv {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
   width: calc(100% / 3 - 10px);
-  max-width: 120px;
+  max-width: 130px;
   /* width: 120px; */
   height: 200px;
   /* line-height: 40px; */
@@ -148,7 +148,7 @@ br {
   
   <br><br>
   <b>Filtra per tipo di attività:</b> <button class="btn" onclick="filterSelection('presentazione')"> Presentazione libri 📖</button>
-  <button class="btn" onclick="filterSelection('assemblea')"> Assemblea pubblica 💬</button>
+  <button class="btn" onclick="filterSelection('assemblea')"> Assemblea/dibattito 💬</button>
   <button class="btn" onclick="filterSelection('proiezione')"> Proiezione 🎥</button>
   <button class="btn" onclick="filterSelection('evento')"> Evento 🎆</button>
   <button class="btn" onclick="filterSelection('piazza')"> Piazza/manifestazione/presidio ✊</button>
@@ -169,82 +169,131 @@ br {
 
 <!-- #1 -->
   <div data-event="ucraina" class="filterDiv settembre ucraina presentazione daaltri">
-    <div class="data">20 settembre 2023</div>
+    <div class="data" style="margin-bottom:.5em;">20 settembre 2023</div>
+    <div style="font-size: 18px; margin-bottom:.5em;">📖</div>
+    <div style="margin-bottom:.5em;">Presentazione “Api grigie” di Andrei Kurkov</div>
+    <div class="luogo" style="margin-bottom:.5em;">Serre dei Giardini Margherita</div>
     <br>
-    <div style="font-size: 18px;">📖</div>
-    <br>
-    <div>Presentazione “Api grigie” di Andrei Kurkov</div>
-    <br>
-    <div class="luogo">Serre dei Giardini Margherita</div>
-    <br>
-    <div id="info"><button type="button" onclick="alert('Organizzato dalla libreria “La confraterninta dell’uva”')">Info</button></div>
+    <div id="info"><button type="button" onclick="alert('Organizzato da libreria “La confraterninta dell’uva”.')">Info</button></div>
   </div>
 
 <!-- #2 -->
   <div data-event="nocpr" class="filterDiv settembre nocpr piazza conaltri">
-    <div class="data">29 settembre 2023</div>
-    <br>
-    <div style="font-size: 18px;">✊</div>
-    <br>
-    <div>Presidio BASTA LAGER DI STATO</div>
-    <br>
-    <div class="luogo">Questura di Bologna</div>
-    <br>
+    <div class="data" style="margin-bottom:.5em;">29 settembre 2023</div>
+    <div style="font-size: 18px; margin-bottom:.5em;">✊</div>
+    <div style="margin-bottom:.5em;">Presidio BASTA LAGER DI STATO</div>
+    <div class="luogo" style="margin-bottom:.5em;">Questura di Bologna</div>
     <div id="info"><button type="button" onclick="alert('Organizzato con Rete no CPR.')">Info</button></div>
   </div>
 
 <!-- #3 -->
   <div data-event="ambiente" class="filterDiv ottobre ambiente piazza conaltri">
-    <div class="data">8 ottobre 2023</div>
-    <br>
-    <div style="font-size: 18px;">✊</div>
-    <br>
-    <div>Intervento in supporto dello sciopero della fame di XR</div>
-    <br>
-    <div class="luogo">Piazza Maggiore</div>
-    <br>
+    <div class="data" style="margin-bottom:.5em;">8 ottobre 2023</div>
+    <div style="font-size: 18px; margin-bottom:.5em;">✊</div>
+    <div style="margin-bottom:.5em;">Intervento in supporto dello sciopero della fame di XR</div>
+    <div class="luogo" style="margin-bottom:.5em;">Piazza Maggiore</div>
     <div id="info"><button type="button" onclick="alert('Organizzato con XR.')">Info</button></div>
   </div>
 
 <!-- #4 -->
-<div data-event="nocpr" class="filterDiv ottobre nocpr evento conaltri">
-  <div class="data">10 ottobre 2023</div>
-  <br>
-  <div style="font-size: 18px;">🎆</div>
-  <br>
-  <div>Tagliamo tutti i fili spinati</div>
-  <br>
-  <div class="luogo">Vag61</div>
-  <br>
-  <div id="info"><button type="button" onclick="alert('Mostra “Tagliamo tutti i fili spinati” e confronto pubblico contro l’apertura di nuovi CPR e la disaccoglienza. \nIniziativa condivisa con Vag61 in vista della manifestazione del 14/10/23.')">Info</button></div>
+<div data-event="nocpr" class="filterDiv ottobre nocpr evento assemblea conaltri">
+  <div class="data" style="margin-bottom:.5em;">10 ottobre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆💬</div>
+  <div style="margin-bottom:.5em;">Tagliamo tutti i fili spinati</div>
+  <div class="luogo" style="margin-bottom:.5em;">Vag61</div>
+  <div id="info"><button type="button" onclick="alert('Mostra “Tagliamo tutti i fili spinati” e confronto pubblico contro l’apertura di nuovi CPR e la disaccoglienza. \nOrganizzato con Vag61 in vista della manifestazione del 14/10/23.')">Info</button></div>
 </div>
 
 <!-- #5 -->
-<div data-event="mare" class="filterDiv ottobre mare proiezione daaltri">
-  <div class="data">10 ottobre 2023</div>
-  <br>
-  <div style="font-size: 18px;">🎥</div>
-  <br>
-  <div>Intervento a presidio CUA</div>
-  <br>
-  <div class="luogo">Luogo misterioso</div>
-  <br>
+<div data-event="mare" class="filterDiv ottobre mare proiezione piazza daaltri">
+  <div class="data" style="margin-bottom:.5em;">10 ottobre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎥✊</div>
+  <div style="margin-bottom:.5em;">Intervento a presidio CUA</div>
+  <div class="luogo" style="margin-bottom:.5em;">Luogo misterioso</div>
   <!-- <div id="info"><button type="button" onclick="alert('')">Info</button></div> -->
 </div>
 
-<!-- # -->
-<!-- <div data-event="" class="filterDiv ">
-  <div class="data"></div>
-  <br>
-  <div style="font-size: 18px;"></div>
-  <br>
-  <div></div>
-  <br>
-  <div class="luogo"></div>
-  <br>
-  <div id="info"><button type="button" onclick="alert('')">Info</button></div>
-</div> -->
+<!-- #6 -->
+<div data-event="nocpr" class="filterDiv ottobre nocpr piazza conaltri">
+  <div class="data" style="margin-bottom:.5em;">14 ottobre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">✊</div>
+  <div style="margin-bottom:.5em;">Manifestazione NO ai CPR</div>
+  <div class="luogo" style="margin-bottom:.5em;">Bologna centro</div>
+  <!-- <div id="info"><button type="button" onclick="alert('CPR merda.')">Info</button></div> -->
+</div>
 
+
+<!-- #7 -->
+<div data-event="altro" class="filterDiv ottobre altro evento daaltri">
+  <div class="data" style="margin-bottom:.5em;">14 ottobre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆</div>
+  <div style="margin-bottom:.5em;">Giornata di ringraziamento a Nuvoleto</div>
+  <div class="luogo" style="margin-bottom:.5em;">Nuvoleto</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #8 -->
+<div data-event="ucraina" class="filterDiv novembre ucraina presentazione daaltri">
+  <div class="data" style="margin-bottom:.5em;">6 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">📖</div>
+  <div style="margin-bottom:.5em;">Presentazione “Ucraina. Dentro una guerra che cambia il mondo” di Raffaele Luise</div>
+  <div class="luogo" style="margin-bottom:.5em;">Teatro Arena del Sole</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #9 -->
+<div data-event="salute" class="filterDiv novembre salute evento daaltri">
+  <div class="data" style="margin-bottom:.5em;">10 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆</div>
+  <div style="margin-bottom:.5em;">Evento Prometeo “Un pianeta in terapia intensiva”</div>
+  <div class="luogo" style="margin-bottom:.5em;">Vag61</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #10 -->
+<div data-event="intersezione" class="filterDiv novembre intersezione assemblea conaltri">
+  <div class="data" style="margin-bottom:.5em;">23 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">💬</div>
+  <div style="margin-bottom:.5em;">Assemblea su convergenza alle lotte (PLAT)</div>
+  <div class="luogo" style="margin-bottom:.5em;">Vag61</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #11 -->
+<div data-event="altro" class="filterDiv novembre altro evento daaltri">
+  <div class="data" style="margin-bottom:.5em;">25 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆</div>
+  <div style="margin-bottom:.5em;">Supporto a evento di autofinanziamento del Vag</div>
+  <div class="luogo" style="margin-bottom:.5em;">Vag61</div>
+  <!-- <div id="info"><button type="button" onclick="alert('Supporto a un evento del Vag.')">Info</button></div> -->
+</div>
+
+<!-- #12 -->
+<div data-event="salute" class="filterDiv novembre salute evento mediterranea">
+  <div class="data" style="margin-bottom:.5em;">26 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆</div>
+  <div style="margin-bottom:.5em;">Tampon Tax: distribuzione assorbenti in centro</div>
+  <div class="luogo" style="margin-bottom:.5em;">Bologna centro</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #13 -->
+<div data-event="ambiente" class="filterDiv novembre ambiente piazza daaltri">
+  <div class="data" style="margin-bottom:.5em;">30 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">✊</div>
+  <div style="margin-bottom:.5em;">Supporto a presidio di XR</div>
+  <div class="luogo" style="margin-bottom:.5em;">Tribunale di Bologna</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
+
+<!-- #14 -->
+<div data-event="palestina" class="filterDiv novembre palestina evento assemblea mediterranea">
+  <div class="data" style="margin-bottom:.5em;">30 novembre 2023</div>
+  <div style="font-size: 18px; margin-bottom:.5em;">🎆💬</div>
+  <div style="margin-bottom:.5em;">Cena e tavola rotonda di approfondimento sulla Palestina</div>
+  <div class="luogo" style="margin-bottom:.5em;">Cucine popolari</div>
+  <!-- <div id="info"><button type="button" onclick="alert('TESTOINFO')">Info</button></div> -->
+</div>
 
 
 </div>

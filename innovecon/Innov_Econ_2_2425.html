@@ -432,7 +432,7 @@ Nicola Campigotto
 <li><p>Review of some core concepts in microeconomics.</p></li>
 <li><p>Introduction to the economic theory of collusion.</p></li>
 <li><p>Some evidence on algorithmic collusion.</p></li>
-<li><p>Consequences of algorithmic collusion for entitrust law.</p></li>
+<li><p>Consequences of algorithmic collusion for antitrust law.</p></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -532,11 +532,6 @@ Nicola Campigotto
 <ul>
 <li>Formally: <span class="math inline">\(MC(Q) = \frac{\partial C(Q)}{\partial Q}\)</span></li>
 </ul>
-</section></section>
-<section>
-<section id="an-introduction-to-the-theory-of-collsion" class="title-slide slide level1 center">
-<h1>An introduction to the theory of collsion</h1>
-
 </section>
 <section id="the-bertrand-model" class="slide level2">
 <h2>The Bertrand model</h2>
@@ -660,9 +655,14 @@ p \geq c            &amp;\text{if} \quad p_2 \leq c \\
 <li><p>If, instead, Firm 1 lowered its price (i.e.&nbsp;<span class="math inline">\(p_1^{BN} &lt; c = p_2^{BN}\)</span>), then it would capture the entire market but would lose money on every unit it produced. Again, it would be worse off.</p></li>
 <li><p>Thus, Firm 1 (and likewise Firm 2) has no incentive to deviate: it is doing the best it can to maximize profit, given what its competitor is doing.</p></li>
 </ul>
+</section></section>
+<section>
+<section id="an-introduction-to-the-theory-of-collsion" class="title-slide slide level1 center">
+<h1>An introduction to the theory of collsion</h1>
+
 </section>
-<section id="lets-bring-collusion-into-the-picture" class="slide level2">
-<h2>Let’s bring collusion into the picture</h2>
+<section id="one-shot-collusion" class="slide level2">
+<h2>One-shot collusion</h2>
 <ul>
 <li><p>If the two firms decided to collude by <span class="alert">raising their prices at the same time</span>, each would see an increase in profits.</p></li>
 <li><p>The best outcome they could achieve would be the one that maximizes the firms’ <span class="alert">combined profit</span>, <span class="math display">\[ \pi(p) = (p - c) Q(p) =  (p - c)(a - bp) \]</span></p></li>
@@ -752,6 +752,275 @@ p \geq c            &amp;\text{if} \quad p_2 \leq c \\
 <li><p>In practice, it’s more realistic to assume that firms may eventually <span class="alert">abandon the costly punishment</span> phase and return to raising prices above the competitive level.</p></li>
 <li><p>This can also be the case when it’s AIs, rather than humans, engaging in collusion.</p></li>
 </ul>
+</section></section>
+<section>
+<section id="evidence-on-algorithmic-collusion" class="title-slide slide level1 center">
+<h1>Evidence on algorithmic collusion</h1>
+
+</section>
+<section id="algorithms-trained-on-historical-data" class="slide level2">
+<h2>Algorithms trained on historical data</h2>
+<ul>
+<li><p>The first generation of pricing algorithms followed <span class="alert">adaptive rules pre-set by programmers</span>.</p></li>
+<li><p>These algorithms typically worked by <span class="alert">analyzing past market data</span> to estimate the demand curve.</p></li>
+<li><p>Based on that demand estimate and how competitors had behaved in the past, they would then pick the price that would maximize profits.</p></li>
+<li><p>This approach was common to many other algorithms trained on human data — such as <span class="alert">AlphaGo</span>, the AI developed by Google DeepMind to play the board game Go, which was able to <a href="https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol">defeat Go master Lee Sedol</a>.</p></li>
+</ul>
+</section>
+<section id="algorithms-trained-on-historical-data-1" class="slide level2">
+<h2>Algorithms trained on historical data</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/8tq1C8spV_g" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="the-new-generation-of-algorithms" class="slide level2">
+<h2>The new generation of algorithms</h2>
+<ul>
+<li><p>Current algorithms can learn entirely on their own, <span class="alert">without requiring any prior data</span>.</p></li>
+<li><p>They are trained completely from scratch, starting from random behaviour.</p></li>
+<li><p>Once the AI is told what goal to aim for (e.g.&nbsp;profit maximization) and how often it is allowed to test out new strategies (e.g.&nbsp;new prices), it <span class="alert">independently learns the strategy that best helps it reach that goal</span>.</p></li>
+</ul>
+</section>
+<section id="the-new-generation-of-algorithms-1" class="slide level2">
+<h2>The new generation of algorithms</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/tXlM99xPQC8" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="algorithmic-pricing" class="slide level2">
+<h2>Algorithmic pricing</h2>
+<ul>
+<li><p>Recent price-setting algorithms often follow the logic of <span class="alert">reinforcement learning</span> <span class="citation" data-cites="calvanoetal2020aer">(<a href="#/references" role="doc-biblioref" onclick="">Calvano, Calzolari, Denicolò, and Pastorello 2020</a>)</span></p></li>
+<li><p>In a nutshell, this means that the AI tends to choose prices which, based on its own experience, are likely to maximize expected profits.</p></li>
+<li><p>Every so often, the AI will <span class="alert">try out new pricing strategies</span> to see how they perform. If a price tested during one of these trial runs (usually picked at random from a set range) leads to higher profits, the AI will keep using it in the future.</p></li>
+</ul>
+<div class="footer">
+<p>To read the paper, click <a href="https://doi.org/10.1257/aer.20190623">HERE</a>.</p>
+</div>
+</section>
+<section id="algorithmic-pricing-and-collusion" class="slide level2">
+<h2>Algorithmic pricing and collusion</h2>
+<ul>
+<li><p>The ability of algorithms to learn through experimentation makes it likely that, over time, the AIs will figure out that profit is maximized by coordinating on the collusive price, <span class="math inline">\(p^C\)</span>.</p></li>
+<li><p>The ability to stick to the collusive path depends on being able to punish those who deviates from it. The faster the reaction, the smaller the incentive to deviate.</p>
+<ul>
+<li>That is, AIs need real-time information about the prices chosen by other firms.</li>
+<li>This kind of information is no longer hard to access. See e.g.&nbsp;<a href="https://aws.amazon.com/it/api-gateway/">Amazon’s API Gateway</a>, which lets users monitor the price of all products sold on Amazon.</li>
+</ul></li>
+</ul>
+</section>
+<section id="algorithmic-pricing-evidence" class="slide level2">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-a-virtual-market">Evidence from a virtual market</h3>
+<ul>
+<li><p>Calvano et al. <span class="citation" data-cites="calvanoetal2020aer calvanoetal2020sci">(<a href="#/references" role="doc-biblioref" onclick="">2020</a>; <a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span> <span class="alert">programmed two identical algorithms and made them compete against each other</span> in a virtual market.</p></li>
+<li><p>The starting price for each algorithm, chosen arbitrarily by the authors, was the Bertrand-Nash price, <span class="math inline">\(p^{BN}\)</span>.</p></li>
+<li><p>The AIs were instructed to maximize profits over an infinite time horizon.</p></li>
+<li><p>Right away, they began experimenting with new strategies and reacting to each other’s choices.</p></li>
+</ul>
+<div class="footer">
+<p>To read the papers, click <a href="https://doi.org/10.1257/aer.20190623">HERE</a> and <a href="https://doi.org/10.1126/science.abe3796">HERE</a>.</p>
+</div>
+</section>
+<section id="algorithmic-pricing-evidence-1" class="slide level2">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-a-virtual-market-contd">Evidence from a virtual market (cont’d)</h3>
+<ul>
+<li>As a result, <span class="alert">prices gradually increased until they reached the collusive level</span>, <span class="math inline">\(p^C\)</span>.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Innov_Econ_2_2425_files/collusionai1.png" style="width:80.0%"></p>
+</figure>
+</div>
+</section>
+<section id="algorithmic-pricing-evidence-2" class="slide level2 scrollable">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-a-virtual-market-contd-1">Evidence from a virtual market (cont’d)</h3>
+<ul>
+<li><p>To understand whether the two AIs had truly learned to collude, Calvano and co-authors <span class="alert">forced one of them to drastically cut its price</span> during a specific round.</p></li>
+<li><p>Control was then handed back to the AI starting from the following round.</p></li>
+<li><p>This sudden price drop <span class="alert">triggered an immediate reaction</span> from the rival AI, causing a sharp fall in prices — just as the folk theorem predicts as punishment.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Innov_Econ_2_2425_files/collusionai3.png" style="width:80.0%"></p>
+</figure>
+</div>
+</section>
+<section id="algorithmic-pricing-evidence-3" class="slide level2 scrollable">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-a-virtual-market-contd-2">Evidence from a virtual market (cont’d)</h3>
+<ul>
+<li><p>However, because the algorithms learn through experimentation, they quickly recognized how costly a prolonged price war would be.</p></li>
+<li><p>As a result, they soon began raising prices again, eventually <span class="alert">returning to the pre-shock level</span>.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Innov_Econ_2_2425_files/collusionai2.png" style="width:80.0%"></p>
+</figure>
+</div>
+</section>
+<section id="algorithmic-pricing-evidence-4" class="slide level2">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-the-gasoline-market">Evidence from the gasoline market</h3>
+<ul>
+<li><p>Calvano et al.’s findings were produced in a controlled environment. Do these results have external validity?</p></li>
+<li><p>Yes they do, as shown by <span class="citation" data-cites="assadetal2024">Assad et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> in the context of the German gasoline market.</p></li>
+<li><p>In the summer of 2017, the Danish company <a href="https://www.a2isystems.com/">a2i</a> launched an algorithmic pricing software for gasoline in Germany.</p></li>
+<li><p>After its introduction, gas stations using the software saw a significant increase in profit margins.</p></li>
+</ul>
+<div class="footer">
+<p>To read the paper, click <a href="https://doi.org/10.1086/726906">HERE</a>.</p>
+</div>
+</section>
+<section id="algorithmic-pricing-evidence-5" class="slide level2">
+<h2>Algorithmic pricing: evidence</h2>
+<h3 id="evidence-from-the-gasoline-market-1">Evidence from the gasoline market</h3>
+<ul>
+<li><p>Stations in <span class="alert">highly competitive areas</span> that adopted the software experienced an average markup increase of 9%.</p></li>
+<li><p>Stations operating in <span class="alert">duopoly conditions</span> (i.e.&nbsp;areas with only two stations) saw their markup rise by over 30%.</p></li>
+<li><p>Meanwhile, stations with <span class="alert">no nearby competitors</span> showed no change in markup — since they were already charging monopoly-level prices.</p></li>
+<li><p>This strongly suggests that the rise in profit margins was due to algorithmic collusion, not to other factors.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="algorithmic-collusion-and-antitrust-law" class="title-slide slide level1 center">
+<h1>Algorithmic collusion and antitrust law</h1>
+
+</section>
+<section id="us-antitrust-regulation" class="slide level2">
+<h2>US antitrust regulation</h2>
+<h3 id="the-sherman-act">The Sherman act</h3>
+<ul>
+<li><p>US antitrust law has deep roots, dating back to the <a href="https://www.govinfo.gov/content/pkg/COMPS-3055/pdf/COMPS-3055.pdf">Sherman Act</a> (1890) and the <a href="https://www.govinfo.gov/content/pkg/COMPS-3049/pdf/COMPS-3049.pdf">Clayton Act</a> (1914).</p></li>
+<li><p>The Sherman Act explicitly bans anti-competitive agreements, stating in Section 1 that: <span class="quotation">“Every contract, combination in the form of trust or other- wise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations, is hereby declared to be illegal.”</span></p></li>
+</ul>
+</section>
+<section id="us-antitrust-regulation-1" class="slide level2">
+<h2>US antitrust regulation</h2>
+<h3 id="the-rule-of-reason-and-the-per-se-rule">The rule of reason and the per se rule</h3>
+<ul>
+<li>Over time, US Supreme Court rulings have helped shape a body of case law that tries to balance two different principles:
+<ol type="1">
+<li><p><span class="alert">Rule of reason:</span> This approach requires courts to <span class="alert">evaluate the actual effects</span> of a business practice. An agreement or action is only considered illegal if it leads to reduced competition or harms market efficiency.</p></li>
+<li><p><span class="alert">Per se rule:</span> Some actions are considered <span class="alert">automatically illegal</span>, regardless of their actual impact on the market.</p>
+<p>The idea is that these practices are so clearly harmful to competition that no further analysis is needed</p></li>
+</ol></li>
+</ul>
+</section>
+<section id="us-antitrust-regulation-2" class="slide level2 scrollable">
+<h2>US antitrust regulation</h2>
+<h3 id="price-fixing-and-the-per-se-rule">Price fixing and the per se rule</h3>
+<ul>
+<li><p>Currently, and for several decades now, price-fixing agreements have been judged under a <span class="alert">strict application of the per se rule</span>.</p></li>
+<li><p>One of the most important cases is <a href="https://supreme.justia.com/cases/federal/us/310/150/">United States v. Socony-Vacuum Oil</a> (1940), in which the Supreme Court ruled that: <span class="quotation">“Whatever economic justification particular price-fixing agreements may be thought to have, the law does not permit an inquiry into their reasonableness. They are all banned.”</span></p></li>
+<li><p>More recently, in <a href="https://supreme.justia.com/cases/federal/us/457/332/#T23">Arizona v. Maricopa County Medical Society</a> (1982), the Court reaffirmed that: <span class="quotation">“The anticompetitive potential in all price-fixing agreements justifies their facial invalidation even if procompetitive justifications are offered for some.”</span></p></li>
+</ul>
+</section>
+<section id="eu-antitrust-regulation" class="slide level2 scrollable">
+<h2>EU antitrust regulation</h2>
+<h3 id="the-treaty-of-rome">The Treaty of Rome</h3>
+<ul>
+<li><p>Similar features to US antitrust law can be found in the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=legissum:xy0023">Treaty of Rome</a> (1957), which later became part of the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=legissum:4301854">Treaty on the Functioning of the European Union</a> (TFEU) and the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=legissum:em0024">Agreement on the European Economic Area</a> (EEA).</p></li>
+<li><p>Article 85 of the Treaty of Rome, Article 101 of the TFEU, and Article 53 of the EEA state that: <span class="quotation">“The following shall be prohibited as incompatible with the internal market: all agreements between undertakings, decisions by associations of undertakings and concerted practices which may affect trade between Member States and which have as their object or effect the prevention, restriction or distortion of competition within the internal market, and in particular those which directly or indirectly fix purchase or selling prices or any other trading conditions; […]</span></p></li>
+</ul>
+</section>
+<section id="eu-antitrust-regulation-1" class="slide level2">
+<h2>EU antitrust regulation</h2>
+<h3 id="the-bonduelle---conserve-italia-case">The Bonduelle - Conserve Italia case</h3>
+<ul>
+<li><p>A recent, emblematic case of price-fixing involved Conserve Italia and Bonduelle, which were <a href="https://competition-cases.ec.europa.eu/cases/AT.40127">found guilty</a> by the European Commission of forming a cartel in the canned vegetable market between 2000 and 2013.</p></li>
+<li><p>A series of unannounced inspections provided the Commission with evidence of frequent meetings between the managers of both companies, often held in private homes, where <span class="quotation">“individuals were referred to by codenames, communicated using prepaid mobile telephones or private email addresses, and exchanged information using dedicated laptops and USB keys.”</span></p></li>
+</ul>
+<div class="footer">
+<p>To read the Commission’s press releases, click <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_19_5911">HERE</a> and <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_21_6164">HERE</a>.</p>
+</div>
+</section>
+<section id="eu-antitrust-regulation-2" class="slide level2">
+<h2>EU antitrust regulation</h2>
+<h3 id="the-treaty-of-rome-contd">The Treaty of Rome (cont’d)</h3>
+<ul>
+<li><p>The third paragraph of Articles 101 TFEU and 53 EEA introduces a reasonableness clause.</p></li>
+<li><p>Unlike the US per se rule, Paragraph 3 states that the provisions of Paragraph 1 may be declared inapplicable if they <span class="quotation">“contribute to improving the production or distribution of products or to promoting technical or economic progress.”</span></p></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="the-us-case">The US case</h3>
+<ul>
+<li><p>A violation of the Sherman Act is recognized in situations where firms have <span class="quotation">“a unity of purpose or a common design and understanding, or a meeting of minds in an unlawful arrangement”</span> (<a href="https://supreme.justia.com/cases/federal/us/328/781/">American Tobacco v. United States, 1946</a>).</p></li>
+<li><p>This principle, repeatedly affirmed by the Supreme Court, requires that <span class="quotation">“there must be direct or circumstantial evidence that reasonably tends to prove that the manufacturer and others had a conscious commitment to a common scheme designed to achieve an unlawful objective”</span> (<a href="https://supreme.justia.com/cases/federal/us/465/752/">Monsanto v. Spray-Rite Services, 1984</a>).</p></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-1" class="slide level2 scrollable">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="the-us-case-1">The US case</h3>
+<ul>
+<li><p>Moreover, <span class="quotation">“There must be evidence that tends to exclude the possibility that the manufacturer and distributors were acting independently”</span> (<a href="https://supreme.justia.com/cases/federal/us/465/752/">Monsanto v. Spray-Rite Services, 1984</a>).</p></li>
+<li><p>Cases where simultaneous price movements are due to independent strategic choices fall under the category of <span class="alert">tacit collusion</span>, which is <span class="alert">not governed by any agreement</span> and <span class="alert">escape antitrust violation laws</span> <span class="citation" data-cites="page:2017">(<a href="#/references" role="doc-biblioref" onclick="">Page 2017</a>)</span>.</p></li>
+</ul>
+<div class="footer">
+<p>To read the paper, click <a href="https://www.jstor.org/stable/26411573">Here</a>.</p>
+</div>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-2" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="the-us-case-contd">The US case (cont’d)</h3>
+<ul>
+<li><p>It is immediately clear that this legal approach makes it difficult to protect markets from algorithmic collusion.</p></li>
+<li><p>Algorithms that take their own decisions <span class="alert">without external communication</span> and <span class="alert">based on publicly available information</span>, and which decide to coordinate on the collusive price <span class="math inline">\(p^C\)</span> <span class="alert">without specific instructions</span>, are not violating the Sherman Act.</p></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-3" class="slide level2 scrollable">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="the-us-case-contd-1">The US case (cont’d)</h3>
+<ul>
+<li><p>According to Calvano et al. <span class="citation" data-cites="calvanoetal2020sci">(<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>, a potentially relevant common law precedent is <a href="https://law.justia.com/cases/federal/appellate-courts/ca7/16-3017/16-3017-2017-08-07.html">United States v. Coscia</a> (2017), in which the defendant was convicted for using financial trading algorithms to inflate or deflate the commodity market for speculative purposes.</p></li>
+<li><p>Hoever, there are two issues that Calvano and co-authors seem to overlook:</p>
+<ol type="1">
+<li>Coscia was convicted for violating the Dodd-Frank Act, not the Sherman Act. Thus, it’s not guaranteed that this ruling can serve as a precedent for collusion cases.</li>
+<li>In the trial, a software developer testified that Coscia specifically asked him to make the algorighm <span class="quotation">“act like a decoy which would be used to pump the market.”</span></li>
+</ol></li>
+<li><p>As a result, the ruling may not be applicable in cases where the algorithm is not programmed with the explicit goal of committing an illegal act (like in the Coscia case), but is instead left free to learn the most profitable course of action.</p></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-4" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="the-eu-case">The EU case</h3>
+<ul>
+<li><p>European regulations <span class="alert">face similar issues</span>, as algorithmic collusion could potentially bypass the protection offered by Article 101 TFEU.</p></li>
+<li><p>For example, in a <a href="https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=PI_COM%3AAres(2020)2877634">reform proposal</a> made by the European Commission in 2020, it is acknowledged that there are structural competition problems that these rules cannot tackle, such as <span class="quotation">“the increased risk for tacit collusion […] due to algorithm-based technological solutions (which are becoming increasingly prevalent across sectors).”</span></p></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-5" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="no-clear-solution-yet">No clear solution yet <span style="font-style: normal;">☹️</span></h3>
+<ul>
+<li>Calvano et al. <span class="citation" data-cites="calvanoetal2020sci">(<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: <span class="alert">ban entire families of altorithms altogether</span>.
+<ul>
+<li>In the US this could be possible under Section 5 of the Federal Trade Commission Act, which prohibits unfair and deceptive business practices.</li>
+<li>However, this approach might run into problems with the constant development of new algorithms that could be quite different from the ones that are banned, allowing them to slip through the cracks and making it necessary to update the law regularly</li>
+</ul></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-6" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="no-clear-solution-yet-contd">No clear solution yet <span style="font-style: normal;">☹️</span> (cont’d)</h3>
+<ul>
+<li>Calvano et al. <span class="citation" data-cites="calvanoetal2020sci">(<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: in markets where pricing algorithms are common, antitrust authorities authorities could investigate <span class="alert">whenever price trends seem suspicious</span>.
+<ul>
+<li>For example, in the case of synchronized price increases followed by sudden decreases, which could be signs of punitive behaviour for straying from a collusive path.</li>
+<li>Firms’ pricing <span class="alert">algorithms can be audited and tested</span> to understand whether they are adopting retaliatory pricing rules.</li>
+</ul></li>
+</ul>
+</section>
+<section id="how-to-regulate-algorithmic-collusion-7" class="slide level2">
+<h2>How to regulate algorithmic collusion?</h2>
+<h3 id="no-clear-solution-yet-contd-1">No clear solution yet <span style="font-style: normal;">☹️</span> (cont’d)</h3>
+<ul>
+<li><span class="citation" data-cites="harrington2019">Harrington Jr. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span>: Make firms <span class="alert">legally responsible for the pricing rules that their algorithms adopt</span>.
+<ul>
+<li><span class="alert">The idea:</span> When a firm chooses to use an AI to maximize profits, and has it monitor and react to the behavior of its competitors — perhaps even knowing (or making an educated guess) that they are doing the same — it is voluntarily contributing to the potential for algorithmic collusion in the market.</li>
+<li>Holding firms accountable for their algorithms may <span class="alert">incentivize them to prevent collusion</span> by routinely monitoring the output of their learning algorithms.</li>
+</ul></li>
+</ul>
 <!-- ## Today's roadmap
 
 * ❓[Today's questions:]{.alert}    
@@ -775,10 +1044,13 @@ Calvano, Emilio, Giacomo Calzolari, Vincenzo Denicolò, Joseph E. Harrington Jr.
 Calvano, Emilio, Giacomo Calzolari, Vincenzo Denicolò, and Sergio Pastorello. 2020. <span>“Artificial Intelligence, Algorithmic Pricing, and Collusion.”</span> <em>American Economic Review</em> 110 (10): 3267–97. <a href="https://doi.org/10.1257/aer.20190623">https://doi.org/10.1257/aer.20190623</a>.
 </div>
 <div id="ref-friedman:1971" class="csl-entry" role="listitem">
-Friedman, James W. 1971. <span>“A Non-Cooperative Equilibrium for Supergames.”</span> <em>Review of Economic Studies</em> 38 (1): 1–12.
+Friedman, James W. 1971. <span>“A Non-Cooperative Equilibrium for Supergames.”</span> <em>Review of Economic Studies</em> 38 (1): 1–12. <a href="https://doi.org/10.2307/2296617">https://doi.org/10.2307/2296617</a>.
 </div>
 <div id="ref-harrington2019" class="csl-entry" role="listitem">
 Harrington Jr., Joseph E. 2019. <span>“Developing Competition Law for Collusion by Autonomous Price-Setting Agents.”</span> <em>Journal of Competition Law &amp; Economics</em> 14 (3): 331–63. <a href="https://doi.org/10.1093/joclec/nhy016">https://doi.org/10.1093/joclec/nhy016</a>.
+</div>
+<div id="ref-page:2017" class="csl-entry" role="listitem">
+Page, William H. 2017. <span>“Tacit Agreement Under Section 1 of the Sherman Act.”</span> <em>Antitrust Law Journal</em> 81 (2): 593–640. <a href="https://www.jstor.org/stable/26411573">https://www.jstor.org/stable/26411573</a>.
 </div>
 </div>
 <div class="footer footer-default">

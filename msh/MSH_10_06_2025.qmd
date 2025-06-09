@@ -12,17 +12,8 @@ auto-stretch: false
 ---
 
 
-## {background-opacity=0.8 background-image="MSH_10_06_2025_files/MJ.jpg"}
+## {background-image="MSH_10_06_2025_files/cover.png"}
 
-<br>
-
-:::{.center}
-
-![](MSH_10_06_2025_files/mshlogo.svg){width=100%}
-
-[10 giugno 2025]{.data}
-
-:::
 
 
 ## Un po' di riscaldamento 

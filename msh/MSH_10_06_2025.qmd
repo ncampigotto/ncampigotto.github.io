@@ -1,0 +1,260 @@
+---
+format:
+  revealjs: 
+    html-math-method: mathjax
+    theme: prova.scss
+    # css: styles.css
+    slide-number: false
+    chalkboard: 
+      buttons: false
+lang: en
+auto-stretch: false
+---
+
+
+## {background-opacity=0.8 background-image="MSH_10_06_2025_files/MJ.jpg"}
+
+<br>
+
+:::{.center}
+
+![](MSH_10_06_2025_files/mshlogo.svg){width=100%}
+
+[10 giugno 2025]{.data}
+
+:::
+
+
+## Un po' di riscaldamento 
+
+* [Da dove proviene la maggior parte dellə
+migranti internazionali?]{.alert}
+
+* Per rispondere (in modo anonimo) puoi: 
+    - Andare su [www.slido.com](https://www.slido.com) e inserire il codice `2815 359`.
+    - Scansionare il codice QR qui sotto.   
+
+    ![](MSH_10_06_2025_files/provenienzaqr.svg){width=20%}
+
+
+## Un po' di riscaldamento (2)
+
+* [Qual è il paese al mondo che accoglie più richiedenti asilo?]{.alert}
+
+* Per rispondere (in modo anonimo) puoi: 
+    - Andare su [www.slido.com](https://www.slido.com) e inserire il codice `5927 587`.
+    - Scansionare il codice QR qui sotto.   
+
+    ![](MSH_10_06_2025_files/asiloqr.svg){width=20%}
+
+
+## Un po' di riscaldamento (3)
+
+* [Complessivamente, quanti km di muri che separano paesi ci sono nel mondo?]{.alert}
+
+* Per rispondere (in modo anonimo) puoi: 
+    - Andare su [www.slido.com](https://www.slido.com) e inserire il codice `3511 254`.
+    - Scansionare il codice QR qui sotto.   
+
+    ![](MSH_10_06_2025_files/muroqr.svg){width=20%}
+
+
+
+
+## Le vostre risposte - Domanda 1
+
+<iframe src="https://wall.sli.do/event/9YPtWsfuKimXYF8XEULUeb?section=8470308a-f05d-4dd0-aff0-a1523337bf84" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+
+
+## Le vostre risposte - Domanda 2
+
+<iframe src="https://wall.sli.do/event/vjUy89G2yPrrRGE6UniefZ?section=83a795f8-279c-4e28-a171-9d3c0fc0e75e" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+
+
+## Le vostre risposte - Domanda 3
+
+<iframe src="https://wall.sli.do/2bTR1vFj4GmTRQBXyGJrf9?section=abe5dcb7-c702-4fce-ad14-1651998fbc24" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+
+
+## Flussi migratori nel mondo
+
+:::{.center}
+![](MSH_10_06_2025_files/migrantflow.png){width=100%}
+:::
+
+
+## Persone rifiugiate nel mondo
+
+<br>
+<br>
+
+:::{.center}
+![](MSH_10_06_2025_files/astalli.png){width=120%}
+:::
+
+:::{.footer}
+Fonte: [UNHCR Global Trends report 2023](https://www.unhcr.org/global-trends-report-2023)
+:::
+
+## Km di muri nel mondo: circa 40.000
+
+:::{.center}
+![](MSH_10_06_2025_files/muri.png){width=85%}
+:::
+
+## Km di muri in Europa: oltre 2.000 {.scrollable}
+
+:::{.center}
+![](MSH_10_06_2025_files/borderwallseu.jpg){width=85%}
+:::
+
+## Un passo indietro
+
+* [Ottobre 2013:]{.alert} pochi giorni dopo il naufragio di Lampedusa del 3 ottobre, in cui perdono la vita 368 persone, il Governo italiano lancia la missione [*"Mare Nostrum"*]{.alert}
+    - Stanziati 9M euro/mese ed eseguiti 558 interventi di ricerca e soccorso nel Mediterraneo
+    - Oltre 100.000 persone soccorse
+    - Le navi italiane si spingono fino a 400 miglia nautiche a sud di Lampedusa, quasi in prossimità delle coste libiche
+
+## Un passo indietro
+
+* [Ottobre 2014:]{.alert} la missione “Mare Nostrum” viene sostituita da [“Triton”]{.alert}    
+    - La nuova missione è finanziata non dal Governo italiano ma da [FRONTEX]{.alert}, l'Agenzia europea della guardia di frontiera e costiera
+    - Budget ridotto di due terzi rispetto a Mare Nostrum
+    - L'obiettivo non è più il salvataggio in mare, ma il [controllo delle frontiere]{.alert}
+    - I mezzi non possono spingersi oltre le 30 miglia nautiche di distanza
+
+
+## La crescita di Frontex 
+
+:::{.center}
+![](MSH_10_06_2025_files/frontex_budget.png){width=100%}
+:::
+
+:::{.footer}
+Fonte: [Altreconomia](https://altreconomia.it/il-ricatto-europeo-targato-frontex-sui-rimpatri-volontari-dei-migranti/)
+:::
+
+
+## Esternalizzazione delle frontiere 
+
+:::{.center}
+![](MSH_10_06_2025_files/sar.png){width=100%}
+:::
+
+:::{.footer}
+Fonte: [Irpimedia](https://irpimedia.irpi.eu/libia-coordinamento-salvataggi-in-mare/)
+:::
+
+## Esternalizzazione delle frontiere 
+
+:::{.center}
+![Lager libici](MSH_10_06_2025_files/libia.png){width=85%}
+:::
+
+## Esternalizzazione delle frontiere 
+
+:::{.center}
+![Il generale Almasri, accusato dalla corte dell'Aia di crimini contro l'umanità, riportato in Libia dal Governo Meloni con un volo di stato](MSH_10_06_2025_files/almasri.jpg){width=90%}
+:::
+
+
+## La flotta civile
+
+* Unica presenza nel Mediterraneo a operare attività di ricerca e soccorso senza finalità di controllo dei confini
+
+* Occhi indipendenti e voce di denuncia sulle morti provocate dalla politica delle frontiere
+
+:::{.center}
+![](MSH_10_06_2025_files/fermi.png){width=100%}
+:::
+
+## {background-image="MSH_10_06_2025_files/civilfleet.png" background-size="contain"}
+
+
+## La Mare Jonio 
+
+* Salpa il 4 ottobre 2018 da Augusta in risposta alla politica dei porti chiusi dell'allora Ministro dell'Interno Matteo Salvini e all'indignazione per le migliaia di morti nel Mediterraneo.
+
+* Prima e tuttora unica nave del soccorso civile battente bandiera italiana.
+
+* Dal 2018 al 2025, 21 missioni in mare e 1447 persone soccorse.
+
+:::{.center}
+![](MSH_10_06_2025_files/jack.jpg){width=30%}
+:::
+
+## {background-image="MSH_10_06_2025_files/mj2018.jpg" background-opacity=1 background-size="stretch"}
+
+## {background-image="MSH_10_06_2025_files/mjrhib.png" background-opacity=1 background-size="stretch"}
+
+
+## Le segnalazioni
+
+* Spesso avvengono tramite [Alarm Phone]{.alert}, ma anche grazie ai [velivoli]{.alert} della flotta civile.
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![Alarm Phone](MSH_10_06_2025_files/alarmphone.png){width=100%}
+:::
+
+::: {.column width="33%"}
+![Colibri](MSH_10_06_2025_files/colibri.png){width=100%}
+:::
+
+::: {.column width="33%"}
+![Sea Bird I](MSH_10_06_2025_files/Sea%20Bird.png){width=100%}
+:::
+
+::::
+
+
+
+## L'attività di *search and rescue*
+
+{{< video https://www.youtube.com/watch?v=j9SLe4XZ998 width=100% height="100%" >}}
+
+
+## Criminalizzazione della solidarietà: porti lontani
+
+::: {.center}
+![La Ocean Viking al porto di Ancona, maggio 2025](MSH_10_06_2025_files/oceanviking.jpeg){width=40%}
+:::
+
+## Criminalizzazione della solidarietà: fermi e multe
+
+::: {.center}
+![](MSH_10_06_2025_files/smonto.png){width=90%}
+:::
+
+:::{.footer}
+Fonte: [Avvenire](https://www.avvenire.it/attualita/pagine/mare-jonio-bloccata)
+:::
+
+## Criminalizzazione della solidarietà: il caso Paragon
+
+::: {.center}
+![](MSH_10_06_2025_files/guardian.png){width=90%}
+:::
+
+:::{.footer}
+Fonte: [The Guardian](https://www.theguardian.com/world/2025/mar/27/italian-government-approved-use-of-spyware-on-members-of-refugee-ngo-mps-told)
+:::
+
+## Criminalizzazione della solidarietà: accuse di favoreggiamento dell'immigrazione
+
+::: {.center}
+![](MSH_10_06_2025_files/ilpost.png){width=85%}
+:::
+
+:::{.footer}
+Fonte: [Il Post](https://www.ilpost.it/2025/05/29/mare-jonio-processo-salvataggio-migranti-luca-casarini/)
+:::
+
+
+
+## Criminalizzazione della solidarietà: la cosiddetta guardia costiera libica
+
+{{< video https://www.youtube.com/watch?v=K0C8XyC2flc width=100% height="85%" >}}
+
+

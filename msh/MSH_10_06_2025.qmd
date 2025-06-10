@@ -14,6 +14,14 @@ auto-stretch: false
 
 ## {background-image="MSH_10_06_2025_files/cover.png"}
 
+<br>
+
+<!-- ![](MSH_10_06_2025_files/mshlogo.svg){width=100%}
+
+:::{.center}
+[10 giugno 2025]{.data}
+::: -->
+
 
 
 ## Un po' di riscaldamento 
@@ -41,7 +49,7 @@ migranti internazionali?]{.alert}
 
 ## Un po' di riscaldamento (3)
 
-* [Complessivamente, quanti km di muri che separano paesi ci sono nel mondo?]{.alert}
+* [Complessivamente, quanti sono i km di muro che separano paesi nel mondo?]{.alert}
 
 * Per rispondere (in modo anonimo) puoi: 
     - Andare su [www.slido.com](https://www.slido.com) e inserire il codice `3511 254`.
@@ -87,13 +95,13 @@ migranti internazionali?]{.alert}
 Fonte: [UNHCR Global Trends report 2023](https://www.unhcr.org/global-trends-report-2023)
 :::
 
-## Km di muri nel mondo: circa 40.000
+## Km di muro nel mondo: circa 40.000
 
 :::{.center}
 ![](MSH_10_06_2025_files/muri.png){width=85%}
 :::
 
-## Km di muri in Europa: oltre 2.000 {.scrollable}
+## Km di muro in Europa: oltre 2.000 {.scrollable}
 
 :::{.center}
 ![](MSH_10_06_2025_files/borderwallseu.jpg){width=85%}
@@ -145,7 +153,7 @@ Fonte: [Irpimedia](https://irpimedia.irpi.eu/libia-coordinamento-salvataggi-in-m
 ## Esternalizzazione delle frontiere 
 
 :::{.center}
-![Il generale Almasri, accusato dalla corte dell'Aia di crimini contro l'umanità, riportato in Libia dal Governo Meloni con un volo di stato](MSH_10_06_2025_files/almasri.jpg){width=90%}
+![Il generale Almasri, accusato dalla corte dell'Aia di crimini contro l'umanità, riportato in Libia dal Governo Meloni con un volo di stato](MSH_10_06_2025_files/almasri.jpg){width=80%}
 :::
 
 
@@ -166,11 +174,12 @@ Fonte: [Irpimedia](https://irpimedia.irpi.eu/libia-coordinamento-salvataggi-in-m
 
 * Salpa il 4 ottobre 2018 da Augusta in risposta alla politica dei porti chiusi dell'allora Ministro dell'Interno Matteo Salvini e all'indignazione per le migliaia di morti nel Mediterraneo.
 
-* Prima e tuttora unica nave del soccorso civile battente bandiera italiana.
+* Prima e tuttora unica nave del soccorso civile [battente bandiera italiana]{.alert}.
 
 * Dal 2018 al 2025, 21 missioni in mare e 1447 persone soccorse.
 
 :::{.center}
+![](MSH_10_06_2025_files/primo-soccorso.jpg){width=30%}
 ![](MSH_10_06_2025_files/jack.jpg){width=30%}
 :::
 
@@ -222,6 +231,11 @@ Fonte: [Irpimedia](https://irpimedia.irpi.eu/libia-coordinamento-salvataggi-in-m
 Fonte: [Avvenire](https://www.avvenire.it/attualita/pagine/mare-jonio-bloccata)
 :::
 
+## Criminalizzazione della solidarietà: la cosiddetta guardia costiera libica
+
+{{< video https://www.youtube.com/watch?v=K0C8XyC2flc width=100% height="85%" >}}
+
+
 ## Criminalizzazione della solidarietà: il caso Paragon
 
 ::: {.center}
@@ -231,6 +245,7 @@ Fonte: [Avvenire](https://www.avvenire.it/attualita/pagine/mare-jonio-bloccata)
 :::{.footer}
 Fonte: [The Guardian](https://www.theguardian.com/world/2025/mar/27/italian-government-approved-use-of-spyware-on-members-of-refugee-ngo-mps-told)
 :::
+
 
 ## Criminalizzazione della solidarietà: accuse di favoreggiamento dell'immigrazione
 
@@ -242,10 +257,162 @@ Fonte: [The Guardian](https://www.theguardian.com/world/2025/mar/27/italian-gove
 Fonte: [Il Post](https://www.ilpost.it/2025/05/29/mare-jonio-processo-salvataggio-migranti-luca-casarini/)
 :::
 
+## E ora?
+
+* La Sea-Eye 4 diventa Mediterranea.
+
+::: {.center}
+![](MSH_10_06_2025_files/nuovanave.jpg){width=100%}
+:::
 
 
-## Criminalizzazione della solidarietà: la cosiddetta guardia costiera libica
 
-{{< video https://www.youtube.com/watch?v=K0C8XyC2flc width=100% height="85%" >}}
+## La nuova frontiera dell'esternalizzazione
+
+### L'accordo Italia-Albania e i centri di Shengjin e Gjader
+
+::: {.center}
+![](MSH_10_06_2025_files/albania.png){width=85%}
+:::
+
+## La nuova frontiera dell'esternalizzazione
+
+### La nave Libra della Marina Militare 
+
+::: {.center}
+![](MSH_10_06_2025_files/libra.png){width=90%}
+:::
+
+
+
+## CPR
+
+* Istituiti per la prima volta nel 1998 (legge Turco-Napolitano)
+
+* Strutture detentive dove vengono reclusi i cittadini stranieri che [non hanno commesso reati]{.alert} ma [sprovvisti di permesso di soggiorno]{.alert} in corso di validità (ossia in presenza di un illecito amministrativo).    
+    - Si parla per questo di [detenzione amministrativa]{.alert}
+    - Detenzione motivata dall'idea che "la pesona irregolare è potenzialmente pericolosa" (cit. Minniti 2017)
+
+* Il funzionamento è di competenza del Prefetto, che attraverso dei bandi affida la gestione della struttura a [soggetti privati]{.alert}. 
+
+
+## CPR
+
+* Durata massima del trattenimento: attualmente è [18 mesi]{.alert} (nel tempo è andata crescendo).
+
+* Motivo del trattenimento: permettere l'esecuzione di un decreto di [espulsione]{.alert} o respingimento, dovuto dalla mancanza di permesso di soggiorno.
+    - Il rimpatrio avviene di fatto in [meno della metà dei casi]{.alert}.
+    - Per rimpatriare una persona serve un accordo bilaterale tra l'Italia e il Paese di provenienza, ma questi accordi mancano con molti Stati. 
+
+## CPR: ingressi, uscite, rimpatri
+
+::: {.center}
+![](MSH_10_06_2025_files/actionaid2.png){width=80%}
+:::
+
+:::{.footer}
+Fonte: [ActionAID e Università di Bari](https://trattenuti.actionaid.it/wp-content/uploads/2024/10/Rapporto-Trattenuti_DEF.pdf)
+:::
+
+## CPR: capienza
+
+::: {.center}
+![](MSH_10_06_2025_files/actionaid1.png){width=40%}
+:::
+
+:::{.footer}
+Fonte: [ActionAID e Università di Bari](https://trattenuti.actionaid.it/wp-content/uploads/2024/10/Rapporto-Trattenuti_DEF.pdf)
+:::
+
+
+## CPR: dove?
+
+::: {.center}
+![](MSH_10_06_2025_files/cpr.png){width=90%}
+:::
+
+## CPR: dall'alto
+
+::: {.center}
+![Il CPR di Palazzo San Gervasio](MSH_10_06_2025_files/gervasio.png){width=80%}
+:::
+
+## CPR: dentro
+
+![](MSH_10_06_2025_files/pontegaleria.png){width=50% fig-align="center"} ![](MSH_10_06_2025_files/soli.mp4){width=35% fig-align="center"}
+
+
+## CPR: dentro
+
+::: {.center}
+
+![](MSH_10_06_2025_files/bagni.mp4){width=35% fig-align="center"} [......]{.data} ![](MSH_10_06_2025_files/cibo.mp4){width=35% fig-align="center"}
+
+:::
+
+
+## CPR: dentro
+
+![](MSH_10_06_2025_files/fuoco.mp4){width=35% fig-align="center"}
+
+
+## CPR: valutazione di idoneità {.scrollable}
+
+::: {.center}
+![](MSH_10_06_2025_files/certidoneit%C3%A0.png){width=80%}
+:::
+
+:::{.footer}
+Fonte: [CILD](https://cild.eu/wp-content/uploads/2024/11/CILD_Chiusi_in_Gabbia_web.pdf)
+:::
+
+## I CPR: valutazione di idoneità
+
+![](MSH_10_06_2025_files/idoneo.mp4){width=35% fig-align="center"}
+
+
+## CPR: convalida del giudice di pace
+
+* Durata media dell'udienza: 300 secondi
+
+::: {.center}
+![](MSH_10_06_2025_files/lexilium.png){width=70%}
+:::
+
+:::{.footer}
+Fonte: [ASGI](https://www.asgi.it/wp-content/uploads/2024/05/Lexilium-2024-def.pdf)
+:::
+
+
+## CPR: abuso di psicofarmaci
+
+::: {.center}
+![](MSH_10_06_2025_files/psico.png){width=100%}
+:::
+
+:::{.footer}
+Fonte: [Altreconomia](https://altreconomia.it/rinchiusi-e-sedati-labuso-quotidiano-di-psicofarmaci-nei-cpr-italiani/)
+:::
+
+## CPR: abuso di psicofarmaci
+
+![](MSH_10_06_2025_files/valium.mp4){width=35% fig-align="center"}
+
+## CPR:  i "servizi"
+
+![](MSH_10_06_2025_files/servizi.png){width=80% fig-align="center"}
+
+:::{.footer}
+Fonte: [CILD](https://cild.eu/wp-content/uploads/2024/11/CILD_Chiusi_in_Gabbia_web.pdf)
+:::
+
+## CPR: i "servizi"
+
+![](MSH_10_06_2025_files/epil.mp4){width=35% fig-align="center"}
+
+## Sporchi, ladri e stupratori
+
+![](MSH_10_06_2025_files/ladri.png){width=90% fig-align="center"}
+
 
 

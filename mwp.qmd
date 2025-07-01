@@ -1,0 +1,70 @@
+---
+format:
+  revealjs: 
+    html-math-method: mathjax
+    theme: prova.scss
+    # css: styles.css
+    slide-number: false
+    chalkboard: 
+      buttons: false
+lang: en
+auto-stretch: false
+---
+
+
+## Classificazione violazioni
+
+![](mwp_files/tabellaviolazioni.png){width=80% fig-align="center"}
+
+
+## Frequenza giornaliera violazioni
+### Totale giorni di monitoraggio: 129
+
+![](mwp_files/calendar.png){width=100%}
+
+
+## Distribuzione geografica violazioni {.scrollable}
+### 838 violazioni in 27 villaggi
+
+![Eventi per villaggio: Ad Deirat 2; Al Fakheit 10; Al Mufaqarah 4; Anizan 3; Ar Rakeez 50; Ar Rafa'yya 1; As Samu 2; Ghuwein 1; Halaweh 4; Haribat an-Nabi 47; Hiwara 34; Imneizil 2; Isfey 9; Jawwaya 23; Jinba 37; Khallet Athaba 83; Maghayir al Abeed 2; Qawawis 32; Shi'b al Botom 56; Susiya 150; Thala 10; Tiran 14; Tuba 6; Tuwani 93; Umm al Khair 46; Umm Dhorit 87; Zanuta 15](mwp_files/mappa.png){width=100%}
+
+
+## Distribuzione delle violazioni per categoria {.scrollable}
+### Valori assoluti tra parentesi
+
+![](mwp_files/categorie.png){width=80% fig-align="center"}
+
+
+## Shi'b al Botom, 21 maggio
+### Il nuovo avamposto israeliano
+
+![](mwp_files/avamposto.png){width=80% fig-align="center"}
+
+
+##  Frequenza relativa degli eventi che accompagnano un'invasione di proprietà
+### Totale casi: 147
+
+![](mwp_files/invasioni.png){width=90% fig-align="center"}
+
+
+##  Frequenza relativa degli esiti dell’intervento delle forze di polizia
+### Totale casi: 136
+
+<br>
+![](mwp_files/sbirri.png){width=100% fig-align="center"}
+
+
+##  Tuba, 25 gennaio {background-opacity=1 background-image="mwp_files/Tuba.png"}
+
+
+##   Jinba, 29 marzo {background-opacity=1 background-image="mwp_files/Jinba.png"}
+
+
+##    Khallet Athaba, 10 febbraio {background-opacity=1 background-image="mwp_files/khalletathaba.png"}
+
+
+##    Ar Rakeez, 17 aprile {background-opacity=1 background-image="mwp_files/arrakeez.png"}
+
+
+## Khallet Athaba, 2 giugno {background-opacity=1 background-image="mwp_files/ali.png"}
+

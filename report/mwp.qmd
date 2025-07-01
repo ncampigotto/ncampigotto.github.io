@@ -24,16 +24,18 @@ auto-stretch: false
 ![](mwp_files/tabellaviolazioni.png){width=80% fig-align="center"}
 
 
+## Distribuzione geografica violazioni {.scrollable}
+### 838 violazioni in 27 villaggi
+
+![Eventi per villaggio: Ad Deirat 2; Al Fakheit 10; Al Mufaqarah 4; Anizan 3; Ar Rakeez 50; Ar Rafa'yya 1; As Samu 2; Ghuwein 1; Halaweh 4; Haribat an-Nabi 47; Hiwara 34; Imneizil 2; Isfey 9; Jawwaya 23; Jinba 37; Khallet Athaba 83; Maghayir al Abeed 2; Qawawis 32; Shi'b al Botom 56; Susiya 150; Thala 10; Tiran 14; Tuba 6; Tuwani 93; Umm al Khair 46; Umm Dhorit 87; Zanuta 15](mwp_files/mappa.png){width=100%}
+
+
+
 ## Frequenza giornaliera violazioni
 ### Totale giorni di monitoraggio: 129 - Teamphone attivo dal 14 febbraio
 
 ![](mwp_files/calendar.png){width=90% fig-align="center"}
 
-
-## Distribuzione geografica violazioni {.scrollable}
-### 838 violazioni in 27 villaggi
-
-![Eventi per villaggio: Ad Deirat 2; Al Fakheit 10; Al Mufaqarah 4; Anizan 3; Ar Rakeez 50; Ar Rafa'yya 1; As Samu 2; Ghuwein 1; Halaweh 4; Haribat an-Nabi 47; Hiwara 34; Imneizil 2; Isfey 9; Jawwaya 23; Jinba 37; Khallet Athaba 83; Maghayir al Abeed 2; Qawawis 32; Shi'b al Botom 56; Susiya 150; Thala 10; Tiran 14; Tuba 6; Tuwani 93; Umm al Khair 46; Umm Dhorit 87; Zanuta 15](mwp_files/mappa.png){width=100%}
 
 
 ## Distribuzione delle violazioni per categoria {.scrollable}

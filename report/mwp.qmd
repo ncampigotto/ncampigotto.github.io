@@ -1,4 +1,11 @@
 ---
+title: "Occupare una terra per cancellarne il popolo"
+subtitle: " L'osservatorio internazionale di *Mediterranea with Palestine* <br> in Masafer Yatta"
+author:
+  - name: Rapporto di metà anno
+    # orcid: 0000-0000-0000-0000
+    email: gennaio-maggio 2025
+    # affiliations: LUISS Guido Carli, Master's Degree in Marketing
 format:
   revealjs: 
     html-math-method: mathjax
@@ -35,10 +42,7 @@ auto-stretch: false
 ![](mwp_files/categorie.png){width=80% fig-align="center"}
 
 
-## Shi'b al Botom, 21 maggio
-### Il nuovo avamposto israeliano
-
-![](mwp_files/avamposto.png){width=80% fig-align="center"}
+## Shi'b al Botom, 21 maggio {background-opacity=1 background-image="mwp_files/avamposto.png"}
 
 
 ##  Frequenza relativa degli eventi che accompagnano un'invasione di proprietà

@@ -25,9 +25,9 @@ auto-stretch: false
 
 
 ## Frequenza giornaliera violazioni
-### Totale giorni di monitoraggio: 129
+### Totale giorni di monitoraggio: 129 - Teamphone attivo dal 14 febbraio
 
-![](mwp_files/calendar.png){width=100%}
+![](mwp_files/calendar.png){width=90% fig-align="center"}
 
 
 ## Distribuzione geografica violazioni {.scrollable}

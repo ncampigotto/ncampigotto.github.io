@@ -11,7 +11,7 @@ title: "Nicola Campigotto"
   <a href="./teaching">Teaching</a>
 </div>
 
- <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/ncampigotto/ncampigotto.github.io/assets/img/profile.png">
+ <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/ncampigotto/ncampigotto.github.io/assets/img/profile_bz.png">
 
 <br>
 Hey there! Welcome to my website 👋

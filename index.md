@@ -16,20 +16,18 @@ title: "Nicola Campigotto"
 <br>
 Hey there! Welcome to my website 👋
 
-I am a postdoctoral researcher in the [Department of Economics and Management](https://www.economia.unitn.it/en) at the [University of Trento](https://www.unitn.it/en) and a member of the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it). I am also an adjunct professor at [LUISS Guido Carli](https://www.luiss.it/), where I teach graduate courses in behavioural economics.
+I am an Assistant Professor in the [Competence Centre for Sustainability](https://www.unibz.it/en/home/research/competence-centre-economic-ecological-social-sustainability) at the University of Bozen-Bolzano and a member of the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it) the University of Trento. Before joining the University of Bozen-Bolzano, I held research positions at the University of Trento and the University of Pisa.
 
-Before joining Trento I was part of the [Ecohesion](https://ecoesione.ec.unipi.it) research group at the [University of Pisa](https://www.unipi.it/index.php/english), which combines computational and experimental methods to investigate the social consequences of climate and resource conservation policies.
-
-My research interests include social norms, cooperation, and the psychological underpinnings of decision-making.
-
+My research interests include Behavioural and Experimental Economics and Game Theory, with a focus on social norms and cooperation.
 
 <br>
 ### <u>News</u> 📆
 
-2023-11-19: ✨ *On December 14-16, I will participate in the 19th Annual Conference of the Italian Association for Cognitive Sciences in Genoa. The conference programme is available [here](https://aisc2023.unige.it/speakers_programme).*
+2025-08-30: 📝 My paper "Curbing energy consumption through voluntary quotas: Experimental evidence", co-authored with Marco Catola, Simone D'Alessandro, Pietro Guarnieri and Lorenzo Spadoni, has been accepted for publication in *Energy Economics*. You can download it [here](https://doi.org/10.1016/j.eneco.2025.108881).
 
-2023-09-25: 💬 *The University of Trento's Cognitive and Experimental Economics Laboratory is starting a new biweekly reading group! Click [here](https://github.com/CEEL-UNITN/BEEcon) for more details. Join the kickoff meeting on October 12 at 4PM.*
+2025-08-12: 📝 My paper "Climate Adaptation and Fiscal Sustainability: When Timing Matters", co-authored with Simone D'Alessandro and Tiziano Distefano, has been accepted for publication in the *Italian Econonomic Journal*. You can download it [here](https://doi.org/10.1007/s40797-025-00345-2).
 
-2023-08-28: 📋 *The 10th Meeting of the Behavioural and Experimental Economics Network (BEEN), hosted by the Department of Economics and Management at the University of Trento, is taking place in two weeks. Download the final programme [here](https://drive.google.com/file/d/152V1cd3OYI3MYfteI9TrgQj3xE21hCVT/preview).*
+
+2025-02-25: 📝 My paper *"Salience and information avoidance in voluntary carbon offsetting decisions: Evidence from online experiments"*, co-authored with Chiara Gioia and Matteo Ploner, has been accepted for publication in *Ecological Economics*. You can download it [here](https://doi.org/10.1016/j.ecolecon.2025.108577).
 
 [See older news](./news)

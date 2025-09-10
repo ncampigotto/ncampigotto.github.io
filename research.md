@@ -21,24 +21,25 @@ title: Research
 ### <u>Publications</u>
 
 **Curbing energy consumption through voluntary quotas: Experimental evidence**  
-With Marco Catola, Simone D'Alessandro, Pietro Guarnieri and Lorenzo Spadoni
-**<span style="color:#D67D06"><i>Energy Economics</i></span>**, 2025 
+With Marco Catola, Simone D'Alessandro, Pietro Guarnieri and Lorenzo Spadoni    
+**<span style="color:#D67D06"><i>Energy Economics</i></span>**, 2025    
 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1016/j.eneco.2025.108881)
 
 
 **Salience and information avoidance in voluntary carbon offsetting decisions: Evidence from online experiments**  
-With Chiara Gioia and Matteo Ploner
-**<span style="color:#D67D06"><i>Ecological Economics</i></span>**, vol. 233, no. 108577, 2025 
+With Chiara Gioia and Matteo Ploner    
+**<span style="color:#D67D06"><i>Ecological Economics</i></span>**, vol. 233, no. 108577, 2025    
 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1016/j.ecolecon.2025.108577)
 
 **Climate adaptation and fiscal sustainability: When timing matters**  
-With Simone D'Alessandro and Tiziano Distefano  
-**<span style="color:#D67D06"><i>Italian Economic Journal</i></span>**, 2025  
+With Simone D'Alessandro and Tiziano Distefano    
+**<span style="color:#D67D06"><i>Italian Economic Journal</i></span>**, 2025    
 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1007/s40797-025-00345-2)
 
 **The slippery slope from pluralistic to plural societies**  
-With Chiara Rapallini and Aldo Rustichini  
-**<span style="color:#D67D06"><i>World Scientific Handbook of Global Migration</i></span>**, ed. by Robert Sauer, vol. 3, pp. 225-244, World Scientific, 2024 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1142/9789811248146_0010)
+With Chiara Rapallini and Aldo Rustichini    
+**<span style="color:#D67D06"><i>World Scientific Handbook of Global Migration</i></span>**, ed. by Robert Sauer, vol. 3, pp. 225-244, World Scientific, 2024    
+[<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1142/9789811248146_0010)
 
 **School friendship networks, homophily and multiculturalism: Evidence from European
 countries**  
@@ -61,7 +62,7 @@ With Ennio Bilancini and Leonardo Boncinelli
 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1017/S0266267119000348)
 
 <br>
-### <u> Working papers </u> (available upon request)
+### <u>Working papers</u> (available upon request)
 
 **Scenario discovery for a just low-carbon transition**  
 With Marco Catola, André Cieplinski, Simone D'Alessandro, Tiziano Distefano, Pietro Guarnieri and Till Heydenreich

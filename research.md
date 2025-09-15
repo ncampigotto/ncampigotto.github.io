@@ -22,7 +22,7 @@ title: Research
 
 **Curbing energy consumption through voluntary quotas: Experimental evidence**  
 With Marco Catola, Simone D'Alessandro, Pietro Guarnieri and Lorenzo Spadoni    
-**<span style="color:#D67D06"><i>Energy Economics</i></span>**, 2025    
+**<span style="color:#D67D06"><i>Energy Economics</i></span>**, vol. 150, no. 108881, 2025    
 [<i class="fa fa-link fa-sm" aria-hidden="true"></i> Link](https://doi.org/10.1016/j.eneco.2025.108881)
 
 

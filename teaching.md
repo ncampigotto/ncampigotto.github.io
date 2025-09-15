@@ -18,10 +18,19 @@ title: Teaching
 <!-- [Home](./) -->
 
 <br>
-### <u>Academic year 2023-24</u>
+### <u>Academic year 2025-26</u>
 
+📝 **Regional Economics and Development**     
+University of Bozen-Bolzano (graduate, fall and winter terms)    
+Course material available soon
+
+📝 **Innovation Economics**     
+University of Bozen-Bolzano (graduate, spring term)    
+Course material available soon
+
+
+<!-- 
 📝 <u><i>Main instructor</i></u>    
-
 **Behavioural Economics and Consumer Decision Making**  
 LUISS Guido Carli, Master's Degree in Marketing (fall and winter terms)  
 [<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://learn.luiss.it/course/view.php?id=20421) - [<i class="fa fa-folder-o" aria-hidden="true"></i> GitHub repo](https://github.com/ncampigotto/BECDM_LUISS_2023)  
@@ -38,9 +47,11 @@ LUISS Guido Carli, Bachelor's Degree in Business Administration (fall and winter
 
 **Microeconomics**  
 University of Bologna, Bachelor's Degree in Political, Social, and International Sciences (spring and summer terms)    
-<!-- [<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://learn.luiss.it/course/view.php?id=20421) -->
+[<i class="fa fa-external-link fa-sm" aria-hidden="true"></i> Course webpage](https://learn.luiss.it/course/view.php?id=20421) 
 
 <br>
 ### <u>Previous years</u>
 
 Syllabi and course materials available upon request
+-->
+

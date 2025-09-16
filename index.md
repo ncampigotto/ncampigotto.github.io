@@ -16,7 +16,7 @@ title: "Nicola Campigotto"
 <br>
 Hey there! Welcome to my website 👋
 
-I am an Assistant Professor in the [Competence Centre for Sustainability](https://www.unibz.it/en/home/research/competence-centre-economic-ecological-social-sustainability) at the University of Bozen-Bolzano and affiliated with the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it) the University of Trento. Before joining the University of Bozen-Bolzano, I held research positions at the University of Trento and the University of Pisa.
+I am an Assistant Professor in the [Competence Centre for Sustainability](https://www.unibz.it/en/home/research/competence-centre-economic-ecological-social-sustainability) at the University of Bozen-Bolzano and affiliated with the [Cognitive and Experimental Economics Laboratory (CEEL)](https://www-ceel.economia.unitn.it) at the University of Trento. Before joining the University of Bozen-Bolzano, I held research positions at the Universities of Trento and Pisa.
 
 My research interests include Behavioural and Experimental Economics and Game Theory, with a focus on social norms and cooperation.
 

@@ -1,0 +1,50 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function resizePlotlyIn(container) {
+    if (!container || !window.Plotly) return;
+
+    container.querySelectorAll(".js-plotly-plot").forEach(function (el) {
+      try {
+        Plotly.Plots.resize(el);
+      } catch (e) {
+        // ignore
+      }
+    });
+  }
+
+  function resizeCurrentSlide(event) {
+    const slide = event && event.currentSlide
+      ? event.currentSlide
+      : document.querySelector(".reveal .slides section.present");
+    resizePlotlyIn(slide);
+  }
+
+  if (window.Reveal) {
+    Reveal.on("ready", resizeCurrentSlide);
+    Reveal.on("slidechanged", resizeCurrentSlide);
+    Reveal.on("slidetransitionend", resizeCurrentSlide);
+    Reveal.on("resize", resizeCurrentSlide);
+  }
+
+  window.addEventListener("resize", function () {
+    document.querySelectorAll(".js-plotly-plot").forEach(function (el) {
+      try {
+        Plotly.Plots.resize(el);
+      } catch (e) {
+        // ignore
+      }
+    });
+  });
+
+  // One extra delayed pass helps when Reveal finishes layout slightly later
+  setTimeout(function () {
+    document.querySelectorAll(".js-plotly-plot").forEach(function (el) {
+      try {
+        Plotly.Plots.resize(el);
+      } catch (e) {
+        // ignore
+      }
+    });
+  }, 250);
+});
+</script>

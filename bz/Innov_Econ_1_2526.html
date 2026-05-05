@@ -369,7 +369,7 @@ Nicola Campigotto
 <p><br></p>
 <ul>
 <li><p>❓<span class="alert">Today’s question:</span><br>
-What are the consequences of AI on productivity, creativity, learning, and trust?</p></li>
+What are the consequences of AI on productivity, creativity, and learning?</p></li>
 <li><p>⚠️<span class="alert">Warning:</span><br>
 The literature is in its infancy — some of these results require further study.</p></li>
 </ul>
@@ -393,8 +393,7 @@ The literature is in its infancy — some of these results require further study
 <ol type="1">
 <li>Improves job productivity <span class="citation" data-cites="noyzhang2023 dellacquaetal2025">(<a href="#/references" role="doc-biblioref" onclick="">Noy and Zhang 2023</a>; <a href="#/references" role="doc-biblioref" onclick="">Dell’Acqua et al. 2025</a>)</span>.</li>
 <li>Increases individual creativity but can reduce the overall diversity of novel content <span class="citation" data-cites="doshihauser2024">(<a href="#/references" role="doc-biblioref" onclick="">Doshi and Hauser 2024</a>)</span>.</li>
-<li>Improves academic performance but can harm learning <span class="citation" data-cites="bastanietal2024">(<a href="#/references" role="doc-biblioref" onclick="">Bastani et al. 2024</a>)</span>.</li>
-<li>Is generally trusted by individuals in coordination problems <span class="citation" data-cites="bigonipaoli2025">(<a href="#/references" role="doc-biblioref" onclick="">Bigoni and Paoli 2025</a>)</span>.</li>
+<li>Improves academic performance but can harm learning <span class="citation" data-cites="bastanietal2025">(<a href="#/references" role="doc-biblioref" onclick="">Bastani et al. 2025</a>)</span>. <!-- 4. Is generally trusted by individuals in coordination problems [@bigonipaoli2025]. --></li>
 </ol></li>
 </ul>
 </section>
@@ -1029,7 +1028,7 @@ The literature is in its infancy — some of these results require further study
 <section id="ai-and-learning-experimental-evidence" class="slide level2">
 <h2>AI and learning: Experimental evidence</h2>
 <ul>
-<li><p><span class="citation" data-cites="bastanietal2024">Bastani et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> conducted a <span class="alert">field experiment</span> to assess the impact of AI assistance on student learning, with a focus on mathematics.</p></li>
+<li><p><span class="citation" data-cites="bastanietal2025">Bastani et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span> conducted a <span class="alert">field experiment</span> to assess the impact of AI assistance on student learning, with a focus on mathematics.</p></li>
 <li><p>The experiment was conducted at a Turkish high school during the fall semester of the 2023-24 academic year.</p></li>
 <li><p>Sample: approximately 1000 students, aged 14-17, from about 50 classes.</p></li>
 <li><p>At the school where the experiment took place, students are randomly assigned to classrooms.</p></li>
@@ -1059,7 +1058,7 @@ The literature is in its infancy — some of these results require further study
 <li>Classes were randomly assigned to one of three treatment conditions:
 <ul>
 <li><span class="lcontrol">Control</span>: Students worked through practice problems using only course notes and the textbook.</li>
-<li><span class="lbase">GPT Base</span>: Students worked through practice problems using course notes, the textbook, and a laptop with a GPT-based AI tool. The prompt simply instructed the model to help the student.</li>
+<li><span class="lbase">GPT Base</span>: Students worked through practice problems using course notes, the textbook, and a laptop with a generative AI tool. The prompt simply instructed the model to help the student.</li>
 <li><span class="ltutor">GPT Tutor</span>: Similar to GPT Base, but the prompt instructed the model to provide incremental hints only (not the full answer).</li>
 </ul></li>
 </ul>
@@ -1134,8 +1133,11 @@ The literature is in its infancy — some of these results require further study
 <h2>AI and learning: Experimental evidence</h2>
 <h3 id="results-variability-in-performance">Results: Variability in performance</h3>
 <ul>
-<li><p>In the practice problems, the variability of grades was greater in the <span class="lcontrol">Control</span> group than in the <span class="lbase">GPT Base</span> and <span class="ltutor">GPT Tutor</span> groups. That is, AI assistance reduced students’ ‘skill gap’ by providing the greatest benefits to low-performing students.</p></li>
-<li><p>However, this reduction in the skill gap did not persist and disappeared when access to generative AI was removed in the final exam.</p></li>
+<li>In the practice problems, the variability of grades was greater in the <span class="lcontrol">Control</span> group than in the <span class="lbase">GPT Base</span> and <span class="ltutor">GPT Tutor</span> groups.
+<ul>
+<li>That is, AI assistance reduced students’ skill gap by providing the greatest benefits to low-performing students.</li>
+</ul></li>
+<li>However, this reduction in the skill gap did not persist and disappeared when access to generative AI was removed in the final exam.</li>
 </ul>
 </section>
 <section id="ai-and-learning-experimental-evidence-12" class="slide level2 scrollable">
@@ -1171,7 +1173,7 @@ The literature is in its infancy — some of these results require further study
 <h2>AI and learning: Experimental evidence</h2>
 <h3 id="wrap-up-2">Wrap-up</h3>
 <ul>
-<li><p>It seems that many students use GPT as a <span class="alert">replacement for their own reasoning</span>, rather than as a tool to enhance it.</p></li>
+<li><p>It seems that many students use GPT as a <span class="alert">substitute for their own reasoning</span>, rather than as a tool to enhance it.</p></li>
 <li><p>This is concerning, especially given that human reasoning and problem-solving skills were already in decline even before the advent of AI.</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
@@ -1185,192 +1187,183 @@ The literature is in its infancy — some of these results require further study
 <figcaption>Source: <a href="https://www.ft.com/content/a8016c64-63b7-458b-a371-e0e1c54a13fc">Financial Times</a></figcaption>
 </figure>
 </div>
-</section></section>
-<section>
-<section id="ai-and-coordination" class="title-slide slide level1 center">
-<h1>AI and coordination</h1>
 
-</section>
-<section id="university-assignments-as-a-minimum-effort-game" class="slide level2">
-<h2>University assignments as a minimum effort game</h2>
-<ul>
-<li><p>Imagine two students working on a group assignment together.</p></li>
-<li><p>To get a good grade, both students need to put a lot of effort into the assignment.</p></li>
-<li><p>However, if one student doesn’t do their part and puts in little effort, the grade will still be low, even if the other student works hard.</p></li>
-<li><p>This creates a situation where both students might think, <em>“If my partner isn’t going to try, why should I?”</em></p></li>
-</ul>
-</section>
-<section id="the-minimum-effort-game" class="slide level2">
-<h2>The minimum effort game</h2>
-<ul>
-<li><p>This story can be modelled as a <span class="alert">minimum effort game</span>, a coordination game where players simultaneously choose an action (labelled ‘effort’).</p></li>
-<li><p>Each player’s payoff depends on their own effort level as well as on the smallest effort level chosen within their group.</p></li>
-<li><p>Coordination of all group members on the same effort level results in a <span class="alert">Nash equilibrium</span>.</p></li>
-</ul>
-</section>
-<section id="the-minimum-effort-game-contd" class="slide level2">
-<h2>The minimum effort game (cont’d)</h2>
-<ul>
-<li><p>Due to the <span class="alert">multiplicity of equilibria</span>, people often <span class="alert">fail to coordinate</span> on the most rewarding equilibrium (that is the equilibrium in which all players choose the highest effort level).</p></li>
-<li><p><span class="alert">Leadership</span> has been proved to be effective in improving coordination by sending a <span class="alert">signal</span>.</p></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/martin.png" style="width:40.0%"></p>
-</figure>
-</div>
-</section>
-<section id="ai-and-coordination-1" class="slide level2">
-<h2>AI and coordination</h2>
-<ul>
-<li><p>The leader’s signal should demonstrate a commitment to high effort and appeal to mutual benefit. An example might be:</p>
-<p><em>“I’m fully committed to doing my best on this assignment. Let’s all put in full effort so we can get the highest grade possible.”</em></p></li>
-<li><p>What would happen if a group member were to notice that the leader had sent <span class="alert">AI-generated messages as signals</span>? Would this undermine the leader’s credibility?</p></li>
-<li><p>Put differently, does coordination suffer when it is known that the leader relies on AI-generated signals to encourage others to exert high effort?</p></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence" class="slide level2">
-<h2>AI and coordination: Experimental evidence</h2>
-<ul>
-<li><p><span class="citation" data-cites="bigonipaoli2025">Bigoni and Paoli (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span> conducted an online experiment in which participants were randomly assigned to groups of five to play a minimum effort game.</p></li>
-<li><p>One player in each group was <span class="alert">randomly selected to be the leader</span> and could <span class="alert">send either human- or AI-generated signals</span>.</p></li>
-<li><p>The followers were <span class="alert">informed</span> whether the signal they received was human- or AI-generated.</p></li>
-<li><p>Sample: 600 participants recruited via <a href="https://www.orsee.org/web/">ORSEE</a>.</p></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-1" class="slide level2">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="research-questions">Research questions</h3>
-<ol type="1">
-<li><p>How frequently do leaders rely on AI to generate their messages?</p></li>
-<li><p>Do followers exhibit AI aversion?</p></li>
-<li><p>Do human- and AI-generated signals have different effects on participants’ beliefs about others’ behaviour?</p></li>
-</ol>
-</section>
-<section id="ai-and-coordination-experimental-evidence-2" class="slide level2">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="the-game">The game</h3>
-<ul>
-<li><p>In the experiment, each group member chose an effort level between 0 (lowest) and 3 (highest).</p></li>
-<li><p>The reward (<em>payoff</em>) of each participant was given by the table below.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/payoff.png" style="width:60.0%"></p>
-</figure>
-</div></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-3" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="design-1">Design</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effort_design.png" style="width:80.0%"></p>
-</figure>
-</div>
-<ul>
-<li>The experiment consisted of <span class="alert">three phases</span>:
-<ol type="1">
-<li><p>Participants played the minimum effort game with no leader/follower distinction and without receiving any feedback about the outcome of the interaction.</p>
-<p>This served as a baseline against which to measure the results.</p></li>
-<li><p>One participant per group was randomly selected to be the leader. The leader chose an effort level and wrote a message to improve coordination.</p>
-<p>After writing their message, the leader saw a message generated by ChatGPT for the same purpose and could choose whether to use ChatGPT’s message or keep their own.</p>
-<p>Followers knew whether the message was human- or AI-generated. Each follower simultaneously chose their effort level after reading the message, without directly observing the leader’s effort choice.</p></li>
-<li><p>A questionnaire was administered to participants to measure the persuasiveness of the signal and their beliefs about other group members’ behaviour.</p></li>
-</ol></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-4" class="slide level2">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="outcome-variables-3">Outcome variables</h3>
-<ul>
-<li><p><span class="alert">Effort level</span> (0-3 scale)</p></li>
-<li><p><span class="alert">Persuasiveness of the signal</span> (0-10 scale)</p></li>
-<li><p>Followers’ <span class="alert">beliefs</span> about the leader’s effort: <em>“What effort level do you think the leader chose?”</em></p></li>
-<li><p>Followers’ beliefs about other followers’ effort: <em>“How many of the other group members (leader excluded) do you think chose an effort level of 0/1/2/3?”</em></p></li>
-<li><p>Leader’s beliefs about the followers’ effort: <em>“How many of the other group members do you think chose an effort level of 0/1/2/3?”</em></p></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-5" class="slide level2">
-<h2>AI and coordination: Experimental evidence</h2>
-<ul>
-<li>Only 12.7% of leaders chose to send the AI-generated message.</li>
-</ul>
-<h3 id="example-of-ai-written-message">Example of AI-written message</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effort_aimessage.png" style="width:100.0%"></p>
-</figure>
-</div>
-</section>
-<section id="ai-and-coordination-experimental-evidence-6" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="example-of-human-written-message">Example of human-written message</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effort_humanmessage.png" style="width:100.0%"></p>
-</figure>
-</div>
-<ul>
-<li><span class="alert">Question:</span> Which message do you think is more persuasive? Would you exert high effort in both cases, in only one case, or in neither case? Why?</li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-7" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="results-effort-choices">Results: Effort choices</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effortresults_1.png" style="width:100.0%"></p>
-</figure>
-</div>
-<ul>
-<li><p>Do followers react differently to human-written and AI-generated messages? Short answer: <span class="alert">No</span>.</p></li>
-<li><p>No significant difference between the <span class="alert">Human message</span> and <span class="alert">AI message</span> conditions.</p></li>
-<li><p>Both signaling conditions (<span class="alert">Human message</span> and <span class="alert">AI message</span>) resulted in significantly higher coordination compared to the <span class="alert">Baseline</span>.</p></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-8" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="results-persuasiveness-of-messagges">Results: Persuasiveness of messagges</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effortresults_3.png" style="width:100.0%"></p>
-</figure>
-</div>
-<ul>
-<li>On average, human-written messages were more persuasive than AI-generated messages…</li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-9" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="results-beliefs-about-others-effort">Results: Beliefs about others’ effort</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Innov_Econ_1_2526_files/effortresults_2.png" style="width:100.0%"></p>
-</figure>
-</div>
-<ul>
-<li><p>…but the difference in persuasiveness did not significantly impact followers’ beliefs about others’ effort choices.</p></li>
-<li><p>That is, followers <span class="alert">did not appear to exhibit AI aversion</span>.</p></li>
-<li><p>Moreover, on average, leaders who chose to send an AI-generated message did not differ in behaviour or beliefs from leaders who sent the message they had written.</p></li>
-</ul>
-</section>
-<section id="ai-and-coordination-experimental-evidence-10" class="slide level2 scrollable">
-<h2>AI and coordination: Experimental evidence</h2>
-<h3 id="wrap-up-3">Wrap-up</h3>
-<ul>
-<li>In the minimum effort game, followers <span class="alert">do not exhibit AI aversion</span> toward signals sent by leaders.
-<ul>
-<li>Human-written messages are, on average, more convincing than AI-generated messages.</li>
-<li>However, the nature of the messages does not significantly impact beliefs or behaviour.</li>
-</ul></li>
-</ul>
+<!-- 
+# AI and coordination
+
+## University assignments as a minimum effort game
+
+* Imagine two students working on a group assignment together. 
+
+* To get a good grade, both students need to put a lot of effort into the assignment.
+
+* However, if one student doesn't do their part and puts in little effort, the grade will still be low, even if the other student works hard. 
+
+* This creates a situation where both students might think, *"If my partner isn't going to try, why should I?"*
+
+## The minimum effort game
+
+* This story can be modelled as a [minimum effort game]{.alert}, a coordination game where players simultaneously choose an action (labelled 'effort').
+
+* Each player's payoff depends on their own effort level as well as on the smallest effort level chosen within their group.
+
+* Coordination of all group members on the same effort level results in a [Nash equilibrium]{.alert}.
+
+## The minimum effort game (cont'd)
+
+* Due to the [multiplicity of equilibria]{.alert}, people often [fail to coordinate]{.alert} on the most rewarding equilibrium (that is the equilibrium in which all players choose the highest effort level).
+
+* [Leadership]{.alert} has been proved to be effective in improving coordination by sending a [signal]{.alert}.
+
+![](Innov_Econ_1_2526_files/martin.png){width=40% fig-align="center"}
+
+
+## AI and coordination
+
+* The leader's signal should demonstrate a commitment to high effort and appeal to mutual benefit. An example might be:
+
+    *"I'm fully committed to doing my best on this assignment. Let's all put in full effort so we can get the highest grade possible."*
+
+* What would happen if a group member were to notice that the leader had sent [AI-generated messages as signals]{.alert}?  Would this undermine the leader's credibility?
+
+* Put differently, does coordination suffer when it is known that the leader relies on AI-generated signals to encourage others to exert high effort?
+ 
+
+## AI and coordination: Experimental evidence
+
+* @bigonipaoli2025 conducted an online experiment in which participants were randomly assigned to groups of five to play a minimum effort game. 
+
+* One player in each group was [randomly selected to be the leader]{.alert} and could [send either human- or AI-generated signals]{.alert}.
+
+* The followers were [informed]{.alert} whether the signal they received was human- or AI-generated.
+
+* Sample: 600 participants recruited via [ORSEE](https://www.orsee.org/web/).
+
+
+## AI and coordination: Experimental evidence
+
+### Research questions
+
+1. How frequently do leaders rely on AI to generate their messages?
+
+2. Do followers exhibit AI aversion?
+
+3. Do human- and AI-generated signals have different effects on participants' beliefs about others' behaviour?
+
+
+## AI and coordination: Experimental evidence
+
+### The game
+
+* In the experiment, each group member chose an effort level between 0 (lowest) and 3 (highest).
+
+* The reward (*payoff*) of each participant was given by the table below.
+
+    ![](Innov_Econ_1_2526_files/payoff.png){width=60% fig-align="center"}
+
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Design
+
+![](Innov_Econ_1_2526_files/effort_design.png){width=80% fig-align="center"}
+
+* The experiment consisted of [three phases]{.alert}:
+    1. Participants played the minimum effort game with no leader/follower distinction and without receiving any feedback about the outcome of the interaction.
+
+        This served as a baseline against which to measure the results.
+
+    2. One participant per group was randomly selected to be the leader. The leader chose an effort level and wrote a message to improve coordination. 
+    
+        After writing their message, the leader saw a message generated by ChatGPT for the same purpose and could choose whether to use ChatGPT's message or keep their own.
+
+        Followers knew whether the message was human- or AI-generated. Each follower simultaneously chose their effort level after reading the message, without directly observing the leader's effort choice.
+    
+    3. A questionnaire was administered to participants to measure the persuasiveness of the signal and their beliefs about other group members' behaviour.
+
+## AI and coordination: Experimental evidence 
+
+### Outcome variables
+
+* [Effort level]{.alert} (0-3 scale)
+
+* [Persuasiveness of the signal]{.alert} (0-10 scale)
+
+* Followers' [beliefs]{.alert} about the leader's effort: *"What effort level do you think the leader chose?"*
+
+* Followers' beliefs about other followers' effort: *"How many of the other group members (leader excluded) do you think chose an effort level of 0/1/2/3?"*
+
+* Leader's beliefs about the followers' effort: *"How many of the other group members do you think chose an effort level of 0/1/2/3?"*
+
+
+## AI and coordination: Experimental evidence
+
+* Only 12.7% of leaders chose to send the AI-generated message.
+
+### Example of AI-written message
+
+![](Innov_Econ_1_2526_files/effort_aimessage.png){width=100% fig-align="center"}
+
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Example of human-written message
+
+![](Innov_Econ_1_2526_files/effort_humanmessage.png){width=100% fig-align="center"}
+
+* [Question:]{.alert} Which message do you think is more persuasive? Would you exert high effort in both cases, in only one case, or in neither case? Why?
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Results: Effort choices
+
+![](Innov_Econ_1_2526_files/effortresults_1.png){width=100% fig-align="center"}
+
+* Do followers react differently to human-written and AI-generated messages? Short answer: [No]{.alert}.
+
+* No significant difference between the [Human message]{.alert} and [AI message]{.alert} conditions.
+
+* Both signaling conditions ([Human message]{.alert} and [AI message]{.alert}) resulted in significantly higher coordination compared to the [Baseline]{.alert}.
+
+
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Results: Persuasiveness of messagges
+
+![](Innov_Econ_1_2526_files/effortresults_3.png){width=100% fig-align="center"}
+
+* On average, human-written messages were more persuasive than AI-generated messages...
+
+
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Results: Beliefs about others' effort
+
+![](Innov_Econ_1_2526_files/effortresults_2.png){width=100% fig-align="center"}
+
+* ...but the difference in persuasiveness did not significantly impact followers' beliefs about others' effort choices.
+
+* That is, followers [did not appear to exhibit AI aversion]{.alert}.
+
+* Moreover, on average, leaders who chose to send an AI-generated message did not differ in behaviour or beliefs from leaders who sent the message they had written.
+
+
+
+## AI and coordination: Experimental evidence {.scrollable}
+
+### Wrap-up
+
+* In the minimum effort game, followers [do not exhibit AI aversion]{.alert} toward signals sent by leaders.
+    - Human-written messages are, on average, more convincing than AI-generated messages.
+    - However, the nature of the messages does not significantly impact beliefs or behaviour. -->
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-bastanietal2024" class="csl-entry" role="listitem">
-Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2024. <span>“Generative AI Can Harm Learning.”</span> Wharton School Research Paper, University of Pennsylvania. <a href="https://dx.doi.org/10.2139/ssrn.4895486">https://dx.doi.org/10.2139/ssrn.4895486</a>.
+<div id="ref-bastanietal2025" class="csl-entry" role="listitem">
+Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2025. <span>“Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics.”</span> <em>Proceedings of the National Academy of Sciences</em> 122 (26). <a href="https://doi.org/10.1073/pnas.2422633122">https://doi.org/10.1073/pnas.2422633122</a>.
 </div>
 <div id="ref-bigonipaoli2025" class="csl-entry" role="listitem">
 Bigoni, Maria, and Damiano Paoli. 2025. <span>“Coordination and Leadership: The Impact of Artificial Intelligence.”</span> Working Paper.

@@ -11,8 +11,7 @@
   <meta name="generator" content="quarto-1.3.340">
 
   <meta name="author" content="Nicola   Campigotto">
-  <meta name="author" content="Elisabeth Gsottbauer">
-  <meta name="author" content="Guido   Musati">
+  <meta name="author" content="Elisabeth   Gsottbauer">
   <meta name="author" content="Matteo   Ploner">
   <title>Inequality Aversion   in AI-Assisted Routine and Creative Work</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -351,7 +350,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Inequality Aversion <br> in AI-Assisted Routine and Creative Work</h1>
-  <p class="subtitle">ESA African Meeting, Rabat</p>
+  <p class="subtitle">ESA African Meeting</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -361,12 +360,7 @@ Nicola <br> Campigotto
 </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Elisabeth Gsottbauer 
-</div>
-</div>
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Guido <br> Musati 
+Elisabeth <br> Gsottbauer 
 </div>
 </div>
 <div class="quarto-title-author">
@@ -378,25 +372,6 @@ Matteo <br> Ploner
 
   <p class="date">June 2026</p>
 </section>
-<section id="linus-november-2025" class="slide level2">
-<h2><em>linus</em>, November 2025</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="center">
-<p><img data-src="esa_campigotto_files/LinusEvangelion.jpg" height="600"></p>
-</div>
-</div><div class="column" style="width:50%;">
-<p><img data-src="esa_campigotto_files/rep.png" style="width:100.0%"></p>
-</div>
-</div>
-<!-- ## Wage premia for AI skills
-
-* What about STEM sectors?
-
-* @ehlingerstephany2025 show that: 
-    - Between 2018 and 2024, demand for AI skills increased by more than 20% in UK STEM job postings.
-    - AI skills [command a significant wage premium]{.alert}, second only to holding a PhD and higher than a master's degree. -->
-</section>
 <section id="public-attitudes-toward-ai-use" class="slide level2">
 <h2>Public attitudes toward AI use</h2>
 <ul>
@@ -406,7 +381,7 @@ Matteo <br> Ploner
 </ul></li>
 <li>In <span class="alert">creative fields</span>, AI is often viewed with skepticism.
 <ul>
-<li>E.g. because it may raise doubts about one’s own abilities, effort, or motivation.</li>
+<li>E.g. because it may raise doubts about one’s own abilities or motivation.</li>
 </ul></li>
 <li>This difference may stem from the belief that <span class="alert">creative activities carry cultural and personal significance</span>.</li>
 </ul>
@@ -502,8 +477,19 @@ Matteo <br> Ploner
 <li><span class="alert">AI assistance</span> in task completion: yes (<span class="treatment">AItask</span>) or no (<span class="treatment">noAItask</span>).</li>
 <li><span class="alert">Evaluation of creative work</span>: human-made (<span class="treatment">Humeval</span>) or AI-made (<span class="treatment">AIeval</span>).</li>
 </ol></li>
-<li><span class="alert">Six resulting treatments</span>: <span class="treatment">CR_AItask_Humeval</span>, <span class="treatment">CR_AItask_AIeval</span>, <span class="treatment">CR_noAItask_Humeval</span>, <span class="treatment">CR_noAItask_AIeval</span>, <span class="treatment">RO_AItask</span>, <span class="treatment">RO_noAItask</span></li>
+<li><span class="alert">Six resulting treatments</span>:</li>
 </ul>
+<div class="center">
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><span class="treatment">RO_AItask</span> <br> <span class="treatment">RO_noAItask</span></p>
+</div><div class="column" style="width:38%;">
+<p><span class="treatment">CR_AItask_Humeval</span> <br> <span class="treatment">CR_noAItask_Humeval</span></p>
+</div><div class="column" style="width:33%;">
+<p><span class="treatment">CR_AItask_AIeval</span> <br> <span class="treatment">CR_noAItask_AIeval</span></p>
+</div>
+</div>
+</div>
 </section>
 <section id="treatments-overview-contd" class="slide level2 scrollable">
 <h2>Treatments overview (cont’d)</h2>
@@ -514,7 +500,8 @@ Matteo <br> Ploner
 <ul>
 <li><p>🔢 <span class="alert">Routine task</span>: repeatedly completing a real-effort task (counting zeros in a matrices of numbers).</p></li>
 <li><p>🚀 <span class="alert">Creative task</span>: writing a 600-700 character story about an adventure in space, suitable for children aged 5-8.</p></li>
-<li><p>In conditions <span class="treatment">RO_AItask</span> and <span class="treatment">CR_AItask</span>, workers can interact with a GPT-based chatbot that helps them complete the task. In conditions <span class="treatment">RO_noAItask</span> and and <span class="treatment">CR_noAItask</span>, no chatbot is provided.</p></li>
+<li><p>Conditions <span class="treatment">RO_AItask</span> and <span class="treatment">CR_AItask</span>: workers can interact with a GPT-based chatbot that helps them complete the task.</p></li>
+<li><p>Conditions <span class="treatment">RO_noAItask</span> and <span class="treatment">CR_noAItask</span>: no chatbot is provided.</p></li>
 </ul>
 </section>
 <section id="the-tasks-example-condition-cr_aitask" class="slide level2 scrollable">
@@ -557,7 +544,7 @@ Matteo <br> Ploner
 <li><p><span class="alert">Problem:</span> workers may cheat by using generative AI on another device or in a different browser tab.</p></li>
 <li><p><span class="alert">Controls:</span></p>
 <ol start="4" type="1">
-<li>Robustness check: <span class="alert">exclusion of observations</span> in the left tail of the completion time distribution in conditions <span class="treatment">RO_noAItask</span> and <span class="treatment">CR_noAItask</span> (i.e.&nbsp;workers with suspiciously low completion times).</li>
+<li>Robustness check: <span class="alert">exclusion of observations</span> in the left tail of the completion time distribution in condition <span class="treatment">noAItask</span> (i.e.&nbsp;workers with suspiciously low completion times).</li>
 </ol></li>
 </ul>
 </section>

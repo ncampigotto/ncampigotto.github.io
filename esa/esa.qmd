@@ -64,7 +64,7 @@ auto-stretch: false
 
 ::: {.column width="40%"}
 
-![](esa_campigotto_files/phase1.png){fig-align="right"}
+![](esa_files/phase1.png){fig-align="right"}
 
 :::
 
@@ -83,7 +83,7 @@ auto-stretch: false
 
 ::: {.column width="40%"}
 
-![](esa_campigotto_files/phase2.png){fig-align="right"}
+![](esa_files/phase2.png){fig-align="right"}
 
 :::
 
@@ -103,7 +103,7 @@ auto-stretch: false
 
 ::: {.column width="40%"}
 
-![](esa_campigotto_files/phase3.png){scale="50%" fig-align="right"}
+![](esa_files/phase3.png){scale="50%" fig-align="right"}
 
 :::
 
@@ -151,7 +151,7 @@ auto-stretch: false
 
 ## Treatments overview (cont'd) {.scrollable}
 
-![](esa_campigotto_files/treatments.png){width=100%}
+![](esa_files/treatments.png){width=100%}
 
 
 ## The tasks
@@ -169,7 +169,7 @@ auto-stretch: false
 
 ## The tasks: example (condition [CR_AItask]{.treatment}) {.scrollable}
 
-![](esa_campigotto_files/story.png){width=100%}
+![](esa_files/story.png){width=100%}
 
 
 ## Cheating prevention and detection 🕵️
@@ -293,7 +293,7 @@ Inequality aversion is significantly higher in treatment [CR_AItask_AIeval]{.tre
 
 [Thank you! Comments welcome :)]{.spectators}
 
-![](esa_campigotto_files/gibli_story.png){width=100%}
+![](esa_files/gibli_story.png){width=100%}
 
 :::
 

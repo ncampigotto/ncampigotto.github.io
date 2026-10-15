@@ -92,7 +92,7 @@ nav#menu h1 {
     padding-top: 0;
     color: lawngreen;
     z-index: 2;
-    font-family: 'Satisfy', cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 nav#menu img {
@@ -127,7 +127,7 @@ nav#menu li.name {
 nav#menu li:not(.profile):not(.name):not(.contact-links) {
     margin: 4px;
     padding: 0;
-    font-family: 'Satisfy', cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 15pt;
     text-align: center;
     background: rgb(15, 9, 129);

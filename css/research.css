@@ -1,0 +1,197 @@
+html, body {
+    background-color: rgb(143, 129, 6);
+    /* background-image: url(../Gifs/snow.gif); */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+.wordart {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wordart.radial .text {
+    background: #fffa28;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-radial-gradient(center, ellipse cover, #fffa28 0%, #ec8a39 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fffa28), color-stop(100%, #ec8a39));
+    background: -webkit-radial-gradient(center, ellipse cover, #fffa28 0%, #ec8a39 100%);
+    background: -o-radial-gradient(center, ellipse cover, #fffa28 0%, #ec8a39 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #fffa28 0%, #ec8a39 100%);
+    background: radial-gradient(ellipse at center, #fffa28 0%, #ec8a39 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffa28', endColorstr='#ec8a39', GradientType=1);
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem;
+
+}
+
+.container > * {
+    width: 100%;
+    
+}
+
+.container h1.wordart {
+    font-size: 36px;
+    color: rgb(38, 27, 240);
+    margin: 0 0 0 calc(17rem - 2rem);
+}
+
+.intro {
+    /* Leave room for the fixed navigation on the left. */
+    margin: 5.3rem 2rem 0 17rem;
+    text-align: left;
+}
+
+.intro p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+nav#menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(189, 76, 57);
+    background-image: url("../Gifs/snow.gif");
+    border: rgb(192, 192, 192) 5px solid;
+    width: 190px;
+    padding: 20px;
+    
+}
+
+nav#menu h1 {
+    font-size: 28px;
+    padding-top: 0;
+    color: lawngreen;
+    z-index: 2;
+    font-family: 'Satisfy', cursive;
+}
+
+nav#menu img {
+    height: 70px;
+    padding-top: 90px;
+    z-index: 2;
+    
+}
+
+nav#menu .profile-photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding-top: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav#menu li.profile {
+    margin: 0.25rem auto;
+    padding: 0;
+    border: 0;
+}
+
+nav#menu li.name {
+    margin: 0.25rem;
+    padding: 0;
+    border: 0;
+}
+
+nav#menu li:not(.profile):not(.name):not(.contact-links) {
+    margin: 4px;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(15, 9, 129);
+    border: 2px solid #b6b4ff;
+    border-right-color: #05032f;
+    border-bottom-color: #05032f;
+    box-shadow: inset 1px 1px 0 #d8d7ff, inset -1px -1px 0 #0a0665, 2px 2px 0 #030220;
+}
+
+nav#menu li:not(.contact-links) > a {
+    display: block;
+    padding: 0.28rem 0.45rem;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #07044a;
+}
+
+nav#menu li:not(.profile):not(.name):not(.contact-links):hover {
+    background: rgb(15, 9, 129);
+}
+
+nav#menu li:not(.profile):not(.name):not(.contact-links):active {
+    border-color: #05032f;
+    border-right-color: #b6b4ff;
+    border-bottom-color: #b6b4ff;
+    box-shadow: inset 1px 1px 0 #0a0665, inset -1px -1px 0 #d8d7ff;
+}
+
+nav#menu li:not(.contact-links) > a:focus-visible {
+    outline: 2px dotted #fff;
+    outline-offset: -5px;
+}
+
+nav#menu li.contact-links {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    border: 0;
+    font-family: initial;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+nav#menu .contact-links a {
+    display: block;
+    color: lawngreen;
+}
+
+nav#menu .contact-links a:first-child {
+    margin-bottom: 0.4rem;
+}
+
+.site-update {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem;
+  align-items: start;
+}
+
+.site-update img {
+  align-self: start;
+  transform: translateY(0.4em);
+}
+
+.brsmall {
+  display: block;
+  height: 0.75rem;
+}

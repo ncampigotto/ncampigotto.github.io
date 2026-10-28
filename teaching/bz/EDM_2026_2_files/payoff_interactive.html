@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    .payoff-chart {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .axis,
+    .tick {
+      stroke: #73777b;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .tick-label {
+      fill: #111;
+      font-size: 23px;
+    }
+
+    .axis-label {
+      fill: #000;
+      font-size: 27px;
+      font-weight: 700;
+    }
+
+    .effect {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease-out;
+    }
+
+    .effect.is-active {
+      opacity: 1;
+    }
+
+    .improvement-area {
+      opacity: 0.88;
+    }
+
+    .threshold-line {
+      fill: none;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .projection-line {
+      fill: none;
+      stroke: #8c9298;
+      stroke-width: 1.75;
+      stroke-dasharray: 6 6;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .point-label {
+      fill: #000;
+      font-size: 22px;
+      pointer-events: none;
+    }
+
+    .payoff-point {
+      fill: #000;
+      pointer-events: none;
+    }
+
+    .hotspot {
+      fill: transparent;
+      stroke: transparent;
+      stroke-width: 3;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .hotspot:focus-visible {
+      stroke: #f2a900;
+    }
+
+    .legend-label,
+    .definition {
+      fill: #000;
+      font-size: 21px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .effect {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <svg class="payoff-chart" viewBox="0 0 1200 580" role="group"
+       aria-label="Pay-off combinations in the pest-control game"
+       aria-describedby="chart-description" preserveAspectRatio="xMidYMid meet">
+    <desc id="chart-description">
+      Hover over or focus any of the four outcome points to reveal the outcomes that are better for both Alice and Bruno.
+    </desc>
+
+    <!-- Interactive improvement regions and their guide lines. -->
+    <g class="effect" data-effect="it">
+      <rect class="improvement-area" x="193" y="15" width="392" height="94" fill="#f8e2d3"/>
+      <path class="threshold-line" d="M193 15V109H585" stroke="#ff3038"/>
+    </g>
+    <g class="effect" data-effect="ii">
+      <rect class="improvement-area" x="389" y="15" width="196" height="188" fill="#eadff0"/>
+      <path class="threshold-line" d="M389 15V203H585" stroke="#ad50ad"/>
+    </g>
+    <g class="effect" data-effect="ti">
+      <rect class="improvement-area" x="487" y="15" width="98" height="376" fill="#dfe8dc"/>
+      <path class="threshold-line" d="M487 15V391H585" stroke="#2ca15d"/>
+    </g>
+    <g class="effect" data-effect="tt">
+      <rect class="improvement-area" x="291" y="15" width="294" height="282" fill="#dfe0f2"/>
+      <path class="threshold-line" d="M291 15V297H585" stroke="#3858ad"/>
+    </g>
+
+    <!-- Coordinate projections remain visible while the coloured regions stay interactive. -->
+    <g aria-hidden="true">
+      <path class="projection-line" d="M95 109H193M193 109V485"/>
+      <path class="projection-line" d="M95 203H389M389 203V485"/>
+      <path class="projection-line" d="M95 391H487M487 391V485"/>
+      <path class="projection-line" d="M95 297H291M291 297V485"/>
+    </g>
+
+    <!-- Axes. -->
+    <path class="axis" d="M95 15V485H585" fill="none"/>
+
+    <g aria-hidden="true">
+      <path class="tick" d="M95 485v11M193 485v11M291 485v11M389 485v11M487 485v11M585 485v11"/>
+      <path class="tick" d="M84 485h11M84 391h11M84 297h11M84 203h11M84 109h11M84 15h11"/>
+
+      <text class="tick-label" x="95" y="531" text-anchor="middle">0</text>
+      <text class="tick-label" x="193" y="531" text-anchor="middle">1</text>
+      <text class="tick-label" x="291" y="531" text-anchor="middle">2</text>
+      <text class="tick-label" x="389" y="531" text-anchor="middle">3</text>
+      <text class="tick-label" x="487" y="531" text-anchor="middle">4</text>
+      <text class="tick-label" x="585" y="531" text-anchor="middle">5</text>
+
+      <text class="tick-label" x="69" y="493" text-anchor="end">0</text>
+      <text class="tick-label" x="69" y="399" text-anchor="end">1</text>
+      <text class="tick-label" x="69" y="305" text-anchor="end">2</text>
+      <text class="tick-label" x="69" y="211" text-anchor="end">3</text>
+      <text class="tick-label" x="69" y="117" text-anchor="end">4</text>
+      <text class="tick-label" x="69" y="23" text-anchor="end">5</text>
+
+      <text class="axis-label" x="340" y="571" text-anchor="middle">Alice's payoff</text>
+      <text class="axis-label" transform="translate(27 250) rotate(-90)" text-anchor="middle">Bruno's payoff</text>
+    </g>
+
+    <!-- The larger transparent circles make the four small points easy to target. -->
+    <g data-outcome="it">
+      <circle class="hotspot" cx="193" cy="109" r="17" tabindex="0" role="button"
+              aria-label="Outcome I, T. Alice uses IPC and receives a payoff of 1. Bruno uses Toxic Tide and receives a payoff of 4.">
+        <title>Alice uses IPC, Bruno uses Toxic Tide. Alice's payoff = 1; Bruno's payoff = 4.</title>
+      </circle>
+      <circle class="payoff-point" cx="193" cy="109" r="4.5"/>
+      <text class="point-label" x="158" y="96">I, T</text>
+    </g>
+    <g data-outcome="ii">
+      <circle class="hotspot" cx="389" cy="203" r="17" tabindex="0" role="button"
+              aria-label="Outcome I, I. Alice uses IPC and receives a payoff of 3. Bruno uses IPC and receives a payoff of 3.">
+        <title>Alice uses IPC, Bruno uses IPC. Alice's payoff = 3. Bruno's payoff = 3.</title>
+      </circle>
+      <circle class="payoff-point" cx="389" cy="203" r="4.5"/>
+      <text class="point-label" x="399" y="190">I, I</text>
+    </g>
+    <g data-outcome="ti">
+      <circle class="hotspot" cx="487" cy="391" r="17" tabindex="0" role="button"
+              aria-label="Outcome T, I. Alice uses Toxic Tide and receives a payoff of 4. Bruno uses IPC and receives a payoff of 1.">
+        <title>Alice uses Toxic Tide, Bruno uses IPC. Alice's payoff = 4; Bruno's payoff = 1.</title>
+      </circle>
+      <circle class="payoff-point" cx="487" cy="391" r="4.5"/>
+      <text class="point-label" x="507" y="379">T, I</text>
+    </g>
+    <g data-outcome="tt">
+      <circle class="hotspot" cx="291" cy="297" r="17" tabindex="0" role="button"
+              aria-label="Outcome T, T. Alice uses Toxic Tide and receives a payoff of 2. Bruno uses Toxic Tide and receives a payoff of 2.">
+        <title>Alice uses Toxic Tide, Bruno uses Toxic Tide. Alice's payoff = 2; Bruno's payoff = 2.</title>
+      </circle>
+      <circle class="payoff-point" cx="291" cy="297" r="4.5"/>
+      <text class="point-label" x="251" y="330">T, T</text>
+    </g>
+
+    <!-- Legend and outcome definitions. -->
+    <g aria-hidden="true">
+      <rect x="675" y="15" width="60" height="60" fill="#eadff0"/>
+      <text class="legend-label" x="752" y="55">Outcomes better for both than I, I</text>
+
+      <rect x="675" y="86" width="60" height="60" fill="#dfe0f2"/>
+      <text class="legend-label" x="752" y="126">Outcomes better for both than T, T</text>
+
+      <rect x="675" y="157" width="60" height="60" fill="#dfe8dc"/>
+      <text class="legend-label" x="752" y="197">Outcomes better for both than T, I</text>
+
+      <rect x="675" y="228" width="60" height="60" fill="#f8e2d3"/>
+      <text class="legend-label" x="752" y="268">Outcomes better for both than I, T</text>
+
+      <text class="definition" y="358">
+        <tspan x="704" text-anchor="end">I, I</tspan>
+        <tspan x="718" text-anchor="middle">=</tspan>
+        <tspan x="732">Both use IPC</tspan>
+      </text>
+      <text class="definition" y="405">
+        <tspan x="704" text-anchor="end">T, T</tspan>
+        <tspan x="718" text-anchor="middle">=</tspan>
+        <tspan x="732">Both use Toxic Tide</tspan>
+      </text>
+      <text class="definition" y="452">
+        <tspan x="704" text-anchor="end">T, I</tspan>
+        <tspan x="718" text-anchor="middle">=</tspan>
+        <tspan x="732">Alice uses Toxic Tide, Bruno uses IPC</tspan>
+      </text>
+      <text class="definition" y="499">
+        <tspan x="704" text-anchor="end">I, T</tspan>
+        <tspan x="718" text-anchor="middle">=</tspan>
+        <tspan x="732">Alice uses IPC, Bruno uses Toxic Tide</tspan>
+      </text>
+    </g>
+  </svg>
+
+  <script>
+    (() => {
+      const effects = new Map(
+        [...document.querySelectorAll('[data-effect]')]
+          .map((element) => [element.dataset.effect, element])
+      );
+
+      const activate = (key) => {
+        effects.forEach((element, effectKey) => {
+          element.classList.toggle('is-active', effectKey === key);
+        });
+      };
+
+      document.querySelectorAll('[data-outcome]').forEach((group) => {
+        const key = group.dataset.outcome;
+        const hotspot = group.querySelector('.hotspot');
+
+        hotspot.addEventListener('pointerenter', (event) => {
+          if (event.pointerType !== 'touch') activate(key);
+        });
+        hotspot.addEventListener('pointerleave', (event) => {
+          if (event.pointerType !== 'touch') activate(null);
+        });
+        hotspot.addEventListener('focus', () => activate(key));
+        hotspot.addEventListener('blur', () => activate(null));
+        hotspot.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'touch') activate(key);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

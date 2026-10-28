@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    .payoff-chart {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .axis,
+    .tick {
+      stroke: #73777b;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .tick-label {
+      fill: #111;
+      font-size: 23px;
+    }
+
+    .axis-label {
+      fill: #000;
+      font-size: 27px;
+      font-weight: 700;
+    }
+
+    .effect {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease-out;
+    }
+
+    .effect.is-active {
+      opacity: 1;
+    }
+
+    .improvement-area {
+      opacity: 0.88;
+    }
+
+    .threshold-line {
+      fill: none;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .projection-line {
+      fill: none;
+      stroke: #8c9298;
+      stroke-width: 1.75;
+      stroke-dasharray: 6 6;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .point-label {
+      fill: #000;
+      font-size: 22px;
+      pointer-events: none;
+    }
+
+    .payoff-point {
+      fill: #000;
+      pointer-events: none;
+    }
+
+    .hotspot {
+      fill: transparent;
+      stroke: transparent;
+      stroke-width: 3;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .hotspot:focus-visible {
+      stroke: #f2a900;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .effect {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <svg class="payoff-chart" viewBox="0 0 650 580" role="group"
+       aria-label="Pay-off combinations in the rice-cassava game"
+       aria-describedby="chart-description" preserveAspectRatio="xMidYMid meet">
+    <desc id="chart-description">
+      Hover over or focus any of the four outcome points to reveal the outcomes that are better for both Anil and Bala.
+    </desc>
+
+    <!-- Interactive improvement regions and their guide lines. -->
+    <g class="effect" data-effect="rc">
+      <rect class="improvement-area" x="515" y="16" width="70" height="268" fill="#f8e2d3"/>
+      <path class="threshold-line" d="M515 16V284H585" stroke="#ff3038"/>
+    </g>
+    <g class="effect" data-effect="rr">
+      <rect class="improvement-area" x="375" y="16" width="210" height="201" fill="#eadff0"/>
+      <path class="threshold-line" d="M375 16V217H585" stroke="#ad50ad"/>
+    </g>
+    <g class="effect" data-effect="cr">
+      <rect class="improvement-area" x="515" y="16" width="70" height="67" fill="#dfe8dc"/>
+      <path class="threshold-line" d="M515 16V83H585" stroke="#2ca15d"/>
+    </g>
+    <g class="effect" data-effect="cc">
+      <rect class="improvement-area" x="445" y="16" width="140" height="335" fill="#dfe0f2"/>
+      <path class="threshold-line" d="M445 16V351H585" stroke="#3858ad"/>
+    </g>
+
+    <!-- Coordinate projections remain visible while the coloured regions stay interactive. -->
+    <g aria-hidden="true">
+      <path class="projection-line" d="M95 284H515M515 284V485"/>
+      <path class="projection-line" d="M95 217H375M375 217V485"/>
+      <path class="projection-line" d="M95 83H515M515 83V485"/>
+      <path class="projection-line" d="M95 351H445M445 351V485"/>
+    </g>
+
+    <!-- Axes. -->
+    <path class="axis" d="M95 16V485H585" fill="none"/>
+
+    <g aria-hidden="true">
+      <path class="tick" d="M95 485v11M165 485v11M235 485v11M305 485v11M375 485v11M445 485v11M515 485v11M585 485v11"/>
+      <path class="tick" d="M84 485h11M84 418h11M84 351h11M84 284h11M84 217h11M84 150h11M84 83h11M84 16h11"/>
+
+      <text class="tick-label" x="95" y="531" text-anchor="middle">0</text>
+      <text class="tick-label" x="165" y="531" text-anchor="middle">1</text>
+      <text class="tick-label" x="235" y="531" text-anchor="middle">2</text>
+      <text class="tick-label" x="305" y="531" text-anchor="middle">3</text>
+      <text class="tick-label" x="375" y="531" text-anchor="middle">4</text>
+      <text class="tick-label" x="445" y="531" text-anchor="middle">5</text>
+      <text class="tick-label" x="515" y="531" text-anchor="middle">6</text>
+      <text class="tick-label" x="585" y="531" text-anchor="middle">7</text>
+
+      <text class="tick-label" x="69" y="493" text-anchor="end">0</text>
+      <text class="tick-label" x="69" y="426" text-anchor="end">1</text>
+      <text class="tick-label" x="69" y="359" text-anchor="end">2</text>
+      <text class="tick-label" x="69" y="292" text-anchor="end">3</text>
+      <text class="tick-label" x="69" y="225" text-anchor="end">4</text>
+      <text class="tick-label" x="69" y="158" text-anchor="end">5</text>
+      <text class="tick-label" x="69" y="91" text-anchor="end">6</text>
+      <text class="tick-label" x="69" y="24" text-anchor="end">7</text>
+
+      <text class="axis-label" x="340" y="571" text-anchor="middle">Anil's payoff</text>
+      <text class="axis-label" transform="translate(27 250) rotate(-90)" text-anchor="middle">Bala's payoff</text>
+    </g>
+
+    <!-- The larger transparent circles make the four small points easy to target. -->
+    <g data-outcome="rc">
+      <circle class="hotspot" cx="515" cy="284" r="17" tabindex="0" role="button"
+              aria-label="Outcome R, C. Anil plays Rice and receives a payoff of 6. Bala plays Cassava and receives a payoff of 3.">
+        <title>Outcome (R, C) — Anil plays Rice: payoff 6. Bala plays Cassava: payoff 3.</title>
+      </circle>
+      <circle class="payoff-point" cx="515" cy="284" r="4.5"/>
+      <text class="point-label" x="525" y="271">R, C</text>
+    </g>
+    <g data-outcome="rr">
+      <circle class="hotspot" cx="375" cy="217" r="17" tabindex="0" role="button"
+              aria-label="Outcome R, R. Anil plays Rice and receives a payoff of 4. Bala plays Rice and receives a payoff of 4.">
+        <title>Outcome (R, R) — Anil plays Rice: payoff 4. Bala plays Rice: payoff 4.</title>
+      </circle>
+      <circle class="payoff-point" cx="375" cy="217" r="4.5"/>
+      <text class="point-label" x="385" y="204">R, R</text>
+    </g>
+    <g data-outcome="cr">
+      <circle class="hotspot" cx="515" cy="83" r="17" tabindex="0" role="button"
+              aria-label="Outcome C, R. Anil plays Cassava and receives a payoff of 6. Bala plays Rice and receives a payoff of 6.">
+        <title>Outcome (C, R) — Anil plays Cassava: payoff 6. Bala plays Rice: payoff 6.</title>
+      </circle>
+      <circle class="payoff-point" cx="515" cy="83" r="4.5"/>
+      <text class="point-label" x="475" y="70">C, R</text>
+    </g>
+    <g data-outcome="cc">
+      <circle class="hotspot" cx="445" cy="351" r="17" tabindex="0" role="button"
+              aria-label="Outcome C, C. Anil plays Cassava and receives a payoff of 5. Bala plays Cassava and receives a payoff of 2.">
+        <title>Outcome (C, C) — Anil plays Cassava: payoff 5. Bala plays Cassava: payoff 2.</title>
+      </circle>
+      <circle class="payoff-point" cx="445" cy="351" r="4.5"/>
+      <text class="point-label" x="405" y="384">C, C</text>
+    </g>
+
+  </svg>
+
+  <script>
+    (() => {
+      const effects = new Map(
+        [...document.querySelectorAll('[data-effect]')]
+          .map((element) => [element.dataset.effect, element])
+      );
+
+      const activate = (key) => {
+        effects.forEach((element, effectKey) => {
+          element.classList.toggle('is-active', effectKey === key);
+        });
+      };
+
+      document.querySelectorAll('[data-outcome]').forEach((group) => {
+        const key = group.dataset.outcome;
+        const hotspot = group.querySelector('.hotspot');
+
+        hotspot.addEventListener('pointerenter', (event) => {
+          if (event.pointerType !== 'touch') activate(key);
+        });
+        hotspot.addEventListener('pointerleave', (event) => {
+          if (event.pointerType !== 'touch') activate(null);
+        });
+        hotspot.addEventListener('focus', () => activate(key));
+        hotspot.addEventListener('blur', () => activate(null));
+        hotspot.addEventListener('pointerdown', (event) => {
+          if (event.pointerType === 'touch') activate(key);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

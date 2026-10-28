@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    .kim-chart {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-line {
+      stroke: #b8bdc1;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .axis-line,
+    .tick {
+      stroke: #73777b;
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .tick-label {
+      fill: #000;
+      font-size: 27px;
+    }
+
+    .axis-label {
+      fill: #000;
+      font-size: 29px;
+      font-weight: 700;
+    }
+
+    .legend-label {
+      fill: #000;
+      font-size: 25px;
+    }
+
+    .bar rect {
+      transition: filter 150ms ease, stroke-width 150ms ease;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .bar:hover rect,
+    .bar:focus rect {
+      filter: brightness(1.12) saturate(1.08);
+      stroke-width: 2;
+    }
+
+    .bar:hover rect[fill="#4659ad"],
+    .bar:focus rect[fill="#4659ad"] {
+      stroke: #29377a;
+    }
+
+    .bar:hover rect[fill="#ed1025"],
+    .bar:focus rect[fill="#ed1025"] {
+      stroke: #9d0717;
+    }
+
+    .bar {
+      cursor: default;
+      outline: none;
+    }
+
+    .value-label {
+      fill: #000;
+      font-size: 24px;
+      pointer-events: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar rect {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <svg class="kim-chart" viewBox="0 0 1328 720" role="img"
+       aria-labelledby="chart-title chart-description" preserveAspectRatio="xMidYMid meet">
+    <title id="chart-title">Kim's payoff by number of other farmers contributing</title>
+    <desc id="chart-description">
+      Grouped bar chart comparing Kim's payoff when she contributes with her payoff when she does not contribute. Not contributing gives Kim two dollars more in every case.
+    </desc>
+
+    <!-- Horizontal grid and zero line. -->
+    <g aria-hidden="true">
+      <path class="grid-line" d="M137 18H1318M137 127H1318M137 252H1318M137 362H1318M137 487H1318M137 612H1318"/>
+      <path class="axis-line" d="M137 18V612M137 487H1318M137 612H1318" fill="none"/>
+
+      <path class="tick" d="M126 18H137M126 127H137M126 252H137M126 362H137M126 487H137M126 612H137"/>
+      <path class="tick" d="M137 612V625M433 612V625M728 612V625M1023 612V625M1318 612V625"/>
+
+      <text class="tick-label" x="105" y="27" text-anchor="end">30</text>
+      <text class="tick-label" x="105" y="136" text-anchor="end">23</text>
+      <text class="tick-label" x="105" y="261" text-anchor="end">15</text>
+      <text class="tick-label" x="105" y="371" text-anchor="end">8</text>
+      <text class="tick-label" x="105" y="496" text-anchor="end">0</text>
+      <text class="tick-label" x="105" y="621" text-anchor="end">−8</text>
+
+      <text class="tick-label" x="285" y="657" text-anchor="middle">0</text>
+      <text class="tick-label" x="580" y="657" text-anchor="middle">1</text>
+      <text class="tick-label" x="875" y="657" text-anchor="middle">2</text>
+      <text class="tick-label" x="1170" y="657" text-anchor="middle">3</text>
+
+      <text class="axis-label" x="728" y="705" text-anchor="middle">Number of other farmers contributing</text>
+      <text class="axis-label" transform="translate(31 315) rotate(-90)" text-anchor="middle">Kim’s payoff ($)</text>
+    </g>
+
+    <!-- Legend. -->
+    <g aria-hidden="true">
+      <rect x="177" y="45" width="23" height="23" fill="#4659ad"/>
+      <text class="legend-label" x="219" y="66">Kim's payoff if she contributes</text>
+      <rect x="177" y="76" width="23" height="23" fill="#ed1025"/>
+      <text class="legend-label" x="219" y="97">Kim's payoff if she does not contribute</text>
+    </g>
+
+    <!-- Number of other contributors: 0. -->
+    <g class="bar" tabindex="0" role="img" aria-label="0 other farmers contributing. Kim contributes: payoff minus 2 dollars">
+      <title>0 other farmers contributing. Kim's payoff if she contributes: −$2</title>
+      <rect x="200" y="487" width="85" height="31" fill="#4659ad"/>
+      <text class="value-label" x="242.5" y="547" text-anchor="middle">−2</text>
+    </g>
+    <g class="bar" tabindex="0" role="img" aria-label="0 other farmers contributing. Kim does not contribute: payoff 0 dollars">
+      <title>0 other farmers contributing. Kim's payoff if she does not contribute: $0</title>
+      <rect x="285" y="485" width="85" height="2" fill="#ed1025"/>
+      <text class="value-label" x="327.5" y="478" text-anchor="middle">0</text>
+    </g>
+
+    <!-- Number of other contributors: 1. -->
+    <g class="bar" tabindex="0" role="img" aria-label="1 other farmer contributing. Kim contributes: payoff 6 dollars">
+      <title>1 other farmer contributing. Kim's payoff if she contributes: $6</title>
+      <rect x="495" y="393" width="85" height="94" fill="#4659ad"/>
+      <text class="value-label" x="537.5" y="385" text-anchor="middle">6</text>
+    </g>
+    <g class="bar" tabindex="0" role="img" aria-label="1 other farmer contributing. Kim does not contribute: payoff 8 dollars">
+      <title>1 other farmer contributing. Kim's payoff if she does not contribute: $8</title>
+      <rect x="580" y="362" width="85" height="125" fill="#ed1025"/>
+      <text class="value-label" x="622.5" y="354" text-anchor="middle">8</text>
+    </g>
+
+    <!-- Number of other contributors: 2. -->
+    <g class="bar" tabindex="0" role="img" aria-label="2 other farmers contributing. Kim contributes: payoff 14 dollars">
+      <title>2 other farmers contributing. Kim's payoff if she contributes: $14</title>
+      <rect x="790" y="268" width="85" height="219" fill="#4659ad"/>
+      <text class="value-label" x="832.5" y="260" text-anchor="middle">14</text>
+    </g>
+    <g class="bar" tabindex="0" role="img" aria-label="2 other farmers contributing. Kim does not contribute: payoff 16 dollars">
+      <title>2 other farmers contributing. Kim's payoff if she does not contribute: $16</title>
+      <rect x="875" y="237" width="85" height="250" fill="#ed1025"/>
+      <text class="value-label" x="917.5" y="229" text-anchor="middle">16</text>
+    </g>
+
+    <!-- Number of other contributors: 3. -->
+    <g class="bar" tabindex="0" role="img" aria-label="3 other farmers contributing. Kim contributes: payoff 22 dollars">
+      <title>3 other farmers contributing. Kim's payoff if she contributes: $22</title>
+      <rect x="1085" y="143" width="85" height="344" fill="#4659ad"/>
+      <text class="value-label" x="1127.5" y="135" text-anchor="middle">22</text>
+    </g>
+    <g class="bar" tabindex="0" role="img" aria-label="3 other farmers contributing. Kim does not contribute: payoff 24 dollars">
+      <title>3 other farmers contributing. Kim's payoff if she does not contribute: $24</title>
+      <rect x="1170" y="112" width="85" height="375" fill="#ed1025"/>
+      <text class="value-label" x="1212.5" y="104" text-anchor="middle">24</text>
+    </g>
+  </svg>
+</body>
+</html>

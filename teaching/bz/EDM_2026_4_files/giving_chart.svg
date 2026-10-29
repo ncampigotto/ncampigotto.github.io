@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 630" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Mean global scores over time</title>
+<desc id="chart-desc">Participation in helping a stranger, donating money, and volunteering time from 2009 to 2020. Each line is labeled at its right end.</desc>
+<style>
+text { font-family: Arial, sans-serif; font-weight: 400; }
+.chart-title { fill: #363636; font-size: 31px; }
+.axis { stroke: #626262; stroke-width: 1.6; fill: none; }
+.tick { fill: #5c5c5c; font-size: 21px; }
+.axis-title { fill: #5c5c5c; font-size: 23px; }
+.value { font-size: 21px; }
+.series-name { font-size: 23px; font-weight: 600; }
+</style>
+<text x="80" y="53" class="chart-title">Mean global scores over time</text>
+<path class="axis" d="M 84 125 V 535 H 868"/>
+<text x="21" y="330" text-anchor="middle" transform="rotate(-90 21 330)" class="axis-title">% participation</text>
+<text x="494" y="617" text-anchor="middle" class="axis-title">Year</text>
+<path class="axis" d="M 84 535 H 99"/>
+<text x="70" y="542" text-anchor="end" class="tick">10</text>
+<path class="axis" d="M 84 453 H 99"/>
+<text x="70" y="460" text-anchor="end" class="tick">20</text>
+<path class="axis" d="M 84 371 H 99"/>
+<text x="70" y="378" text-anchor="end" class="tick">30</text>
+<path class="axis" d="M 84 289 H 99"/>
+<text x="70" y="296" text-anchor="end" class="tick">40</text>
+<path class="axis" d="M 84 207 H 99"/>
+<text x="70" y="214" text-anchor="end" class="tick">50</text>
+<path class="axis" d="M 84 125 H 99"/>
+<text x="70" y="132" text-anchor="end" class="tick">60</text>
+<path class="axis" d="M 120 535 V 526"/>
+<text x="120" y="573" text-anchor="middle" class="tick">2009</text>
+<path class="axis" d="M 188 535 V 526"/>
+<text x="188" y="573" text-anchor="middle" class="tick">2010</text>
+<path class="axis" d="M 256 535 V 526"/>
+<text x="256" y="573" text-anchor="middle" class="tick">2011</text>
+<path class="axis" d="M 324 535 V 526"/>
+<text x="324" y="573" text-anchor="middle" class="tick">2012</text>
+<path class="axis" d="M 392 535 V 526"/>
+<text x="392" y="573" text-anchor="middle" class="tick">2013</text>
+<path class="axis" d="M 460 535 V 526"/>
+<text x="460" y="573" text-anchor="middle" class="tick">2014</text>
+<path class="axis" d="M 528 535 V 526"/>
+<text x="528" y="573" text-anchor="middle" class="tick">2015</text>
+<path class="axis" d="M 596 535 V 526"/>
+<text x="596" y="573" text-anchor="middle" class="tick">2016</text>
+<path class="axis" d="M 664 535 V 526"/>
+<text x="664" y="573" text-anchor="middle" class="tick">2017</text>
+<path class="axis" d="M 732 535 V 526"/>
+<text x="732" y="573" text-anchor="middle" class="tick">2018</text>
+<path class="axis" d="M 800 535 V 526"/>
+<text x="800" y="573" text-anchor="middle" class="tick">2019</text>
+<path class="axis" d="M 868 535 V 526"/>
+<text x="868" y="573" text-anchor="middle" class="tick">2020</text>
+<polyline points="120,256.2 188,231.6 256,239.8 324,223.4 392,215.2 460,215.2 528,198.8 596,207 664,198.8 732,231.6 800,198.8 868,166" fill="none" stroke="#2f829b" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="240.2" text-anchor="middle" fill="#2f829b" class="value">44%</text>
+<text x="188" y="215.6" text-anchor="middle" fill="#2f829b" class="value">47%</text>
+<text x="256" y="223.8" text-anchor="middle" fill="#2f829b" class="value">46%</text>
+<text x="324" y="207.4" text-anchor="middle" fill="#2f829b" class="value">48%</text>
+<text x="392" y="199.2" text-anchor="middle" fill="#2f829b" class="value">49%</text>
+<text x="460" y="199.2" text-anchor="middle" fill="#2f829b" class="value">49%</text>
+<text x="528" y="182.8" text-anchor="middle" fill="#2f829b" class="value">51%</text>
+<text x="596" y="191" text-anchor="middle" fill="#2f829b" class="value">50%</text>
+<text x="664" y="182.8" text-anchor="middle" fill="#2f829b" class="value">51%</text>
+<text x="732" y="215.6" text-anchor="middle" fill="#2f829b" class="value">47%</text>
+<text x="800" y="182.8" text-anchor="middle" fill="#2f829b" class="value">51%</text>
+<text x="868" y="150" text-anchor="middle" fill="#2f829b" class="value">55%</text>
+<text x="893" y="174" fill="#2f829b" class="series-name">Helping a stranger</text>
+<polyline points="120,387.4 188,371 256,395.6 324,379.2 392,379.2 460,362.8 528,362.8 596,371 664,379.2 732,395.6 800,387.4 868,362.8" fill="none" stroke="#7d5ca3" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="371.4" text-anchor="middle" fill="#7d5ca3" class="value">28%</text>
+<text x="188" y="355" text-anchor="middle" fill="#7d5ca3" class="value">30%</text>
+<text x="256" y="379.6" text-anchor="middle" fill="#7d5ca3" class="value">27%</text>
+<text x="324" y="363.2" text-anchor="middle" fill="#7d5ca3" class="value">29%</text>
+<text x="392" y="363.2" text-anchor="middle" fill="#7d5ca3" class="value">29%</text>
+<text x="460" y="346.8" text-anchor="middle" fill="#7d5ca3" class="value">31%</text>
+<text x="528" y="346.8" text-anchor="middle" fill="#7d5ca3" class="value">31%</text>
+<text x="596" y="355" text-anchor="middle" fill="#7d5ca3" class="value">30%</text>
+<text x="664" y="363.2" text-anchor="middle" fill="#7d5ca3" class="value">29%</text>
+<text x="732" y="379.6" text-anchor="middle" fill="#7d5ca3" class="value">27%</text>
+<text x="800" y="371.4" text-anchor="middle" fill="#7d5ca3" class="value">28%</text>
+<text x="868" y="346.8" text-anchor="middle" fill="#7d5ca3" class="value">31%</text>
+<text x="893" y="370.8" fill="#7d5ca3" class="series-name">Donating money</text>
+<polyline points="120,469.4 188,453 256,461.2 324,453 392,436.6 460,444.8 528,436.6 596,444.8 664,444.8 732,469.4 800,461.2 868,461.2" fill="none" stroke="#472545" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="453.4" text-anchor="middle" fill="#472545" class="value">18%</text>
+<text x="188" y="437" text-anchor="middle" fill="#472545" class="value">20%</text>
+<text x="256" y="445.2" text-anchor="middle" fill="#472545" class="value">19%</text>
+<text x="324" y="437" text-anchor="middle" fill="#472545" class="value">20%</text>
+<text x="392" y="420.6" text-anchor="middle" fill="#472545" class="value">22%</text>
+<text x="460" y="428.8" text-anchor="middle" fill="#472545" class="value">21%</text>
+<text x="528" y="420.6" text-anchor="middle" fill="#472545" class="value">22%</text>
+<text x="596" y="428.8" text-anchor="middle" fill="#472545" class="value">21%</text>
+<text x="664" y="428.8" text-anchor="middle" fill="#472545" class="value">21%</text>
+<text x="732" y="453.4" text-anchor="middle" fill="#472545" class="value">18%</text>
+<text x="800" y="445.2" text-anchor="middle" fill="#472545" class="value">19%</text>
+<text x="868" y="445.2" text-anchor="middle" fill="#472545" class="value">19%</text>
+<text x="893" y="469.2" fill="#472545" class="series-name">Volunteering time</text>
+</svg>

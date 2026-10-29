@@ -1,0 +1,104 @@
+```{=html}
+<!-- Values are approximated from rating.png; edit the
+     `series` array below if the original data become available. -->
+<div class="rating-chart" aria-label="Subjective satisfaction by charity transfer and loss to subject">
+  <svg viewBox="0 0 720 620" role="img" aria-labelledby="rating-title rating-desc">
+    <title id="rating-title">Subjective satisfaction ratings</title>
+    <desc id="rating-desc">Eight treatments: four losses to the subject, each shown for voluntary and compulsory transfers. Hover over a line to identify its treatment.</desc>
+    <g class="rating-chart-axes">
+      <path d="M 105 115 V 505 H 495" fill="none" stroke="#555" stroke-width="3"/>
+      <g class="rating-chart-ticks">
+        <path d="M 88 505 H 105 M 88 375 H 105 M 88 245 H 105 M 88 115 H 105" stroke="#888" stroke-width="2"/>
+        <text x="78" y="514" text-anchor="end">1</text>
+        <text x="78" y="384" text-anchor="end">2</text>
+        <text x="78" y="254" text-anchor="end">3</text>
+        <text x="78" y="124" text-anchor="end">4</text>
+        <path d="M 120 505 V 523 M 240 505 V 523 M 360 505 V 523 M 480 505 V 523" stroke="#aaa" stroke-width="2"/>
+        <text x="120" y="556" text-anchor="middle">$0</text>
+        <text x="240" y="556" text-anchor="middle">$15</text>
+        <text x="360" y="556" text-anchor="middle">$30</text>
+        <text x="480" y="556" text-anchor="middle">$45</text>
+      </g>
+      <text x="300" y="603" text-anchor="middle" class="rating-chart-axis-title">Amount going to charity</text>
+      <text x="22" y="310" text-anchor="middle" transform="rotate(-90 22 310)" class="rating-chart-axis-title">Subjective satisfaction rating</text>
+      <text x="535" y="54" class="rating-chart-key-title">Loss to</text>
+      <text x="535" y="87" class="rating-chart-key-title">subject</text>
+    </g>
+    <g class="rating-chart-series"></g>
+    <g class="rating-chart-key" aria-hidden="true"></g>
+  </svg>
+</div>
+
+<style>
+.rating-chart { position: relative; width: 100%; max-width: 720px; margin: 0 auto; font-family: Arial, sans-serif; }
+.rating-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.rating-chart text { fill: #242424; font-family: Arial, sans-serif; font-size: 27px; font-weight: 400; }
+.rating-chart .rating-chart-axis-title { font-size: 26px; }
+.rating-chart .rating-chart-key-title { font-size: 26px; }
+.rating-chart .rating-chart-key text { font-size: 27px; font-weight: 500; }
+.rating-chart .series-line { fill: none; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.rating-chart .series-compulsory .series-line { stroke-dasharray: 10 11; }
+.rating-chart .series-point { stroke: none; }
+.rating-chart .series-hit { fill: none; stroke: transparent; stroke-width: 19; pointer-events: stroke; }
+.rating-chart .series-line, .rating-chart .series-point { pointer-events: none; }
+.rating-chart .rating-series { cursor: default; outline: none; }
+.rating-chart .rating-series:hover .series-line,
+.rating-chart .rating-series:focus .series-line { stroke-width: 5.5; }
+.rating-chart .rating-series:focus .series-hit { stroke: rgba(0, 0, 0, .09); }
+</style>
+
+<script>
+(() => {
+  const init = () => {
+    const chart = document.querySelector('.rating-chart');
+    if (!chart || chart.dataset.ready) return;
+    chart.dataset.ready = 'true';
+    const plot = chart.querySelector('.rating-chart-series');
+    const key = chart.querySelector('.rating-chart-key');
+    const ns = 'http://www.w3.org/2000/svg';
+    const x = [120, 240, 360, 480];
+    const y = value => 505 - (value - 1) * 130;
+    const series = [
+      { loss: 0,  color: '#62bb46', mode: 'Voluntary',  ratings: [2.62, 3.55, 3.78, 3.82] },
+      { loss: 0,  color: '#62bb46', mode: 'Compulsory', ratings: [2.22, 3.45, 3.70, 3.76] },
+      { loss: 15, color: '#67cadd', mode: 'Voluntary',  ratings: [2.20, 2.96, 3.29, 3.58] },
+      { loss: 15, color: '#67cadd', mode: 'Compulsory', ratings: [1.43, 2.88, 3.11, 3.48] },
+      { loss: 30, color: '#335caa', mode: 'Voluntary',  ratings: [2.00, 2.32, 2.90, 3.08] },
+      { loss: 30, color: '#335caa', mode: 'Compulsory', ratings: [1.18, 1.76, 2.71, 2.95] },
+      { loss: 45, color: '#ee2f23', mode: 'Voluntary',  ratings: [2.00, 1.90, 2.21, 2.57] },
+      { loss: 45, color: '#ee2f23', mode: 'Compulsory', ratings: [1.29, 1.39, 1.64, 2.48] }
+    ];
+    const make = (tag, attrs, parent) => {
+      const el = document.createElementNS(ns, tag);
+      for (const [name, value] of Object.entries(attrs)) el.setAttribute(name, value);
+      parent.appendChild(el);
+      return el;
+    };
+    for (const item of series) {
+      const style = item.mode === 'Compulsory' ? 'series-compulsory' : 'series-voluntary';
+      const description = `Subject loses $${item.loss}. ${item.mode} transfer (${item.mode === 'Voluntary' ? 'solid' : 'dashed'} line).`;
+      const group = make('g', { class: `rating-series ${style}`, tabindex: '0', role: 'img', 'aria-label': description }, plot);
+      const title = make('title', {}, group);
+      title.textContent = description;
+      const points = item.ratings.map((value, i) => `${x[i]},${y(value)}`).join(' ');
+      make('polyline', { class: 'series-line', stroke: item.color, points }, group);
+      item.ratings.forEach((value, i) => {
+        if (item.mode === 'Compulsory') {
+          make('rect', { class: 'series-point', x: x[i] - 6.5, y: y(value) - 6.5, width: 13, height: 13, fill: item.color }, group);
+        } else {
+          make('circle', { class: 'series-point', cx: x[i], cy: y(value), r: 6.5, fill: item.color }, group);
+        }
+      });
+      make('polyline', { class: 'series-hit', points }, group);
+    }
+    for (const [loss, color, yy] of [[0, '#62bb46', 138], [15, '#67cadd', 177], [30, '#335caa', 244], [45, '#ee2f23', 313]]) {
+      const label = make('text', { x: 525, y: yy, fill: color }, key);
+      label.textContent = `$${loss}`;
+      label.style.fill = color;
+    }
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+```

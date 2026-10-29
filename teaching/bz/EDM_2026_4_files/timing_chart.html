@@ -1,0 +1,138 @@
+```{=html}
+<div class="transfer-timing" data-transfer-timing>
+  <svg viewBox="0 0 1200 710" role="group" aria-label="Transfer experiment timeline">
+    <defs>
+      <marker id="timing-arrow" markerWidth="13" markerHeight="10" refX="11" refY="5" orient="auto">
+        <path d="M 0 0 L 12 5 L 0 10 Z" fill="#373b3d"/>
+      </marker>
+    </defs>
+
+    <g class="example-card mandatory-card" data-type="mandatory" role="button" tabindex="0" aria-pressed="false" aria-label="Select mandatory transfer example">
+      <rect class="card-outline" x="20" y="16" width="555" height="340" rx="11"/>
+      <text class="card-heading" x="298" y="60" text-anchor="middle">EXAMPLE OF MANDATORY TRANSFER</text>
+      <text class="card-copy" x="155" y="125" text-anchor="middle">Change to your</text>
+      <text class="card-copy" x="155" y="155" text-anchor="middle">account:</text>
+      <text class="card-amount" x="155" y="196" text-anchor="middle">−$30</text>
+      <text class="card-copy" x="440" y="125" text-anchor="middle">Change to Food for</text>
+      <text class="card-copy" x="440" y="155" text-anchor="middle">Lane County account:</text>
+      <text class="card-amount" x="440" y="196" text-anchor="middle">+$30</text>
+      <rect class="choice-outline" x="186" y="251" width="225" height="64" rx="6"/>
+      <text class="choice-text" x="298" y="293" text-anchor="middle">Acknowledge</text>
+    </g>
+
+    <g class="example-card voluntary-card" data-type="voluntary" role="button" tabindex="0" aria-pressed="false" aria-label="Select voluntary transfer example">
+      <rect class="card-outline" x="625" y="16" width="555" height="340" rx="11"/>
+      <text class="card-heading" x="903" y="60" text-anchor="middle">EXAMPLE OF VOLUNTARY TRANSFER</text>
+      <text class="card-copy" x="760" y="125" text-anchor="middle">Change to your</text>
+      <text class="card-copy" x="760" y="155" text-anchor="middle">account:</text>
+      <text class="card-amount" x="760" y="196" text-anchor="middle">−$30</text>
+      <text class="card-copy" x="1045" y="125" text-anchor="middle">Change to Food for</text>
+      <text class="card-copy" x="1045" y="155" text-anchor="middle">Lane County account:</text>
+      <text class="card-amount" x="1045" y="196" text-anchor="middle">+$30</text>
+      <rect class="choice-outline" x="824" y="234" width="158" height="48" rx="6"/>
+      <text class="choice-text" x="903" y="266" text-anchor="middle">Accept</text>
+      <rect class="choice-outline" x="824" y="293" width="158" height="48" rx="6"/>
+      <text class="choice-text" x="903" y="325" text-anchor="middle">Reject</text>
+    </g>
+
+    <g class="timeline">
+      <text x="340" y="422" text-anchor="middle">Reveal</text>
+      <g class="type-button" data-type="mandatory" role="button" tabindex="0" aria-pressed="false" aria-label="Show mandatory transfer example">
+        <rect class="button-rect" x="155" y="443" width="165" height="58" rx="8"/>
+        <text class="button-text" x="237.5" y="481" text-anchor="middle">Mandatory</text>
+      </g>
+      <text x="340" y="481" text-anchor="middle">or</text>
+      <g class="type-button" data-type="voluntary" role="button" tabindex="0" aria-pressed="false" aria-label="Show voluntary transfer example">
+        <rect class="button-rect" x="360" y="443" width="165" height="58" rx="8"/>
+        <text class="button-text" x="442.5" y="481" text-anchor="middle">Voluntary</text>
+      </g>
+      <text x="340" y="537" text-anchor="middle">and amounts</text>
+
+      <text x="790" y="422" text-anchor="middle">Response</text>
+      <g class="type-button" data-type="mandatory" role="button" tabindex="0" aria-pressed="false" aria-label="Show mandatory transfer example">
+        <rect class="button-rect" x="580" y="443" width="190" height="58" rx="8"/>
+        <text class="button-text" x="675" y="481" text-anchor="middle">Acknowledge</text>
+      </g>
+      <text x="790" y="481" text-anchor="middle">or</text>
+      <g class="type-button" data-type="voluntary" role="button" tabindex="0" aria-pressed="false" aria-label="Show voluntary transfer example">
+        <rect class="button-rect" x="810" y="443" width="205" height="58" rx="8"/>
+        <text class="button-text" x="912.5" y="481" text-anchor="middle">Accept / reject</text>
+      </g>
+      <text x="790" y="537" text-anchor="middle">choice</text>
+
+      <text x="1095" y="542" text-anchor="middle">Satisfaction</text>
+      <text x="1095" y="577" text-anchor="middle">rating</text>
+
+      <path class="timeline-arrow" d="M 105 643 H 1160" marker-end="url(#timing-arrow)"/>
+      <circle cx="105" cy="643" r="8" fill="#373b3d"/>
+      <path class="event-stem" d="M 340 553 V 643" marker-end="url(#timing-arrow)"/>
+      <path class="event-stem" d="M 790 553 V 643" marker-end="url(#timing-arrow)"/>
+      <path class="event-stem" d="M 1095 585 V 643" marker-end="url(#timing-arrow)"/>
+      <text x="74" y="580" text-anchor="middle">Experiment</text>
+      <text x="74" y="615" text-anchor="middle">begins</text>
+    </g>
+  </svg>
+</div>
+
+<style>
+.transfer-timing { width: 100%; margin: 0 auto; }
+.transfer-timing svg { display: block; width: 100%; height: auto; font-family: Arial, sans-serif; }
+.transfer-timing text { fill: #202527; font-weight: 400; }
+.transfer-timing .example-card { opacity: .42; filter: grayscale(1); cursor: pointer; outline: none; transition: opacity 220ms ease, filter 220ms ease; }
+.transfer-timing .example-card.active { opacity: 1; filter: none; }
+.transfer-timing .example-card:focus-visible .card-outline { stroke-width: 5; }
+.transfer-timing .card-outline { fill: #eef5f6; stroke-width: 3; }
+.transfer-timing .mandatory-card .card-outline { stroke: #4d5aac; }
+.transfer-timing .voluntary-card .card-outline { stroke: #107895; }
+.transfer-timing .card-heading { font-size: 28px; font-weight: 500; }
+.transfer-timing .mandatory-card.active .card-heading { fill: #4d5aac; }
+.transfer-timing .voluntary-card.active .card-heading { fill: #107895; }
+.transfer-timing .card-copy { font-size: 25px; }
+.transfer-timing .card-amount { font-size: 32px; font-weight: 600; }
+.transfer-timing .choice-outline { fill: #fff; stroke: #606c70; stroke-width: 2; }
+.transfer-timing .choice-text { font-size: 27px; }
+.transfer-timing .timeline text { font-family: Arial, sans-serif; font-size: 27px; font-weight: 400; }
+.transfer-timing .timeline-arrow { fill: none; stroke: #373b3d; stroke-width: 3; }
+.transfer-timing .event-stem { fill: none; stroke: #373b3d; stroke-width: 2.4; }
+.transfer-timing .type-button { cursor: pointer; outline: none; }
+.transfer-timing .button-rect { stroke-width: 3; transition: fill 160ms ease; }
+.transfer-timing .button-text { pointer-events: none; }
+.transfer-timing .type-button[data-type="mandatory"] .button-rect { fill: #eef0fa; stroke: #4d5aac; }
+.transfer-timing .type-button[data-type="mandatory"] .button-text { fill: #4d5aac; }
+.transfer-timing .type-button[data-type="voluntary"] .button-rect { fill: #e9f5f8; stroke: #107895; }
+.transfer-timing .type-button[data-type="voluntary"] .button-text { fill: #107895; }
+.transfer-timing .type-button[data-type="mandatory"].active .button-rect { fill: #4d5aac; }
+.transfer-timing .type-button[data-type="voluntary"].active .button-rect { fill: #107895; }
+.transfer-timing .type-button.active .button-text { fill: #fff; }
+.transfer-timing .type-button:focus-visible .button-rect { stroke-width: 5; }
+</style>
+
+<script>
+(() => {
+  const init = () => {
+    const figure = document.querySelector('[data-transfer-timing]');
+    if (!figure || figure.dataset.ready) return;
+    figure.dataset.ready = 'true';
+    const buttons = figure.querySelectorAll('.type-button');
+    const cards = figure.querySelectorAll('.example-card');
+    const selectType = (selectedType, event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      for (const control of [...buttons, ...cards]) {
+        const active = control.dataset.type === selectedType;
+        control.setAttribute('aria-pressed', String(active));
+        control.classList.toggle('active', active);
+      }
+    };
+    for (const control of [...buttons, ...cards]) {
+      control.addEventListener('click', event => selectType(control.dataset.type, event));
+      control.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') selectType(control.dataset.type, event);
+      });
+    }
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+```

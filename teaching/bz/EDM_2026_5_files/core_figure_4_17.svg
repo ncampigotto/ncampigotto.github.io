@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-label="Share of responders who would accept each offer, Kenyan farmers versus Emory students">
+  <rect x="0" y="0" width="1000" height="520" fill="white" />
+  <line x1="100" y1="420.00" x2="970" y2="420.00" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="427.0" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">0</text>
+  <line x1="100" y1="333.75" x2="970" y2="333.75" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="340.75" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">25</text>
+  <line x1="100" y1="247.50" x2="970" y2="247.50" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="254.5" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">50</text>
+  <line x1="100" y1="161.25" x2="970" y2="161.25" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="168.25" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">75</text>
+  <line x1="100" y1="75.00" x2="970" y2="75.00" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="82.0" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">100</text>
+  <line x1="100" y1="75" x2="100" y2="420" stroke="#131516" stroke-width="2" />
+  <line x1="100" y1="420" x2="970" y2="420" stroke="#131516" stroke-width="2" />
+  <text x="150.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">0</text>
+  <rect x="122.00" y="420.00" width="28" height="0.00" fill="#ed1f24">
+    <title>Kenyan farmers: 0% offer, 0%</title>
+  </rect>
+  <rect x="150.00" y="420.00" width="28" height="0.00" fill="#3a53a4">
+    <title>Emory students: 0% offer, 0%</title>
+  </rect>
+  <text x="304.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">10</text>
+  <rect x="276.00" y="413.10" width="28" height="6.90" fill="#ed1f24">
+    <title>Kenyan farmers: 10% offer, 2%</title>
+  </rect>
+  <rect x="304.00" y="219.90" width="28" height="200.10" fill="#3a53a4">
+    <title>Emory students: 10% offer, 58%</title>
+  </rect>
+  <text x="458.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">20</text>
+  <rect x="430.00" y="385.50" width="28" height="34.50" fill="#ed1f24">
+    <title>Kenyan farmers: 20% offer, 10%</title>
+  </rect>
+  <rect x="458.00" y="202.65" width="28" height="217.35" fill="#3a53a4">
+    <title>Emory students: 20% offer, 63%</title>
+  </rect>
+  <text x="612.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">30</text>
+  <rect x="584.00" y="240.60" width="28" height="179.40" fill="#ed1f24">
+    <title>Kenyan farmers: 30% offer, 52%</title>
+  </rect>
+  <rect x="612.00" y="130.20" width="28" height="289.80" fill="#3a53a4">
+    <title>Emory students: 30% offer, 84%</title>
+  </rect>
+  <text x="766.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">40</text>
+  <rect x="738.00" y="88.80" width="28" height="331.20" fill="#ed1f24">
+    <title>Kenyan farmers: 40% offer, 96%</title>
+  </rect>
+  <rect x="766.00" y="112.95" width="28" height="307.05" fill="#3a53a4">
+    <title>Emory students: 40% offer, 89%</title>
+  </rect>
+  <text x="920.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">50</text>
+  <rect x="892.00" y="75.00" width="28" height="345.00" fill="#ed1f24">
+    <title>Kenyan farmers: 50% offer, 100%</title>
+  </rect>
+  <rect x="920.00" y="75.00" width="28" height="345.00" fill="#3a53a4">
+    <title>Emory students: 50% offer, 100%</title>
+  </rect>
+  <text x="535.0" y="500" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">Share of pie offered to Responder (%)</text>
+  <text x="29" y="247.5" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="20" text-anchor="middle" transform="rotate(-90 29 247.5)">Responders accepting (%)</text>
+  <rect x="100" y="9" width="20" height="20" fill="#ed1f24" />
+  <text x="130" y="26" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="start">Kenyan farmers</text>
+  <rect x="380" y="9" width="20" height="20" fill="#3a53a4" />
+  <text x="410" y="26" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="start">Emory students</text>
+</svg>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-label="Distribution of offers, with rejection proportions from Responder decisions shown in darker colors">
+  <rect x="0" y="0" width="1000" height="520" fill="white" />
+  <line x1="100" y1="420.00" x2="970" y2="420.00" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="427.0" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">0</text>
+  <line x1="100" y1="333.75" x2="970" y2="333.75" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="340.75" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">15</text>
+  <line x1="100" y1="247.50" x2="970" y2="247.50" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="254.5" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">30</text>
+  <line x1="100" y1="161.25" x2="970" y2="161.25" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="168.25" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">45</text>
+  <line x1="100" y1="75.00" x2="970" y2="75.00" stroke="#d9dfe3" stroke-width="1.5" />
+  <text x="82" y="82.0" fill="#586168" font-family="Roboto, Arial, sans-serif" font-size="19" text-anchor="end">60</text>
+  <line x1="100" y1="75" x2="100" y2="420" stroke="#131516" stroke-width="2" />
+  <line x1="100" y1="420" x2="970" y2="420" stroke="#131516" stroke-width="2" />
+  <text x="150.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">0</text>
+  <rect x="122.00" y="397.00" width="28" height="23.00" fill="#ed1f24">
+    <title>Kenyan farmers: 4% of Proposers offered 0% of the pie.</title>
+  </rect>
+  <rect x="122.00" y="397.00" width="28" height="23.00" fill="#980004">
+    <title>Kenyan farmers: 4% of Proposers offered 0% of the pie. Dark red: all Responders rejected this offer.</title>
+  </rect>
+  <rect x="150.00" y="299.25" width="28" height="120.75" fill="#3a53a4">
+    <title>Emory students: 21% of Proposers offered 0% of the pie.</title>
+  </rect>
+  <rect x="150.00" y="299.25" width="28" height="120.75" fill="#122a73">
+    <title>Emory students: 21% of Proposers offered 0% of the pie. Dark blue: all Responders rejected this offer.</title>
+  </rect>
+  <text x="304.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">10</text>
+  <rect x="276.00" y="351.00" width="28" height="69.00" fill="#ed1f24">
+    <title>Kenyan farmers: 12% of Proposers offered 10% of the pie. Light red: 2% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="276.00" y="352.38" width="28" height="67.62" fill="#980004">
+    <title>Kenyan farmers: 12% of Proposers offered 10% of the pie. Dark red: 98% of Responders rejected this offer.</title>
+  </rect>
+  <rect x="304.00" y="356.75" width="28" height="63.25" fill="#3a53a4">
+    <title>Emory students: 11% of Proposers offered 10% of the pie. Light blue: 58% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="304.00" y="393.44" width="28" height="26.57" fill="#122a73">
+    <title>Emory students: 11% of Proposers offered 10% of the pie. Dark blue: 42% of Responders rejected this offer.</title>
+  </rect>
+  <text x="458.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">20</text>
+  <rect x="430.00" y="362.50" width="28" height="57.50" fill="#ed1f24">
+    <title>Kenyan farmers: 10% of Proposers offered 20% of the pie. Light red: 10% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="430.00" y="368.25" width="28" height="51.75" fill="#980004">
+    <title>Kenyan farmers: 10% of Proposers offered 20% of the pie. Dark red: 90% of Responders rejected this offer.</title>
+  </rect>
+  <rect x="458.00" y="299.25" width="28" height="120.75" fill="#3a53a4">
+    <title>Emory students: 21% of Proposers offered 20% of the pie. Light blue: 63% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="458.00" y="375.32" width="28" height="44.68" fill="#122a73">
+    <title>Emory students: 21% of Proposers offered 20% of the pie. Dark blue: 37% of Responders rejected this offer.</title>
+  </rect>
+  <text x="612.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">30</text>
+  <rect x="584.00" y="339.50" width="28" height="80.50" fill="#ed1f24">
+    <title>Kenyan farmers: 14% of Proposers offered 30% of the pie. Light red: 52% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="584.00" y="381.36" width="28" height="38.64" fill="#980004">
+    <title>Kenyan farmers: 14% of Proposers offered 30% of the pie. Dark red: 48% of Responders rejected this offer.</title>
+  </rect>
+  <rect x="612.00" y="207.25" width="28" height="212.75" fill="#3a53a4">
+    <title>Emory students: 37% of Proposers offered 30% of the pie. Light blue: 84% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="612.00" y="385.96" width="28" height="34.04" fill="#122a73">
+    <title>Emory students: 37% of Proposers offered 30% of the pie. Dark blue: 16% of Responders rejected this offer.</title>
+  </rect>
+  <text x="766.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">40</text>
+  <rect x="738.00" y="132.50" width="28" height="287.50" fill="#ed1f24">
+    <title>Kenyan farmers: 50% of Proposers offered 40% of the pie. Light red: 96% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="738.00" y="408.50" width="28" height="11.50" fill="#980004">
+    <title>Kenyan farmers: 50% of Proposers offered 40% of the pie. Dark red: 4% of Responders rejected this offer.</title>
+  </rect>
+  <rect x="766.00" y="391.25" width="28" height="28.75" fill="#3a53a4">
+    <title>Emory students: 5% of Proposers offered 40% of the pie. Light blue: 89% of Responders accepted this offer.</title>
+  </rect>
+  <rect x="766.00" y="417.12" width="28" height="2.88" fill="#122a73">
+    <title>Emory students: 5% of Proposers offered 40% of the pie. Dark blue: 11% of Responders rejected this offer.</title>
+  </rect>
+  <text x="920.0" y="451" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">50</text>
+  <rect x="892.00" y="362.50" width="28" height="57.50" fill="#ed1f24">
+    <title>Kenyan farmers: 10% of Proposers offered 50% of the pie. All Responders accepted this offer.</title>
+  </rect>
+  <rect x="892.00" y="420.00" width="28" height="0.00" fill="#980004" />
+  <rect x="920.00" y="391.25" width="28" height="28.75" fill="#3a53a4">
+    <title>Emory students: 5% of Proposers offered 50% of the pie. All Responders accepted this offer.</title>
+  </rect>
+  <rect x="920.00" y="420.00" width="28" height="0.00" fill="#122a73" />
+  <text x="535.0" y="500" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="middle">Share of pie offered to Responder (%)</text>
+  <text x="29" y="247.5" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="20" text-anchor="middle" transform="rotate(-90 29 247.5)">Proposers making offer (%)</text>
+  <rect x="100" y="9" width="20" height="20" fill="#ed1f24" />
+  <text x="130" y="26" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="start">Kenyan farmers</text>
+  <rect x="380" y="9" width="20" height="20" fill="#3a53a4" />
+  <text x="410" y="26" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="21" text-anchor="start">Emory students</text>
+  <rect x="630" y="9" width="20" height="20" fill="#980004" />
+  <rect x="654" y="9" width="20" height="20" fill="#122a73" />
+  <text x="684" y="26" fill="#131516" font-family="Roboto, Arial, sans-serif" font-size="20" text-anchor="start">Darker = proportion rejected</text>
+</svg>

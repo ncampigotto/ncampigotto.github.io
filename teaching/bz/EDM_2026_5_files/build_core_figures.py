@@ -133,7 +133,6 @@ def game_tree():
                 **{"class": "payoff-box"})
         label(terminal, end, 369, payoff, 28, weight="bold").set("class", "payoff-text")
     label(root, 500, 448, "Payoffs shown as (Proposer, Responder)", 21, fill=MUTED)
-    save(root, "core_figure_4_16.svg")
     (HERE / "core_figure_4_16.html").write_text(
         "```{=html}\n" + ET.tostring(root, encoding="unicode") + "\n```\n",
         encoding="utf-8",

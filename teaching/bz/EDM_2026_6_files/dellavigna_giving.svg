@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">Donations by fundraising treatment and charity</title>
+  <desc id="chart-desc">Regression-adjusted share of all households that donated, including those that did not open the door. For ECU, the shares are 4.54 percent at baseline, 4.60 percent with a flyer, and 2.71 percent with a flyer and opt-out. For La Rabida, the corresponding shares are 7.17, 6.98, and 5.15 percent.</desc>
+  <g font-family="Roboto, Arial, sans-serif" fill="#131516">
+    <!-- Percentages derived from DellaVigna et al. (2012), Table II, column (4):
+         La Rabida: 7.17, 7.17 - 0.19 = 6.98, 7.17 - 2.02 = 5.15.
+         ECU: 7.17 - 2.63 = 4.54, 7.17 - 2.63 + 0.06 = 4.60,
+         7.17 - 2.63 - 1.83 = 2.71. -->
+    <g font-size="22" font-weight="500">
+      <rect x="138" y="21" width="25" height="25" rx="3" fill="#107895"/>
+      <text x="175" y="42">ECU</text>
+      <rect x="336" y="21" width="25" height="25" rx="3" fill="#4D5AAC"/>
+      <text x="373" y="42">La Rabida</text>
+    </g>
+
+    <text x="45" y="255" transform="rotate(-90 45 255)" text-anchor="middle" font-size="20">Households (%)</text>
+    <g stroke="#d8dde0" stroke-width="1.5">
+      <path d="M115 85H920 M115 127.5H920 M115 170H920 M115 212.5H920 M115 255H920 M115 297.5H920 M115 340H920 M115 382.5H920"/>
+    </g>
+    <path d="M115 85V425H920" fill="none" stroke="#495057" stroke-width="2"/>
+    <g font-size="20" fill="#495057" text-anchor="end">
+      <text x="101" y="431">0</text>
+      <text x="101" y="388.5">1</text>
+      <text x="101" y="346">2</text>
+      <text x="101" y="303.5">3</text>
+      <text x="101" y="261">4</text>
+      <text x="101" y="218.5">5</text>
+      <text x="101" y="176">6</text>
+      <text x="101" y="133.5">7</text>
+      <text x="101" y="91">8</text>
+    </g>
+
+    <g fill="#107895">
+      <rect x="196" y="232.1" width="64" height="192.9" rx="3"/>
+      <rect x="446" y="230" width="64" height="195" rx="3"/>
+      <rect x="696" y="309.8" width="64" height="115.2" rx="3"/>
+    </g>
+    <g fill="#4D5AAC">
+      <rect x="276" y="120.3" width="64" height="304.7" rx="3"/>
+      <rect x="526" y="128.4" width="64" height="296.6" rx="3"/>
+      <rect x="776" y="206.1" width="64" height="218.9" rx="3"/>
+    </g>
+    <g font-size="23" font-weight="bold" text-anchor="middle">
+      <text x="268" y="468" fill="#A2A79E">Baseline</text>
+      <text x="518" y="454" fill="#69B34C">
+        <tspan x="518">Treatment 1</tspan>
+        <tspan x="518" dy="27">(flyer)</tspan>
+      </text>
+      <text x="768" y="454" fill="#FF8E15">
+        <tspan x="768">Treatment 2</tspan>
+        <tspan x="768" dy="27">(flyer + opt out)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

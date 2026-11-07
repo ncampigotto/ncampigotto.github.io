@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 624" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">Blood-donation study design and timeline</title>
+  <desc id="diagram-desc">The sample splits into WhatsApp and email. WhatsApp has No ask, Simple ask, Facebook, Peer, and Peer plus Visibility groups. Email has Simple ask and Facebook groups. The timeline marks the February 26 survey, March 1 intervention and donations, April 1 donation data, and April 8 social recognition in spring 2021.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1L7 4L1 7" fill="none" stroke="#000" stroke-width="1.2"/>
+    </marker>
+  </defs>
+  <g font-family="Times New Roman, Georgia, serif" fill="#000">
+    <!-- Assignment paths, spaced to match the original figure. -->
+    <g fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#arrow)">
+      <path d="M325 266L442 156"/>
+      <path d="M325 315L442 423"/>
+      <path d="M552 132L689 23"/>
+      <path d="M580 132L689 90"/>
+      <path d="M597 157H689"/>
+      <path d="M580 181L689 223"/>
+      <path d="M552 181L689 290"/>
+      <path d="M597 410L689 390"/>
+      <path d="M597 439L689 457"/>
+    </g>
+
+    <g fill="#fff" stroke="#000" stroke-width="1.2">
+      <rect x="228" y="272" width="142" height="36"/>
+      <rect x="448" y="139" width="142" height="36"/>
+      <rect x="448" y="405" width="142" height="36"/>
+      <rect x="695" y="5" width="143" height="36"/>
+      <rect x="695" y="72" width="143" height="36"/>
+      <rect x="695" y="139" width="143" height="36"/>
+      <rect x="695" y="205" width="143" height="36"/>
+      <rect x="695" y="272" width="143" height="36"/>
+      <rect x="695" y="372" width="143" height="36"/>
+      <rect x="695" y="439" width="143" height="36"/>
+    </g>
+    <g font-size="22" text-anchor="middle">
+      <text x="299" y="297">Sample</text>
+      <text x="519" y="164">WhatsApp</text>
+      <text x="519" y="430">Email</text>
+      <text x="766.5" y="30">No ask</text>
+      <text x="766.5" y="97">Simple ask</text>
+      <text x="766.5" y="164">Facebook</text>
+      <text x="766.5" y="230">Peer</text>
+      <text x="766.5" y="297" font-size="20">Peer + Visibility</text>
+      <text x="766.5" y="397">Simple ask</text>
+      <text x="766.5" y="464">Facebook</text>
+    </g>
+
+    <g transform="translate(0 16)">
+    <!-- Timeline, including the original two-level event labels. -->
+    <path d="M6 523H1193" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <g stroke="#000" stroke-width="1.2">
+      <path d="M66 513V567 M299 513V567 M866 513V567 M1033 513V567"/>
+    </g>
+    <g font-size="22" font-weight="700" text-anchor="middle">
+      <text x="66" y="506">Feb 26</text>
+      <text x="299" y="506">Mar 1</text>
+      <text x="866" y="506">Apr 1</text>
+      <text x="1033" y="506">Apr 8</text>
+    </g>
+    <g font-size="22">
+      <text x="72" y="546">Survey</text>
+      <text x="305" y="546">Donations</text>
+      <text x="299" y="594" text-anchor="middle">Intervention</text>
+      <text x="866" y="594" text-anchor="middle">Donation Data</text>
+      <text x="1033" y="594" text-anchor="middle">Social Recognition</text>
+    </g>
+    <text x="1192" y="515" font-size="22" font-style="italic" text-anchor="end">Spring ’21</text>
+    </g>
+  </g>
+</svg>

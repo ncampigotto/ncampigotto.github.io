@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="report-title report-desc">
+  <title id="report-title">Last month neighbor comparison</title>
+  <desc id="report-desc">Sample OPOWER home energy report. Efficient neighbors used 784 kilowatt-hours, shown in bright green. You used 1,033 kilowatt-hours, shown in gray, or 32 percent more than efficient neighbors. All neighbors used 1,270 kilowatt-hours, shown in orange. The How You're Doing box marks Good, between Great and More Than Average.</desc>
+  <defs>
+    <pattern id="your-usage" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#838383"/>
+      <path d="M0 8L8 0" stroke="#9c9c9c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <g font-family="Roboto, Arial, sans-serif" fill="#131516">
+    <text x="30" y="52" font-size="25" font-weight="700">Last Month Neighbor Comparison</text>
+    <path d="M426 27V58" stroke="#131516" stroke-width="2"/>
+    <text x="450" y="52" font-size="25">You used <tspan font-weight="700">32% MORE</tspan> than your efficient neighbors.</text>
+
+    <path d="M210 125V349" stroke="#131516" stroke-width="2.5"/>
+    <g font-size="23" text-anchor="end">
+      <text x="184" y="161">EFFICIENT</text>
+      <text x="184" y="187">NEIGHBORS</text>
+      <text x="184" y="250" font-weight="700">YOU</text>
+      <text x="184" y="318">ALL NEIGHBORS</text>
+    </g>
+    <!-- Bar lengths are proportional to the usage values shown in the original report. -->
+    <rect x="210" y="148" width="309" height="43" fill="#08F700"/>
+    <rect x="210" y="216" width="407" height="43" fill="url(#your-usage)"/>
+    <rect x="210" y="284" width="500" height="43" fill="#FF6200"/>
+    <g font-size="25">
+      <text x="538" y="179">784 kWh*</text>
+      <text x="636" y="247">1,033</text>
+      <text x="729" y="315">1,270</text>
+    </g>
+
+    <text x="820" y="128" font-size="25" font-weight="700">HOW YOU'RE DOING:</text>
+    <rect x="820" y="144" width="340" height="198" rx="15" fill="#fff" stroke="#131516" stroke-width="2.5"/>
+    <path d="M885 161V324" stroke="#131516" stroke-width="2"/>
+    <path d="M840 230L856 239L840 248Z" fill="#131516"/>
+    <g font-size="23">
+      <text x="906" y="190">GREAT</text>
+      <text x="906" y="248" font-weight="700">GOOD</text>
+      <text x="906" y="293">MORE THAN</text>
+      <text x="906" y="319">AVERAGE</text>
+    </g>
+    <g fill="none" stroke="#131516" stroke-width="2">
+      <g transform="translate(1021 182)">
+        <circle r="11"/>
+        <circle cx="-4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <circle cx="4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <path d="M-5 3Q0 9 5 3"/>
+      </g>
+      <g transform="translate(1052 182)">
+        <circle r="11"/>
+        <circle cx="-4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <circle cx="4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <path d="M-5 3Q0 9 5 3"/>
+      </g>
+      <g transform="translate(1001 240)">
+        <circle r="11"/>
+        <circle cx="-4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <circle cx="4" cy="-3" r="1" fill="#131516" stroke="none"/>
+        <path d="M-5 3Q0 9 5 3"/>
+      </g>
+    </g>
+    <text x="1162" y="405" font-size="18" text-anchor="end">*kWh: A 100 Watt bulb burning for 10 hours uses 1 kilowatt-hour.</text>
+  </g>
+</svg>

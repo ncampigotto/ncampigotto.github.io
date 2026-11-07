@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">Door-opening and opt-out rates by fundraising treatment</title>
+  <desc id="chart-desc">Regression-adjusted shares of households for two charities. ECU: 41.71 percent opened the door at baseline, 38.06 percent with a flyer, and 32.81 percent with a flyer and opt-out; another 9.88 percent opted out. La Rabida: 41.30, 37.33, and 30.70 percent opened the door, respectively; another 12.02 percent opted out.</desc>
+  <defs>
+    <pattern id="opt-out-hatch-ecu" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#e8f2f4"/>
+      <path d="M0 0V10" stroke="#107895" stroke-width="3"/>
+    </pattern>
+    <pattern id="opt-out-hatch-la-rabida" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#eff0f8"/>
+      <path d="M0 0V10" stroke="#4D5AAC" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <g font-family="Roboto, Arial, sans-serif" fill="#131516">
+    <!-- Values are the regression-adjusted empirical moments reported in the paper's appendix. -->
+    <g font-size="22" font-weight="500">
+      <rect x="138" y="21" width="25" height="25" rx="3" fill="#107895"/>
+      <text x="175" y="42">ECU</text>
+      <rect x="336" y="21" width="25" height="25" rx="3" fill="#4D5AAC"/>
+      <text x="373" y="42">La Rabida</text>
+      <rect x="596" y="21" width="25" height="25" fill="url(#opt-out-hatch-ecu)" stroke="#107895"/>
+      <rect x="624" y="21" width="25" height="25" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC"/>
+      <text x="661" y="42">Opted out</text>
+    </g>
+
+    <text x="45" y="255" transform="rotate(-90 45 255)" text-anchor="middle" font-size="20">Households (%)</text>
+    <g stroke="#d8dde0" stroke-width="1.5">
+      <path d="M115 85H920 M115 153H920 M115 221H920 M115 289H920 M115 357H920"/>
+    </g>
+    <path d="M115 85V425H920" fill="none" stroke="#495057" stroke-width="2"/>
+    <g font-size="20" fill="#495057" text-anchor="end">
+      <text x="101" y="431">0</text>
+      <text x="101" y="363">10</text>
+      <text x="101" y="295">20</text>
+      <text x="101" y="227">30</text>
+      <text x="101" y="159">40</text>
+      <text x="101" y="91">50</text>
+    </g>
+
+    <g fill="#107895">
+      <rect x="196" y="141.4" width="64" height="283.6" rx="3"/>
+      <rect x="446" y="166.2" width="64" height="258.8" rx="3"/>
+      <rect x="696" y="201.9" width="64" height="223.1" rx="3"/>
+    </g>
+    <g fill="#4D5AAC">
+      <rect x="276" y="144.2" width="64" height="280.8" rx="3"/>
+      <rect x="526" y="171.2" width="64" height="253.8" rx="3"/>
+      <rect x="776" y="216.2" width="64" height="208.8" rx="3"/>
+    </g>
+    <rect x="696" y="134.7" width="64" height="67.2" fill="url(#opt-out-hatch-ecu)" stroke="#107895" stroke-width="1.5"/>
+    <rect x="776" y="134.5" width="64" height="81.7" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC" stroke-width="1.5"/>
+    <g font-size="23" font-weight="bold" text-anchor="middle">
+      <text x="268" y="468" fill="#A2A79E">Baseline</text>
+      <text x="518" y="454" fill="#69B34C">
+        <tspan x="518">Treatment 1</tspan>
+        <tspan x="518" dy="27">(flyer)</tspan>
+      </text>
+      <text x="768" y="454" fill="#FF8E15">
+        <tspan x="768">Treatment 2</tspan>
+        <tspan x="768" dy="27">(flyer + opt out)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

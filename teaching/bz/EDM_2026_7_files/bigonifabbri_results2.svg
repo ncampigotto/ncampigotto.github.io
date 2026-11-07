@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 595" width="1200" height="595" role="img" aria-labelledby="chart-title chart-description" style="cursor: default">
+  <title id="chart-title">Inequality index in the Merit condition by subgroup and village group</title>
+  <desc id="chart-description">Control and Treated villages are compared within high and low market integration, low and high income, and female and male subgroups. Bars and standard errors are traced from the original figure by Fabbri and Bigoni.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #131516; }
+      .grid { stroke: #d8dde0; stroke-width: 1.5; }
+      .axis { stroke: #222; stroke-width: 1.5; fill: none; }
+      .tick { font-size: 21px; text-anchor: end; }
+      .axis-title { font-size: 21px; text-anchor: middle; }
+      .panel-title { font-size: 31px; font-weight: 700; text-anchor: middle; fill: #009907; }
+      .subgroup { font-size: 20px; text-anchor: middle; }
+      .category { font-size: 18px; font-weight: 700; text-anchor: middle; }
+      .control-label { fill: #131516; }
+      .treated-label { fill: #C90000; }
+      .control-bar { fill: #bfbfbf; stroke: #999; stroke-width: 1.2; }
+      .treated-bar { fill: #D95F5F; stroke: #B92D2D; stroke-width: 1.2; }
+      .interval { stroke: #999; stroke-width: 1.8; fill: none; }
+      .treated-bar + .interval { stroke: #B92D2D; }
+      .data-bar { cursor: default; }
+      .data-bar rect { transition: fill 150ms ease, stroke 150ms ease, stroke-width 150ms ease; }
+      .data-bar .interval { transition: stroke 150ms ease, stroke-width 150ms ease; }
+      .data-bar:hover .control-bar, .data-bar:focus .control-bar { fill: #8F8F8F; stroke: #4A4A4A; stroke-width: 2; }
+      .data-bar:hover .treated-bar, .data-bar:focus .treated-bar { fill: #C90000; stroke: #8F0000; stroke-width: 2; }
+      .data-bar:hover .interval, .data-bar:focus .interval { stroke: #263238; stroke-width: 2.7; }
+      .data-bar:hover .treated-bar + .interval, .data-bar:focus .treated-bar + .interval { stroke: #8F0000; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="595" fill="#fff" />
+  <text class="panel-title" x="633" y="35">Merit</text>
+
+  <g>
+    <line class="grid" x1="74" y1="105" x2="1192" y2="105" />
+    <line class="grid" x1="74" y1="161" x2="1192" y2="161" />
+    <line class="grid" x1="74" y1="217" x2="1192" y2="217" />
+    <line class="grid" x1="74" y1="272" x2="1192" y2="272" />
+    <line class="grid" x1="74" y1="328" x2="1192" y2="328" />
+    <line class="grid" x1="74" y1="383" x2="1192" y2="383" />
+    <line class="grid" x1="74" y1="439" x2="1192" y2="439" />
+    <line class="grid" x1="74" y1="494" x2="1192" y2="494" />
+    <path class="axis" d="M74 92 V550 H1192" />
+    <path class="axis" d="M67 105 H74 M67 161 H74 M67 217 H74 M67 272 H74 M67 328 H74 M67 383 H74 M67 439 H74 M67 494 H74 M67 550 H74 M117 550 V558 M197 550 V558 M308 550 V558 M388 550 V558 M497 550 V558 M576 550 V558 M685 550 V558 M765 550 V558 M876 550 V558 M956 550 V558 M1064 550 V558 M1144 550 V558" />
+    <text class="tick" x="62" y="112">.4</text>
+    <text class="tick" x="62" y="168">.35</text>
+    <text class="tick" x="62" y="224">.3</text>
+    <text class="tick" x="62" y="279">.25</text>
+    <text class="tick" x="62" y="335">.2</text>
+    <text class="tick" x="62" y="390">.15</text>
+    <text class="tick" x="62" y="446">.1</text>
+    <text class="tick" x="62" y="501">.05</text>
+    <text class="tick" x="62" y="557">0</text>
+    <text class="axis-title" transform="translate(18 322) rotate(-90)">Inequality index</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="157" y="83">High MI</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, high market integration, control villages: the average inequality index is about 0.39. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="93" y="122" width="48" height="428" />
+      <path class="interval" d="M117 104 V139 M111 104 H123 M111 139 H123" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, high market integration, treated villages: the average inequality index is about 0.36. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="173" y="147" width="48" height="403" />
+      <path class="interval" d="M197 123 V168 M191 123 H203 M191 168 H203" />
+    </g>
+    <text class="category control-label" x="117" y="585">Control</text>
+    <text class="category treated-label" x="197" y="585">Treated</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="348" y="83">Low MI</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, low market integration, control villages: the average inequality index is about 0.35. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="284" y="161" width="48" height="389" />
+      <path class="interval" d="M308 136 V187 M302 136 H314 M302 187 H314" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, low market integration, treated villages: the average inequality index is about 0.35. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="364" y="160" width="48" height="390" />
+      <path class="interval" d="M388 138 V181 M382 138 H394 M382 181 H394" />
+    </g>
+    <text class="category control-label" x="308" y="585">Control</text>
+    <text class="category treated-label" x="388" y="585">Treated</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="537" y="83">Low income</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, low income, control villages: the average inequality index is about 0.35. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="473" y="162" width="48" height="388" />
+      <path class="interval" d="M497 140 V186 M491 140 H503 M491 186 H503" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, low income, treated villages: the average inequality index is about 0.36. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="552" y="152" width="48" height="398" />
+      <path class="interval" d="M576 129 V173 M570 129 H582 M570 173 H582" />
+    </g>
+    <text class="category control-label" x="497" y="585">Control</text>
+    <text class="category treated-label" x="576" y="585">Treated</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="725" y="83">High income</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, high income, control villages: the average inequality index is about 0.38. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="661" y="127" width="48" height="423" />
+      <path class="interval" d="M685 102 V151 M679 102 H691 M679 151 H691" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, high income, treated villages: the average inequality index is about 0.36. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="741" y="150" width="48" height="400" />
+      <path class="interval" d="M765 128 V171 M759 128 H771 M759 171 H771" />
+    </g>
+    <text class="category control-label" x="685" y="585">Control</text>
+    <text class="category treated-label" x="765" y="585">Treated</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="916" y="83">Women</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, women, control villages: the average inequality index is about 0.36. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="852" y="151" width="48" height="399" />
+      <path class="interval" d="M876 130 V173 M870 130 H882 M870 173 H882" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, women, treated villages: the average inequality index is about 0.35. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="932" y="160" width="48" height="390" />
+      <path class="interval" d="M956 138 V181 M950 138 H962 M950 181 H962" />
+    </g>
+    <text class="category control-label" x="876" y="585">Control</text>
+    <text class="category treated-label" x="956" y="585">Treated</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="1104" y="83">Men</text>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, men, control villages: the average inequality index is about 0.37. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="1040" y="143" width="48" height="407" />
+      <path class="interval" d="M1064 119 V167 M1058 119 H1070 M1058 167 H1070" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Merit, men, treated villages: the average inequality index is about 0.37. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="1120" y="142" width="48" height="408" />
+      <path class="interval" d="M1144 120 V162 M1138 120 H1150 M1138 162 H1150" />
+    </g>
+    <text class="category control-label" x="1064" y="585">Control</text>
+    <text class="category treated-label" x="1144" y="585">Treated</text>
+  </g>
+</svg>

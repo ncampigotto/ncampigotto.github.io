@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 595" width="1200" height="595" role="img" aria-labelledby="chart-title chart-description" style="cursor: default">
+  <title id="chart-title">Inequality index in the Luck condition by subgroup and village group</title>
+  <desc id="chart-description">Control and Treated villages are compared within high and low market integration, low and high income, and female and male subgroups. Bars and standard errors are traced from the supplied figure.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #131516; }
+      .grid { stroke: #d8dde0; stroke-width: 1.5; }
+      .axis { stroke: #222; stroke-width: 1.5; fill: none; }
+      .tick { font-size: 21px; text-anchor: end; }
+      .axis-title { font-size: 21px; text-anchor: middle; }
+      .panel-title { font-size: 31px; font-weight: 700; text-anchor: middle; fill: #003698; }
+      .subgroup { font-size: 20px; text-anchor: middle; }
+      .category { font-size: 18px; font-weight: 700; text-anchor: middle; }
+      .control-label { fill: #131516; }
+      .treated-label { fill: #C90000; }
+      .control-bar { fill: #bfbfbf; stroke: #999; stroke-width: 1.2; }
+      .treated-bar { fill: #D95F5F; stroke: #B92D2D; stroke-width: 1.2; }
+      .interval { stroke: #999; stroke-width: 1.8; fill: none; }
+      .treated-bar + .interval { stroke: #B92D2D; }
+      .data-bar { cursor: default; }
+      .data-bar rect { transition: fill 150ms ease, stroke 150ms ease, stroke-width 150ms ease; }
+      .data-bar .interval { transition: stroke 150ms ease, stroke-width 150ms ease; }
+      .data-bar:hover .control-bar, .data-bar:focus .control-bar { fill: #8F8F8F; stroke: #4A4A4A; stroke-width: 2; }
+      .data-bar:hover .treated-bar, .data-bar:focus .treated-bar { fill: #C90000; stroke: #8F0000; stroke-width: 2; }
+      .data-bar:hover .interval, .data-bar:focus .interval { stroke: #263238; stroke-width: 2.7; }
+      .data-bar:hover .treated-bar + .interval, .data-bar:focus .treated-bar + .interval { stroke: #8F0000; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="595" fill="#fff" />
+  <text class="panel-title" x="633" y="35">Luck</text>
+
+  <g>
+    <line class="grid" x1="74" y1="105" x2="1192" y2="105" />
+    <line class="grid" x1="74" y1="161" x2="1192" y2="161" />
+    <line class="grid" x1="74" y1="217" x2="1192" y2="217" />
+    <line class="grid" x1="74" y1="272" x2="1192" y2="272" />
+    <line class="grid" x1="74" y1="328" x2="1192" y2="328" />
+    <line class="grid" x1="74" y1="383" x2="1192" y2="383" />
+    <line class="grid" x1="74" y1="439" x2="1192" y2="439" />
+    <line class="grid" x1="74" y1="494" x2="1192" y2="494" />
+    <path class="axis" d="M74 92 V550 H1192" />
+    <path class="axis" d="M67 105 H74 M67 161 H74 M67 217 H74 M67 272 H74 M67 328 H74 M67 383 H74 M67 439 H74 M67 494 H74 M67 550 H74 M117 550 V558 M197 550 V558 M308 550 V558 M388 550 V558 M497 550 V558 M576 550 V558 M685 550 V558 M765 550 V558 M876 550 V558 M956 550 V558 M1064 550 V558 M1144 550 V558" />
+    <text class="tick" x="62" y="112">.4</text>
+    <text class="tick" x="62" y="168">.35</text>
+    <text class="tick" x="62" y="224">.3</text>
+    <text class="tick" x="62" y="279">.25</text>
+    <text class="tick" x="62" y="335">.2</text>
+    <text class="tick" x="62" y="390">.15</text>
+    <text class="tick" x="62" y="446">.1</text>
+    <text class="tick" x="62" y="501">.05</text>
+    <text class="tick" x="62" y="557">0</text>
+    <text class="axis-title" transform="translate(18 322) rotate(-90)">Inequality index</text>
+  </g>
+
+  <g>
+    <text class="subgroup" x="157" y="83">High MI</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, high market integration, control villages: the average inequality index is about 0.14. The treated average is significantly higher than the control average.</title>
+      <rect class="control-bar" x="93" y="391" width="48" height="159" />
+      <path class="interval" d="M117 364 V418 M111 364 H123 M111 418 H123" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, high market integration, treated villages: the average inequality index is about 0.22. The treated average is significantly higher than the control average.</title>
+      <rect class="treated-bar" x="173" y="300" width="48" height="250" />
+      <path class="interval" d="M197 268 V329 M191 268 H203 M191 329 H203" />
+    </g>
+    <text class="category control-label" x="117" y="585">Control</text>
+    <text class="category treated-label" x="197" y="585">Treated</text>
+  </g>
+  
+  <g>
+    <text class="subgroup" x="348" y="83">Low MI</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, low market integration, control villages: the average inequality index is about 0.13. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="284" y="403" width="48" height="147" />
+      <path class="interval" d="M308 379 V426 M302 379 H314 M302 426 H314" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, low market integration, treated villages: the average inequality index is about 0.12. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="364" y="421" width="48" height="129" />
+      <path class="interval" d="M388 396 V445 M382 396 H394 M382 445 H394" />
+    </g>
+    <text class="category control-label" x="308" y="585">Control</text>
+    <text class="category treated-label" x="388" y="585">Treated</text>
+  </g>
+  
+  <g>
+    <text class="subgroup" x="537" y="83">Low income</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, low income, control villages: the average inequality index is about 0.14. The treated average is significantly higher than the control average.</title>
+      <rect class="control-bar" x="473" y="394" width="48" height="156" />
+      <path class="interval" d="M497 368 V420 M491 368 H503 M491 420 H503" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, low income, treated villages: the average inequality index is about 0.21. The treated average is significantly higher than the control average.</title>
+      <rect class="treated-bar" x="552" y="315" width="48" height="235" />
+      <path class="interval" d="M576 286 V345 M570 286 H582 M570 345 H582" />
+    </g>
+    <text class="category control-label" x="497" y="585">Control</text>
+    <text class="category treated-label" x="576" y="585">Treated</text>
+  </g>
+  
+  <g>
+    <text class="subgroup" x="725" y="83">High income</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, high income, control villages: the average inequality index is about 0.13. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="661" y="403" width="48" height="147" />
+      <path class="interval" d="M685 379 V427 M679 379 H691 M679 427 H691" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, high income, treated villages: the average inequality index is about 0.17. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="741" y="363" width="48" height="187" />
+      <path class="interval" d="M765 334 V392 M759 334 H771 M759 392 H771" />
+    </g>
+    <text class="category control-label" x="685" y="585">Control</text>
+    <text class="category treated-label" x="765" y="585">Treated</text>
+  </g>
+  
+  <g>
+    <text class="subgroup" x="916" y="83">Women</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, women, control villages: the average inequality index is about 0.12. The treated average is significantly higher than the control average.</title>
+      <rect class="control-bar" x="852" y="421" width="48" height="129" />
+      <path class="interval" d="M876 397 V444 M870 397 H882 M870 444 H882" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, women, treated villages: the average inequality index is about 0.20. The treated average is significantly higher than the control average.</title>
+      <rect class="treated-bar" x="932" y="325" width="48" height="225" />
+      <path class="interval" d="M956 295 V354 M950 295 H962 M950 354 H962" />
+    </g>
+    <text class="category control-label" x="876" y="585">Control</text>
+    <text class="category treated-label" x="956" y="585">Treated</text>
+  </g>
+  
+  <g>
+    <text class="subgroup" x="1104" y="83">Men</text>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, men, control villages: the average inequality index is about 0.16. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="control-bar" x="1040" y="376" width="48" height="174" />
+      <path class="interval" d="M1064 350 V402 M1058 350 H1070 M1058 402 H1070" />
+    </g>
+    <g class="data-bar" tabindex="0">
+      <title>Luck, men, treated villages: the average inequality index is about 0.18. The Treatment and Control results do not differ significantly in this subgroup.</title>
+      <rect class="treated-bar" x="1120" y="350" width="48" height="200" />
+      <path class="interval" d="M1144 321 V379 M1138 321 H1150 M1138 379 H1150" />
+    </g>
+    <text class="category control-label" x="1064" y="585">Control</text>
+    <text class="category treated-label" x="1144" y="585">Treated</text>
+  </g>
+  
+</svg>

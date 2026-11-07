@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="chart-title chart-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="chart-title chart-desc" style="cursor: default">
   <title id="chart-title">Door-opening and opt-out rates by fundraising treatment</title>
-  <desc id="chart-desc">Regression-adjusted shares of households for two charities. ECU: 41.71 percent opened the door at baseline, 38.06 percent with a flyer, and 32.81 percent with a flyer and opt-out; another 9.88 percent opted out. La Rabida: 41.30, 37.33, and 30.70 percent opened the door, respectively; another 12.02 percent opted out.</desc>
+  <desc id="chart-desc">Regression-adjusted shares of households for two charities. For ECU, about 42% opened the door at baseline, about 38% with a flyer, and about 33% with a flyer and opt-out; about 10% opted out. For La Rabida, the corresponding door-opening shares are about 41%, 37%, and 31%; about 12% opted out.</desc>
+  <style>
+    .data-bar rect { transition: filter 150ms ease; }
+    .data-bar:hover rect { filter: brightness(0.8); stroke: #263238; stroke-width: 2; }
+  </style>
   <defs>
     <pattern id="opt-out-hatch-ecu" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <rect width="10" height="10" fill="#e8f2f4"/>
@@ -19,8 +23,8 @@
       <rect x="336" y="21" width="25" height="25" rx="3" fill="#4D5AAC"/>
       <text x="373" y="42">La Rabida</text>
       <rect x="596" y="21" width="25" height="25" fill="url(#opt-out-hatch-ecu)" stroke="#107895"/>
-      <rect x="624" y="21" width="25" height="25" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC"/>
-      <text x="661" y="42">Opted out</text>
+      <rect x="627" y="21" width="25" height="25" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC"/>
+      <text x="664" y="42">Opted out</text>
     </g>
 
     <text x="45" y="255" transform="rotate(-90 45 255)" text-anchor="middle" font-size="20">Households (%)</text>
@@ -38,17 +42,35 @@
     </g>
 
     <g fill="#107895">
-      <rect x="196" y="141.4" width="64" height="283.6" rx="3"/>
-      <rect x="446" y="166.2" width="64" height="258.8" rx="3"/>
-      <rect x="696" y="201.9" width="64" height="223.1" rx="3"/>
+      <g class="data-bar">
+        <title>ECU, baseline: about 42% opened the door to an unannounced fundraiser.</title>
+        <rect x="196" y="141.4" width="64" height="283.6" rx="3"/>
+      </g>
+      <g class="data-bar">
+        <title>ECU, Treatment 1: about 38% opened the door, roughly 3.7 percentage points lower than in the Baseline group.</title>
+        <rect x="446" y="166.2" width="64" height="258.8" rx="3"/>
+      </g>
+      <g class="data-bar">
+        <title>ECU, Treatment 2: about 10% opted out; about 33% opened the door, roughly 8.9 percentage points lower than in the Baseline group.</title>
+        <rect x="696" y="201.9" width="64" height="223.1" rx="3"/>
+        <rect x="696" y="134.7" width="64" height="67.2" fill="url(#opt-out-hatch-ecu)" stroke="#107895" stroke-width="1.5"/>
+      </g>
     </g>
     <g fill="#4D5AAC">
-      <rect x="276" y="144.2" width="64" height="280.8" rx="3"/>
-      <rect x="526" y="171.2" width="64" height="253.8" rx="3"/>
-      <rect x="776" y="216.2" width="64" height="208.8" rx="3"/>
+      <g class="data-bar">
+        <title>La Rabida, baseline: about 41% opened the door to an unannounced fundraiser.</title>
+        <rect x="276" y="144.2" width="64" height="280.8" rx="3"/>
+      </g>
+      <g class="data-bar">
+        <title>La Rabida, Treatment 1: about 37% opened the door, roughly 4.0 percentage points lower than in the Baseline group.</title>
+        <rect x="526" y="171.2" width="64" height="253.8" rx="3"/>
+      </g>
+      <g class="data-bar">
+        <title>La Rabida, Treatment 2: about 12% opted out; about 31% opened the door, roughly 10.6 percentage points lower than in the Baseline group.</title>
+        <rect x="776" y="216.2" width="64" height="208.8" rx="3"/>
+        <rect x="776" y="134.5" width="64" height="81.7" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC" stroke-width="1.5"/>
+      </g>
     </g>
-    <rect x="696" y="134.7" width="64" height="67.2" fill="url(#opt-out-hatch-ecu)" stroke="#107895" stroke-width="1.5"/>
-    <rect x="776" y="134.5" width="64" height="81.7" fill="url(#opt-out-hatch-la-rabida)" stroke="#4D5AAC" stroke-width="1.5"/>
     <g font-size="23" font-weight="bold" text-anchor="middle">
       <text x="268" y="468" fill="#A2A79E">Baseline</text>
       <text x="518" y="454" fill="#69B34C">

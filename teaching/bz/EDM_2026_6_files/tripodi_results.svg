@@ -16,9 +16,12 @@
     .peer { color: #1B998B; }
     .peervis { color: #BD0F5D; }
     .simpleask { color: #FF7E47; }
-    .interval { stroke: currentColor; stroke-width: 2.7; fill: none; }
-    .dot { fill: currentColor; }
+    .interval { stroke: currentColor; stroke-width: 2.7; fill: none; transition: stroke-width 150ms ease; }
+    .dot { fill: currentColor; stroke: currentColor; stroke-width: 0; transition: stroke-width 150ms ease; }
     .estimate { cursor: default; }
+    .estimate:hover .interval { stroke-width: 3.8; }
+    .estimate:hover .dot { stroke-width: 2; }
+    .estimate:hover .effect { font-weight: bold; }
     .hover-target { fill: transparent; pointer-events: all; }
   </style>
 
